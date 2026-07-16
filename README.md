@@ -25,15 +25,15 @@ go look and decide for yourself.
 <!-- LATEST:START -->
 ## Today — 2026-07-16
 
-The agentic coding stack keeps consolidating around MCP, local-first memory, and sandboxing.
+Self-hosted and local-first tools keep gaining ground — own your stack, keep your data.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **orca** | Dev environment for running coding agents in parallel | The orchestration + memory + observability layer people kept hand-wiring around a single agent |
-| **graphify** | Turns a codebase into a queryable knowledge graph | Structure to reason over instead of dumping raw files at a model |
-| **Browser Use** | Lets an LLM agent drive a real browser | A cleaner take on web automation for agents; climbing fast |
-| **Unsloth** | Faster, lower-VRAM LLM fine-tuning | Makes fine-tuning on a consumer GPU actually practical |
-| **pocket-tts** | Text-to-speech that runs on CPU | Local, no GPU tax — handy for offline and edge |
+| **OpenKnowledge** | Open-source, AI-first alternative to Obsidian/Notion | The AI-notes niche has been all closed SaaS; an open, self-hostable take is overdue |
+| **Yao Agents** | Local-first agent execution platform (Go) | Docker sandbox, bring-your-own-key, MCP — a serious self-hosted answer to cloud agent platforms |
+| **Observer AI** | Local automation agent that watches your system | Agent behavior on a local control loop, without shipping your screen to the cloud |
+| **Prism.Tools** | 40+ browser-based dev utilities, zero tracking | A privacy-clean replacement for the ad-heavy "online tools" sites |
+| **BusterMQ** | Thread-per-core NATS server in Zig with io_uring | The Zig + io_uring systems wave reaching real messaging infra |
 
 <sub>Sources for today are in <a href="archive/2026-07-16.md">archive/2026-07-16.md</a>.</sub>
 <!-- LATEST:END -->
