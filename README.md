@@ -23,19 +23,19 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-16
+## Today — 2026-07-17
 
-Self-hosted and local-first tools keep gaining ground — own your stack, keep your data.
+The layers around the AI coding agent are filling in — orchestration, grounding, a tiny local brain, a voice, and supply-chain safety.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **OpenKnowledge** | Open-source, AI-first alternative to Obsidian/Notion | The AI-notes niche has been all closed SaaS; an open, self-hostable take is overdue |
-| **Yao Agents** | Local-first agent execution platform (Go) | Docker sandbox, bring-your-own-key, MCP — a serious self-hosted answer to cloud agent platforms |
-| **Observer AI** | Local automation agent that watches your system | Agent behavior on a local control loop, without shipping your screen to the cloud |
-| **Prism.Tools** | 40+ browser-based dev utilities, zero tracking | A privacy-clean replacement for the ad-heavy "online tools" sites |
-| **BusterMQ** | Thread-per-core NATS server in Zig with io_uring | The Zig + io_uring systems wave reaching real messaging infra |
+| **Orca** | ADE for running a fleet of parallel coding agents | Launch, review, and steer 30+ CLI agents in isolated git worktrees, on your own subscriptions — a real control room |
+| **Graphify** | Turns a codebase into a queryable knowledge graph | tree-sitter AST, on-device, no embeddings — lets assistants reason across a whole project, not one file |
+| **Needle** | Gemini tool-calling distilled into a 26M model | Pure-attention, no MLPs, runs on phones and watches — a sharp bet that tool use doesn't need a big model |
+| **Voicebox** | Open-source, local-first AI voice studio | Dictate anywhere, clone voices, multi-engine TTS — a voice-in/voice-out loop that never leaves your machine |
+| **Bumblebee** | Read-only supply-chain scanner for dev machines | Inventories packages, MCP configs, and extensions against a compromise catalog — without ever running your code |
 
-<sub>Sources for today are in <a href="archive/2026-07-16.md">archive/2026-07-16.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-17.md">archive/2026-07-17.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
