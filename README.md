@@ -23,19 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-18
+## Today — 2026-07-19
 
-Heavier work moves back onto hardware you own — agents editing real Office files, a GPU rendering millions of points, meetings transcribed on-device — plus tools to audit and archive what's yours.
+The scaffolding for running agents on hardware you own is filling in — sandbox them, herd them from one terminal, give them durable memory, and keep the boxes it all runs on under management.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **OfficeCLI** | An Office suite built for AI agents to drive | Single binary, no MS Office — agents read/edit Word, Excel, PowerPoint with a real formula engine and a render-and-fix loop |
-| **Kage** | Shadows any website into a single offline binary | Snapshots the DOM, strips all JS, bundles CSS/images into one executable that serves the site offline — nothing installed on the other end |
-| **Meetily** | Self-hosted, 100% local AI meeting note-taker | Rust + Tauri, Parakeet/Whisper live transcription, diarization and Ollama summaries — an open Otter/Granola that never leaves your machine |
-| **Tailsnitch** | Security auditor for your Tailscale tailnet | 50+ checks across access, auth, device, network, SSH and DNS, with fix mode and SOC 2 mappings — a linter for "did we leave this too open?" |
-| **ChartGPU** | WebGPU charting smooth at a million points | Whole pipeline on the GPU — downsampling compute shader, instanced draws — 1M points pan/zoom at 60fps, benchmarks into the tens of millions |
+| **CubeSandbox** | Instant, secure sandbox for AI agents | Sub-60ms boots, <5MB per instance — thousands of agents on one node, making cheap per-agent isolation the thing that decides if a fleet is affordable |
+| **herdr** | An agent multiplexer that lives in your terminal | tmux for agents — run and switch between several coding agents at once, keyboard-driven, no heavy desktop app or middleman billing |
+| **Statewave** | A memory runtime built on reproducibility | Provenance-tagged context bundles instead of query-time RAG — every memory traces to its source with an audit trail, so you can actually debug what the agent knew |
+| **Alien** | Self-hosting with built-in remote management, in Rust | Software runs inside your environment with data staying local, but you still get a clean way to administer the boxes remotely — the layer where on-prem friction shows up |
 
-<sub>Sources for today are in <a href="archive/2026-07-18.md">archive/2026-07-18.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-19.md">archive/2026-07-19.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
