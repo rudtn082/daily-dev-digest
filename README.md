@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-19
+## Today — 2026-07-20
 
-The scaffolding for running agents on hardware you own is filling in — sandbox them, herd them from one terminal, give them durable memory, and keep the boxes it all runs on under management.
+The anti-black-box day — instead of trusting a vendor runtime or logic that fires side effects out of sight, this batch hands you the source of the agent, keeps durable workflows on the Postgres you already run, makes I/O plain data you can read, and lets you host the edge platform yourself.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **CubeSandbox** | Instant, secure sandbox for AI agents | Sub-60ms boots, <5MB per instance — thousands of agents on one node, making cheap per-agent isolation the thing that decides if a fleet is affordable |
-| **herdr** | An agent multiplexer that lives in your terminal | tmux for agents — run and switch between several coding agents at once, keyboard-driven, no heavy desktop app or middleman billing |
-| **Statewave** | A memory runtime built on reproducibility | Provenance-tagged context bundles instead of query-time RAG — every memory traces to its source with an audit trail, so you can actually debug what the agent knew |
-| **Alien** | Self-hosting with built-in remote management, in Rust | Software runs inside your environment with data staying local, but you still get a clean way to administer the boxes remotely — the layer where on-prem friction shows up |
+| **Grok Build** | xAI's coding-agent CLI, open-sourced | The actual Rust source of the TUI, agent runtime, and ACP wiring under Apache-2.0 — read exactly how a frontier lab assembles context and dispatches tools (issues off, no outside PRs: a source drop, not a project) |
+| **DBOSify** | Drop-in Temporal replacement built on Postgres | Import `dbosify` instead of `temporalio` and get durable workflows, retries, and recovery with no server to run — ports Temporal's own tests for conformance, so you can inspect the claim |
+| **Pure Effect** | Business logic as plain data you can replay | Functions return objects describing the I/O they'd do instead of firing it — record what prod saw, replay the exact path on your laptop, no database touched |
+| **OpenWorkers** | Self-hosted Cloudflare Workers, in Rust | The Workers programming model on your own boxes — `fetch`, KV, Postgres bindings, S3/R2, cron, `crypto.subtle` — an escape hatch when edge convenience meets lock-in and egress bills |
 
-<sub>Sources for today are in <a href="archive/2026-07-19.md">archive/2026-07-19.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-20.md">archive/2026-07-20.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
