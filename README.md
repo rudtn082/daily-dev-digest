@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-20
+## Today — 2026-07-21
 
-The anti-black-box day — instead of trusting a vendor runtime or logic that fires side effects out of sight, this batch hands you the source of the agent, keeps durable workflows on the Postgres you already run, makes I/O plain data you can read, and lets you host the edge platform yourself.
+The agent stack grows up — instead of just generating more code and UI, today's tools put guardrails and coordination around what the models produce, and a trillion-parameter open model shows up trained off NVIDIA's silicon.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **Grok Build** | xAI's coding-agent CLI, open-sourced | The actual Rust source of the TUI, agent runtime, and ACP wiring under Apache-2.0 — read exactly how a frontier lab assembles context and dispatches tools (issues off, no outside PRs: a source drop, not a project) |
-| **DBOSify** | Drop-in Temporal replacement built on Postgres | Import `dbosify` instead of `temporalio` and get durable workflows, retries, and recovery with no server to run — ports Temporal's own tests for conformance, so you can inspect the claim |
-| **Pure Effect** | Business logic as plain data you can replay | Functions return objects describing the I/O they'd do instead of firing it — record what prod saw, replay the exact path on your laptop, no database touched |
-| **OpenWorkers** | Self-hosted Cloudflare Workers, in Rust | The Workers programming model on your own boxes — `fetch`, KV, Postgres bindings, S3/R2, cron, `crypto.subtle` — an escape hatch when edge convenience meets lock-in and egress bills |
+| **Hallmark** | Anti-AI-slop design skill for Claude Code, Cursor, Codex | Encodes rules that refuse the purple-gradient defaults every model was trained into, then runs slop-test gates and a self-critique pass before handing UI back — a concrete answer to "all AI designs look the same" |
+| **Aura** | Git-native provenance layer for AI coding agents | Parses your repo to an AST locally and tracks an agent's edits at the function level, so it can compare the change to your stated intent and block the commit when they diverge — plus `rewind` a single broken function and wipe an AI's hallucinated memory |
+| **Mozaik** | TypeScript runtime where agents self-organize | Drops the up-front DAG: every message, tool call, and error is an event on a shared bus that agents subscribe to and react to, so coordination emerges at runtime and agents run concurrently on the same goal |
+| **LongCat-2.0** | 1.6T open MoE trained entirely on Chinese chips | MIT-licensed at trillion scale, with a native 1M-token context — and Meituan says it's the first model this size to pre-train and serve entirely on domestic AI ASICs, not NVIDIA GPUs |
 
-<sub>Sources for today are in <a href="archive/2026-07-20.md">archive/2026-07-20.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-21.md">archive/2026-07-21.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
