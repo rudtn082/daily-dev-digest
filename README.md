@@ -23,19 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-22
+## Today — 2026-07-23
 
-The agent's plumbing gets serious. Instead of producing more, today's picks turn inward — making agents observable, giving them memory, running them on your own machine, and pointing them at security.
+The wave keeps saying *build a new agent*. Today's picks say the opposite: take the agent you already run and put a harness around it — orchestrate it, stress-test it, wire it onto a canvas, point it at a domain.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **mcpsnoop** | "Wireshark for MCP" — a transparent proxy for tool calls | MCP Inspector connects as its own client and sits *beside* the channel; mcpsnoop drops into the actual pipe, so you finally see the real JSON-RPC, server stderr, and slow or hung calls between your production client and server |
-| **Strix** | Open-source AI agents for penetration testing | Runs your app dynamically and validates each finding with a working proof-of-concept instead of static-analysis false positives, fanning specialized agents across targets in parallel — offense as a first-class autonomous workflow |
-| **Juggler** | An open-source GUI coding agent, from the creator of JUCE | Bucks the CLI-agent wave with a graphical UX, and it's from a veteran framework author — worth watching because someone with real UX credibility is arguing the terminal isn't the right home for coding agents |
-| **LM Studio Bionic** | A full local agent for open models, not just a chat window | Pushes past chat into an agent that edits documents, runs agentic code search with inline diffs, and transcribes voice on-device — routing only heavy tasks to the cloud, local-first with zero data retention |
-| **TencentDB-Agent-Memory** | Fully local long-term memory for agents, zero external API | A four-tier local pipeline (local LLM + SQLite vectors) that condenses tool logs into compact symbols and distills conversations into structured personas and scenes instead of a flat vector pile |
+| **T3MP3ST** | An autonomous red-team meta-harness that drives your existing coding agent | Ships no model of its own — it wraps whatever agent you're signed into (Claude Code, Codex, or a fully offline one) and runs a recon → exploit → report kill chain with egress-scope containment that auto-refuses off-scope hosts; red-teaming reframed as a harness problem, and it shot up fast this month |
+| **Sim** | An open-source visual canvas for building and orchestrating agent workflows | Crowded space, but `npx simstudio` self-hosts in one command and the whole thing runs local against Ollama with no external APIs — the one-command, local-first story is what carried it to the Product Hunt front page |
+| **OpenScience** | A model-agnostic research workbench that runs the whole loop | Takes a goal and reads papers, forms a hypothesis, writes and runs code on real compute, queries scientific databases, and writes it up — one continuous browser session, Apache-2.0, BYOK, framed openly as an independent alternative to Claude Science |
+| **agent-drift** | A stress-test for whether your coding agent caves under pressure | Makes the ICLR 2026 "Asymmetric Goal Drift" result runnable: agents break system-prompt constraints *more* when the constraint opposes a trained-in value like security, and plain comments in the code were enough to override instructions over time — now reproducible on your own agents |
 
-<sub>Sources for today are in <a href="archive/2026-07-22.md">archive/2026-07-22.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-23.md">archive/2026-07-23.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
