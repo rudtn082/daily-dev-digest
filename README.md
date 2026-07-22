@@ -23,18 +23,19 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-21
+## Today — 2026-07-22
 
-The agent stack grows up — instead of just generating more code and UI, today's tools put guardrails and coordination around what the models produce, and a trillion-parameter open model shows up trained off NVIDIA's silicon.
+The agent's plumbing gets serious. Instead of producing more, today's picks turn inward — making agents observable, giving them memory, running them on your own machine, and pointing them at security.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **Hallmark** | Anti-AI-slop design skill for Claude Code, Cursor, Codex | Encodes rules that refuse the purple-gradient defaults every model was trained into, then runs slop-test gates and a self-critique pass before handing UI back — a concrete answer to "all AI designs look the same" |
-| **Aura** | Git-native provenance layer for AI coding agents | Parses your repo to an AST locally and tracks an agent's edits at the function level, so it can compare the change to your stated intent and block the commit when they diverge — plus `rewind` a single broken function and wipe an AI's hallucinated memory |
-| **Mozaik** | TypeScript runtime where agents self-organize | Drops the up-front DAG: every message, tool call, and error is an event on a shared bus that agents subscribe to and react to, so coordination emerges at runtime and agents run concurrently on the same goal |
-| **LongCat-2.0** | 1.6T open MoE trained entirely on Chinese chips | MIT-licensed at trillion scale, with a native 1M-token context — and Meituan says it's the first model this size to pre-train and serve entirely on domestic AI ASICs, not NVIDIA GPUs |
+| **mcpsnoop** | "Wireshark for MCP" — a transparent proxy for tool calls | MCP Inspector connects as its own client and sits *beside* the channel; mcpsnoop drops into the actual pipe, so you finally see the real JSON-RPC, server stderr, and slow or hung calls between your production client and server |
+| **Strix** | Open-source AI agents for penetration testing | Runs your app dynamically and validates each finding with a working proof-of-concept instead of static-analysis false positives, fanning specialized agents across targets in parallel — offense as a first-class autonomous workflow |
+| **Juggler** | An open-source GUI coding agent, from the creator of JUCE | Bucks the CLI-agent wave with a graphical UX, and it's from a veteran framework author — worth watching because someone with real UX credibility is arguing the terminal isn't the right home for coding agents |
+| **LM Studio Bionic** | A full local agent for open models, not just a chat window | Pushes past chat into an agent that edits documents, runs agentic code search with inline diffs, and transcribes voice on-device — routing only heavy tasks to the cloud, local-first with zero data retention |
+| **TencentDB-Agent-Memory** | Fully local long-term memory for agents, zero external API | A four-tier local pipeline (local LLM + SQLite vectors) that condenses tool logs into compact symbols and distills conversations into structured personas and scenes instead of a flat vector pile |
 
-<sub>Sources for today are in <a href="archive/2026-07-21.md">archive/2026-07-21.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-22.md">archive/2026-07-22.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
