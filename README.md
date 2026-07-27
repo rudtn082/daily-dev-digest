@@ -23,18 +23,19 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-23
+## Today — 2026-07-27
 
-The wave keeps saying *build a new agent*. Today's picks say the opposite: take the agent you already run and put a harness around it — orchestrate it, stress-test it, wire it onto a canvas, point it at a domain.
+Nothing today is a new idea. Every pick is the missing piece that finally makes an old one practical — the cache, the license, the preprocessing, the compose file, the lifecycle.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **T3MP3ST** | An autonomous red-team meta-harness that drives your existing coding agent | Ships no model of its own — it wraps whatever agent you're signed into (Claude Code, Codex, or a fully offline one) and runs a recon → exploit → report kill chain with egress-scope containment that auto-refuses off-scope hosts; red-teaming reframed as a harness problem, and it shot up fast this month |
-| **Sim** | An open-source visual canvas for building and orchestrating agent workflows | Crowded space, but `npx simstudio` self-hosts in one command and the whole thing runs local against Ollama with no external APIs — the one-command, local-first story is what carried it to the Product Hunt front page |
-| **OpenScience** | A model-agnostic research workbench that runs the whole loop | Takes a goal and reads papers, forms a hypothesis, writes and runs code on real compute, queries scientific databases, and writes it up — one continuous browser session, Apache-2.0, BYOK, framed openly as an independent alternative to Claude Science |
-| **agent-drift** | A stress-test for whether your coding agent caves under pressure | Makes the ICLR 2026 "Asymmetric Goal Drift" result runnable: agents break system-prompt constraints *more* when the constraint opposes a trained-in value like security, and plain comments in the code were enough to override instructions over time — now reproducible on your own agents |
+| **oMLX** | An MLX inference server that stops your Mac recomputing the same context | Agents shift the prompt prefix every turn and every other MLX server throws away the KV cache, costing 30–90s a response; oMLX pages KV blocks to SSD and restores them instead, dropping time-to-first-token to a few seconds — the thing that had to exist before local agents on Apple Silicon were usable |
+| **Inkling** | Thinking Machines Lab's first model: 975B MoE, open weights, Apache 2.0 | 41B active per token, 1M context, native text/image/audio reasoning, 45T pretraining tokens — but the story is the license on a model this size from a US lab, shipped as a base to fine-tune rather than an endpoint to call |
+| **Infini-News** | 1.36B Common Crawl news articles, queryable in milliseconds | News research has been gated by price or by terabytes of raw CC-News; this does the extraction, cleaning, language tagging and country attribution once (83.4% of articles, 222 countries) and ships infini-gram indexes so you can pattern-search the whole archive sub-second |
+| **Fruitbox** | Docker Compose for Apple's container runtime | Apple's `container` hit 1.0, but nobody runs one container — they run a compose file with five services; the interesting part is the ecosystem now forming around the native runtime, which is what turns it from curiosity into a real Docker alternative on a Mac |
+| **Frond** | A frontend runtime for your app's dependency graph | Not a router or renderer — the layer under them, where each node declares how it's acquired, cancelled and released, so React just consumes something already ready; built on Effect, so evicting a node actually aborts fetches, clears timers and closes streams |
 
-<sub>Sources for today are in <a href="archive/2026-07-23.md">archive/2026-07-23.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-27.md">archive/2026-07-27.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
