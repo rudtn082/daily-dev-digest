@@ -23,19 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-27
+## Today — 2026-07-28
 
-Nothing today is a new idea. Every pick is the missing piece that finally makes an old one practical — the cache, the license, the preprocessing, the compose file, the lifecycle.
+Agents stopped visiting your environment and moved into it — your browser session, your team chat, your docs, your own hardware.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **oMLX** | An MLX inference server that stops your Mac recomputing the same context | Agents shift the prompt prefix every turn and every other MLX server throws away the KV cache, costing 30–90s a response; oMLX pages KV blocks to SSD and restores them instead, dropping time-to-first-token to a few seconds — the thing that had to exist before local agents on Apple Silicon were usable |
-| **Inkling** | Thinking Machines Lab's first model: 975B MoE, open weights, Apache 2.0 | 41B active per token, 1M context, native text/image/audio reasoning, 45T pretraining tokens — but the story is the license on a model this size from a US lab, shipped as a base to fine-tune rather than an endpoint to call |
-| **Infini-News** | 1.36B Common Crawl news articles, queryable in milliseconds | News research has been gated by price or by terabytes of raw CC-News; this does the extraction, cleaning, language tagging and country attribution once (83.4% of articles, 222 countries) and ships infini-gram indexes so you can pattern-search the whole archive sub-second |
-| **Fruitbox** | Docker Compose for Apple's container runtime | Apple's `container` hit 1.0, but nobody runs one container — they run a compose file with five services; the interesting part is the ecosystem now forming around the native runtime, which is what turns it from curiosity into a real Docker alternative on a Mac |
-| **Frond** | A frontend runtime for your app's dependency graph | Not a router or renderer — the layer under them, where each node declares how it's acquired, cancelled and released, so React just consumes something already ready; built on Effect, so evicting a node actually aborts fetches, clears timers and closes streams |
+| **ego-lite** | A browser that hands your logged-in session to a coding agent | Most agent automation starts from a cold profile and dies at the first login wall; ego-lite offers to migrate your Chrome data on launch, so the agent inherits your cookies and extensions while working in its own Space instead of stealing your tabs — and it topped GitHub trending this week on a claim of beating Vercel's agent-browser on four tasks with less time and fewer tokens |
+| **Buzz** | Block's self-hostable workspace where agents are first-class members | Chat, git hosting and agents on one Apache-2.0 surface with a Rust Nostr relay underneath; the part that matters isn't the Slack-plus-GitHub pitch but that agents get their own cryptographic keys and channel memberships, so a patch or a review approval lands as a signed event in an audit trail rather than an anonymous bot action |
+| **Kimi K3** | The largest open-weights model ever shipped: 2.8T parameters | Moonshot put it on Hugging Face ungated at 00:00 UTC July 27 — 96 shards, roughly 1.56 TB in MXFP4 — but the thing to read before you build on it is the bespoke "Kimi K3 License" tagged `license:other`, carrying a revenue-triggered separate-agreement clause and a UI attribution mandate; no independent benchmarks at release |
+| **OpenWiki** | LangChain's CLI that writes docs for agents, not humans | It generates a structured `openwiki/` folder tuned for LLM context windows, with Mermaid diagrams where a picture beats prose; what makes it more than another README generator is the shipped GitHub Action that opens a daily PR, turning documentation drift from a discipline problem into a merge queue item |
 
-<sub>Sources for today are in <a href="archive/2026-07-27.md">archive/2026-07-27.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-07-28.md">archive/2026-07-28.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
