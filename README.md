@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-07-28
+## Today — 2026-08-03
 
-Agents stopped visiting your environment and moved into it — your browser session, your team chat, your docs, your own hardware.
+The agent isn't the product anymore — the plumbing around it is: what it can see, what it can touch, what it can read, and who supervises it.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **ego-lite** | A browser that hands your logged-in session to a coding agent | Most agent automation starts from a cold profile and dies at the first login wall; ego-lite offers to migrate your Chrome data on launch, so the agent inherits your cookies and extensions while working in its own Space instead of stealing your tabs — and it topped GitHub trending this week on a claim of beating Vercel's agent-browser on four tasks with less time and fewer tokens |
-| **Buzz** | Block's self-hostable workspace where agents are first-class members | Chat, git hosting and agents on one Apache-2.0 surface with a Rust Nostr relay underneath; the part that matters isn't the Slack-plus-GitHub pitch but that agents get their own cryptographic keys and channel memberships, so a patch or a review approval lands as a signed event in an audit trail rather than an anonymous bot action |
-| **Kimi K3** | The largest open-weights model ever shipped: 2.8T parameters | Moonshot put it on Hugging Face ungated at 00:00 UTC July 27 — 96 shards, roughly 1.56 TB in MXFP4 — but the thing to read before you build on it is the bespoke "Kimi K3 License" tagged `license:other`, carrying a revenue-triggered separate-agreement clause and a UI attribution mandate; no independent benchmarks at release |
-| **OpenWiki** | LangChain's CLI that writes docs for agents, not humans | It generates a structured `openwiki/` folder tuned for LLM context windows, with Mermaid diagrams where a picture beats prose; what makes it more than another README generator is the shipped GitHub Action that opens a daily PR, turning documentation drift from a discipline problem into a merge queue item |
+| **Screenpipe** | A 24/7 local work ledger your agents can query | The July reframe is the whole pitch — stop selling screen recording, sell "record how you work → searchable memory → SOPs an agent can run"; screen and audio land in a local SQLite database and come back out over MCP, so an agent watching you repeat a task writes the steps down instead of being prompted through them again |
+| **Coasty** | An API for computer-use agents, with the runtime open-sourced | Send a task, pick a machine or browser, hand over credentials, and the agent drives via screenshots, mouse and keyboard and verifies the result — but the reason to look is `open-computer-use`, which runs the same loop yourself on one API key instead of a hosted black box |
+| **Context.dev** | Clean web context for agents, as one boring API | Scrape a URL to LLM-ready markdown, extract to your JSON schema, crawl a whole site — with JS rendering, anti-bot handling and stealth proxies on every request at no extra credit cost, which is the part everyone otherwise rebuilds and pays for in proxy bills |
+| **OpenHands Agent Canvas** | A self-hosted control room for whatever agent you already use | It supervises rather than competes: OpenHands' own agent, Claude Code, Codex, Gemini, anything speaking the Agent Client Protocol, on one canvas — the ACP seam implies the next fight is over the orchestration surface, not the agent |
 
-<sub>Sources for today are in <a href="archive/2026-07-28.md">archive/2026-07-28.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-08-03.md">archive/2026-08-03.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
