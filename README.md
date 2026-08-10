@@ -23,18 +23,19 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-08-03
+## Today — 2026-08-10
 
-The agent isn't the product anymore — the plumbing around it is: what it can see, what it can touch, what it can read, and who supervises it.
+The week agents stopped borrowing infrastructure and got their own — a machine, durable state, a memory of the loop — while the systems layer underneath got rewritten by the same models.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **Screenpipe** | A 24/7 local work ledger your agents can query | The July reframe is the whole pitch — stop selling screen recording, sell "record how you work → searchable memory → SOPs an agent can run"; screen and audio land in a local SQLite database and come back out over MCP, so an agent watching you repeat a task writes the steps down instead of being prompted through them again |
-| **Coasty** | An API for computer-use agents, with the runtime open-sourced | Send a task, pick a machine or browser, hand over credentials, and the agent drives via screenshots, mouse and keyboard and verifies the result — but the reason to look is `open-computer-use`, which runs the same loop yourself on one API key instead of a hosted black box |
-| **Context.dev** | Clean web context for agents, as one boring API | Scrape a URL to LLM-ready markdown, extract to your JSON schema, crawl a whole site — with JS rendering, anti-bot handling and stealth proxies on every request at no extra credit cost, which is the part everyone otherwise rebuilds and pays for in proxy bills |
-| **OpenHands Agent Canvas** | A self-hosted control room for whatever agent you already use | It supervises rather than competes: OpenHands' own agent, Claude Code, Codex, Gemini, anything speaking the Agent Client Protocol, on one canvas — the ACP seam implies the next fight is over the orchestration surface, not the agent |
+| **pgrust** | Postgres reimplemented in Rust, line by line, mostly by a model | Wire- and dialect-compatible with Postgres 18.3 and passing all 46,066 regression tests — the only number here that means anything; the write-ups are the real artifact (four attempts, three dead ends, ~$100k of model spend before a repeatable translation process worked), and the speed claims are the author's own, unreplicated |
+| **celld** | Self-hosted, distributed Durable Objects, from Deno Land | Each object is its own SQLite database replicated to an S3 bucket you own, and nodes coordinate through that bucket alone — no control plane, no consensus to operate; sharding stops being a migration you plan and becomes a property of the model, though at v0.1.0 this is an architecture to read, not to load |
+| **@cloudflare/computer** | A Durable Object workspace that gives an agent a machine, not a container | One filesystem behind several backends — fast isolates for file shuffling, full Linux via FUSE when the task needs a package manager — betting that "one container per agent" was the wrong primitive and the runtime should route per task rather than make you pick up front |
+| **LoopX** | A provider-neutral state kernel for agent work that outlives the session | Durable goals, executable todos, evidence logs, quota-aware auto-wake and explicit human gates, sitting beside Codex or Claude Code rather than replacing them — the least glamorous problem in agent tooling and the one that bites hardest, since long-running work still dies at context boundaries and hands off as chat scrollback |
+| **book-to-skill** | Turns a technical book into a skill your agent loads on demand | Chapter files load only when you ask about that topic, for a measured 24×–51× fewer tokens than dumping the book into context — the framing matters more than the tool, since it quietly shows skills working as an index format for reference material |
 
-<sub>Sources for today are in <a href="archive/2026-08-03.md">archive/2026-08-03.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-08-10.md">archive/2026-08-10.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
