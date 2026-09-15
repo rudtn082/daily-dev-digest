@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-09-14
+## Today — 2026-09-15
 
-Unbundling the coding agent — weights, serving, and harness each become a part you can swap.
+Instruments for the agent's machine — see what's installed, keep sessions alive, undo the bad write.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **OpenSAS** | An open-source SAS 9.4 interpreter, written by agents | Zig, built by a team of seven coding agents from public docs only, claiming byte-for-byte output parity on clinical pipelines (SDTM, ADaM) — regulated trial output is where "close enough" fails, which makes it a far sharper test of agent-written software than another todo app; the parity claim is the project's own, so check it against your pipeline |
-| **GLM-5.3-Flash** | Z.ai's first natively multimodal GLM-5, MIT-licensed | 320B MoE with 18B active, 1M context, text/image/video/file in, fp8 weights on Hugging Face — it ran anonymously on OpenRouter as "Ox Alpha" before Z.ai claimed it; the license with no revenue thresholds or field-of-use strings is what lets you ship on it, more than any benchmark chart |
-| **Magnitude** | A local inference server that plugs into the agent you already use | Profiles chip, memory, and bandwidth, estimates fit and tok/s per model, then downloads, tunes, and serves the pick for Pi, OpenCode, Hermes, Codex, Claude Code, or Cline — it answers where local users actually get stuck: not "can I run a model" but "which one is good enough on this machine for an agent loop" |
-| **Pi** | An agent toolkit you can take apart | Unified multi-provider LLM API, agent runtime, TUI components, and coding-agent CLI shipped as separate pieces, embeddable in Node or driven over RPC — trending right next to Magnitude, and the pairing is the story: the harness is turning into a library, so loop, model, and UI stop being one vendor's call |
+| **DeepSeek-V4.1-Flash** | A 552B MoE that reads with 8B and writes with 16B, MIT-licensed | Causal Encoder-Decoder: prefill activates 8B per token, decode 16B; 1M context, image+text in, weights on Hugging Face the day it replaced V4 Flash on the API — the number that matters is on the model card: ~890 bytes of KV cache per token, about a quarter of V4 Flash, and long agent loops run out of cache memory before they run out of benchmark |
+| **Hydra** | An agentic terminal whose sessions outlive the window | The desktop app is only a client of a local PTY daemon, so shells and agents keep running after you close it, reachable from a browser with no inbound port; it finds and resumes existing Claude Code, Codex, Copilot CLI, OpenCode and Cursor Agent sessions — the durable object is the agent session, not the tab. Local code MIT, Remote service proprietary |
+| **Geiger** | See every agent on your machine and what it can touch | Read-only `npx geiger-scan` inventories Claude Code settings, MCP host configs, IDE/browser extensions and global npm packages, tagging each EXECUTES, HOLDS-SECRETS, BROAD-FILESYSTEM and so on, with drift detection against a baseline — config not runtime, so it shows blast radius rather than what happened, which is still more than most dev machines can tell you |
+| **EterDB** | Undo one bad transaction without restoring the whole database | Postgres 18-based, append-only history: reverse only the rows a given transaction touched, recover dropped tables with values, trace downstream writes that read the bad data, time-travel queries — PITR throws away every good write after the mistake, and more of those mistakes now come from agents holding a connection string. Apache 2.0 |
 
-<sub>Sources for today are in <a href="archive/2026-09-14.md">archive/2026-09-14.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-09-15.md">archive/2026-09-15.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
