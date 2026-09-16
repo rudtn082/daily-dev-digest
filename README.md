@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-09-15
+## Today — 2026-09-16
 
-Instruments for the agent's machine — see what's installed, keep sessions alive, undo the bad write.
+The price of a token, a review, and a GPU-hour — three projects that make AI cost something you can check.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **DeepSeek-V4.1-Flash** | A 552B MoE that reads with 8B and writes with 16B, MIT-licensed | Causal Encoder-Decoder: prefill activates 8B per token, decode 16B; 1M context, image+text in, weights on Hugging Face the day it replaced V4 Flash on the API — the number that matters is on the model card: ~890 bytes of KV cache per token, about a quarter of V4 Flash, and long agent loops run out of cache memory before they run out of benchmark |
-| **Hydra** | An agentic terminal whose sessions outlive the window | The desktop app is only a client of a local PTY daemon, so shells and agents keep running after you close it, reachable from a browser with no inbound port; it finds and resumes existing Claude Code, Codex, Copilot CLI, OpenCode and Cursor Agent sessions — the durable object is the agent session, not the tab. Local code MIT, Remote service proprietary |
-| **Geiger** | See every agent on your machine and what it can touch | Read-only `npx geiger-scan` inventories Claude Code settings, MCP host configs, IDE/browser extensions and global npm packages, tagging each EXECUTES, HOLDS-SECRETS, BROAD-FILESYSTEM and so on, with drift detection against a baseline — config not runtime, so it shows blast radius rather than what happened, which is still more than most dev machines can tell you |
-| **EterDB** | Undo one bad transaction without restoring the whole database | Postgres 18-based, append-only history: reverse only the rows a given transaction touched, recover dropped tables with values, trace downstream writes that read the bad data, time-travel queries — PITR throws away every good write after the mistake, and more of those mistakes now come from agents holding a connection string. Apache 2.0 |
+| **Colibri** | Frontier MoE models on hardware you already own, experts streamed from disk | Pure C, zero deps, VRAM/RAM/disk as one hierarchy; runs nine families from OLMoE to Kimi K3, token-exact against transformers — and the README says outright that speed is set by your disk (~6 tok/s on six 5090s, ~1.8 on a 128 GB CPU desktop), which turns "can I load it" into "what is my SSD worth in tokens". Apache 2.0 |
+| **Open Code Review** | Alibaba's internal code reviewer, open-sourced as a CLI | File selection, bundling, rule matching and comment placement are hard-coded; the LLM agent only does judgment and context lookup — the project reports ~1/9 the tokens of a general agent with better precision (their numbers, measure on your repo). Take every step that doesn't need a model away from the model. GitHub Actions, GitLab CI, Claude Code/Codex/Cursor plugins. Apache 2.0 |
+| **Computable GPU Index** | An open, reproducible USD price for an H100/H200/B200/B300 hour | Weighted votes from a fixed provider panel, central band averaged so the tails can't drag it, and any published value re-derivable by cloning the repo; anonymous API, no key — GPU prices are mostly quoted by whoever sells the GPUs, so a number you can recompute yourself is worth having for budgets and contracts. Code Apache 2.0, data CC BY-NC |
 
-<sub>Sources for today are in <a href="archive/2026-09-15.md">archive/2026-09-15.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-09-16.md">archive/2026-09-16.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
