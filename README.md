@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-09-16
+## Today ??2026-09-19
 
-The price of a token, a review, and a GPU-hour — three projects that make AI cost something you can check.
+Less noise, more parallel ??agents get a diet for their output, a home for their branches, and a model that loops on itself.
 
 | Pick | What it is | Why it caught my eye |
 |------|-----------|----------------------|
-| **Colibri** | Frontier MoE models on hardware you already own, experts streamed from disk | Pure C, zero deps, VRAM/RAM/disk as one hierarchy; runs nine families from OLMoE to Kimi K3, token-exact against transformers — and the README says outright that speed is set by your disk (~6 tok/s on six 5090s, ~1.8 on a 128 GB CPU desktop), which turns "can I load it" into "what is my SSD worth in tokens". Apache 2.0 |
-| **Open Code Review** | Alibaba's internal code reviewer, open-sourced as a CLI | File selection, bundling, rule matching and comment placement are hard-coded; the LLM agent only does judgment and context lookup — the project reports ~1/9 the tokens of a general agent with better precision (their numbers, measure on your repo). Take every step that doesn't need a model away from the model. GitHub Actions, GitLab CI, Claude Code/Codex/Cursor plugins. Apache 2.0 |
-| **Computable GPU Index** | An open, reproducible USD price for an H100/H200/B200/B300 hour | Weighted votes from a fixed provider panel, central band averaged so the tails can't drag it, and any published value re-derivable by cloning the repo; anonymous API, no key — GPU prices are mostly quoted by whoever sells the GPUs, so a number you can recompute yourself is worth having for budgets and contracts. Code Apache 2.0, data CC BY-NC |
+| **i-have-adhd** | A skill that makes coding agents lead with the action, not the reasoning | Ten rules turn "let me think about this?? into `npm install jsonwebtoken@latest`, then edit `src/auth.ts:42` ??works across Claude, Cursor, Gemini, Kimi and Qwen, and it climbed GitHub trending this week because "the answer is buried" is a near-universal complaint |
+| **context-mode** | An MCP server that keeps tool output out of the context window | Tool results are sandboxed in subprocesses so raw data never hits the conversation (claimed 98% reduction), and session state lives in SQLite so the agent recovers after compaction; 17 platforms supported. Attacks context burn at the tool boundary instead of inside one agent |
+| **worktrunk** | A Rust CLI that makes git worktrees as easy as branches, built for parallel agents | `wt switch`, `wt list`, `wt remove` cover the whole loop. Run several agents at once and each needs its own checkout ??raw `git worktree` becomes the friction. MIT or Apache 2.0 |
+| **Recurrent Looped Transformer** | An architecture that feeds the decoder's last hidden state forward to the next token | Self-reported, small-scale: on 256-bit parity some variants hit 100% on all three seeds while an 8-layer Transformer sat near 50%. Not a product ??a concrete sign that recurrence is coming back into LLM design |
 
-<sub>Sources for today are in <a href="archive/2026-09-16.md">archive/2026-09-16.md</a>.</sub>
+<sub>Sources for today are in <a href="archive/2026-09-19.md">archive/2026-09-19.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
