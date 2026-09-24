@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today ??2026-09-19
+## Today — 2026-09-24
 
-Less noise, more parallel ??agents get a diet for their output, a home for their branches, and a model that loops on itself.
+Skills, launchers and voices you can own — agent know-how as portable files, cloud apps swapped for local ones.
 
 | Pick | What it is | Why it caught my eye |
-|------|-----------|----------------------|
-| **i-have-adhd** | A skill that makes coding agents lead with the action, not the reasoning | Ten rules turn "let me think about this?? into `npm install jsonwebtoken@latest`, then edit `src/auth.ts:42` ??works across Claude, Cursor, Gemini, Kimi and Qwen, and it climbed GitHub trending this week because "the answer is buried" is a near-universal complaint |
-| **context-mode** | An MCP server that keeps tool output out of the context window | Tool results are sandboxed in subprocesses so raw data never hits the conversation (claimed 98% reduction), and session state lives in SQLite so the agent recovers after compaction; 17 platforms supported. Attacks context burn at the tool boundary instead of inside one agent |
-| **worktrunk** | A Rust CLI that makes git worktrees as easy as branches, built for parallel agents | `wt switch`, `wt list`, `wt remove` cover the whole loop. Run several agents at once and each needs its own checkout ??raw `git worktree` becomes the friction. MIT or Apache 2.0 |
-| **Recurrent Looped Transformer** | An architecture that feeds the decoder's last hidden state forward to the next token | Self-reported, small-scale: on 256-bit parity some variants hit 100% on all three seeds while an 8-layer Transformer sat near 50%. Not a product ??a concrete sign that recurrence is coming back into LLM design |
+|------|-----------|-----------|
+| **security-audit-skill** | Cloudflare's multi-phase vulnerability-hunting skill for AI agents | Hit #1 on Hacker News from a repo that sat quiet since June. A big infra vendor shipping its audit playbook as a portable skill says skills are becoming the unit of shared expertise |
+| **tinycast** | A Swift macOS launcher that runs Raycast extensions with no Raycast account | Took off right after Raycast moved to usage-based credits on Sept 10 — a pricing change producing a free alternative overnight |
+| **hypit** | Video generation that outputs editable code, not a static render | #2 on Trendshift's weekly board for Sept 14–18, helped by launch partnerships — watch it, but part of the climb is coordinated promotion |
+| **VoiceBox** | A local AI voice studio that also gives MCP agents a voice | Voice cloning from a few seconds of audio, 23 languages, seven TTS engines, all on your machine — the private alternative to opaque cloud TTS |
 
-<sub>Sources for today are in <a href="archive/2026-09-19.md">archive/2026-09-19.md</a>.</sub>
+<sub>Sources for this edition are in <a href="archive/2026-09-24.md">archive/2026-09-24.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
