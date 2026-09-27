@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## Today — 2026-09-24
+## 🔥 Latest edition — 2026-09-27
 
-Skills, launchers and voices you can own — agent know-how as portable files, cloud apps swapped for local ones.
+> Theme: *Agents move from demos to operations — who manages them, what they remember, where they run.*
 
-| Pick | What it is | Why it caught my eye |
+| Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **security-audit-skill** | Cloudflare's multi-phase vulnerability-hunting skill for AI agents | Hit #1 on Hacker News from a repo that sat quiet since June. A big infra vendor shipping its audit playbook as a portable skill says skills are becoming the unit of shared expertise |
-| **tinycast** | A Swift macOS launcher that runs Raycast extensions with no Raycast account | Took off right after Raycast moved to usage-based credits on Sept 10 — a pricing change producing a free alternative overnight |
-| **hypit** | Video generation that outputs editable code, not a static render | #2 on Trendshift's weekly board for Sept 14–18, helped by launch partnerships — watch it, but part of the climb is coordinated promotion |
-| **VoiceBox** | A local AI voice studio that also gives MCP agents a voice | Voice cloning from a few seconds of audio, 23 languages, seven TTS engines, all on your machine — the private alternative to opaque cloud TTS |
+| **paperclip** | Open-source app for managing agents at work | Biggest one-day star gain in the Sept 26 roundup — agent supervision is becoming its own product category |
+| **hindsight** | Persistent memory system for agents | Carries learning across sessions; stateful memory is the recurring production blocker for agents |
+| **google/ax** | Google's agentic orchestration runtime | A major cloud vendor shipping open agent infrastructure raises the stakes for smaller frameworks |
+| **ZCode** | Z.ai's coding agent harness | Topped GitHub's Sept 26 daily trending — model labs now ship their own harnesses |
 
-<sub>Sources for this edition are in <a href="archive/2026-09-24.md">archive/2026-09-24.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-09-27.md">archive/2026-09-27.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
