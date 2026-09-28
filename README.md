@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-09-27
+## 🔥 Latest edition — 2026-09-28
 
-> Theme: *Agents move from demos to operations — who manages them, what they remember, where they run.*
+> Theme: *Agents leave the chat box — onto a canvas, into a workflow, onto your timeline.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **paperclip** | Open-source app for managing agents at work | Biggest one-day star gain in the Sept 26 roundup — agent supervision is becoming its own product category |
-| **hindsight** | Persistent memory system for agents | Carries learning across sessions; stateful memory is the recurring production blocker for agents |
-| **google/ax** | Google's agentic orchestration runtime | A major cloud vendor shipping open agent infrastructure raises the stakes for smaller frameworks |
-| **ZCode** | Z.ai's coding agent harness | Topped GitHub's Sept 26 daily trending — model labs now ship their own harnesses |
+| **Drawgent** | A coding agent that works on a live Excalidraw canvas | Show HN this week — a spatial work surface for agents instead of a scrolling wall of text |
+| **AgentRun** | Parcha's open-source DSL that turns repeatable agent work into workflows | Show HN — structured, bounded agent steps instead of "let the agent figure it out" |
+| **Concat** | Open-source CapCut replacement with local AI and an MCP API | Show HN about a week ago — agents can cut video through MCP; still beta |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-09-27.md">archive/2026-09-27.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-09-28.md">archive/2026-09-28.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
