@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-09-30
+## 🔥 Latest edition — 2026-10-01
 
-> Theme: *The action moved from the model to the layer around it — harnesses, code graphs and context that agents can't drift from.*
+> Theme: *Open weights you can actually run, train against and point at a screen — compressed to fit, shipped with the gym, and able to see.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **DeepSeek Harness** | DeepSeek's MIT-licensed open-source agent harness (`dsh`) where everything, even the agent loop, is a plugin | In this month's GitHub trending roundups — a model lab shipping the whole rig, not just the model |
-| **Faber** | Open-source terminal coding agent that uses a code graph to find relevant files before loading context | Recent Show HN launch — targets agents that read far more of the repo than the task needs and bill you for it |
-| **Meetless** | Apache-2.0 CLI (public beta) that captures decisions and injects approved context before each agent turn | Recent Show HN — keeping parallel agents from drifting is becoming its own tool category |
+| **Ternary Bonsai 2 27B** | PrismML's Apache-2.0 27B reasoning model (from Qwen3.8-27B) with ternary weights of ~8.5 GB | Vendor claims 98.2% of full-precision benchmark score — a 27B reasoner that fits consumer hardware |
+| **MiMo-V2.6** | Xiaomi's open-weight Pro/Flash/9B family; Flash is a 309B MoE (15B active) with 1M context, MIT-licensed | Ships 7,000+ RL environments alongside the weights — the training gym, not just the model |
+| **Ling 3.0 Flash VL** | inclusionAI's 124B MoE (5.5B active) with native image and video understanding | Adds visual-agent skills to a small-active-parameter model — agents that can look at a screen |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-09-30.md">archive/2026-09-30.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-01.md">archive/2026-10-01.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
