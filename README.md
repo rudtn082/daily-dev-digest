@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-01
+## 🔥 Latest edition — 2026-10-02
 
-> Theme: *Open weights you can actually run, train against and point at a screen — compressed to fit, shipped with the gym, and able to see.*
+> Theme: *The plumbing around agents — a sandbox to contain them, a rig to organize them, a light runtime to feed them, and a notebook that runs.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Ternary Bonsai 2 27B** | PrismML's Apache-2.0 27B reasoning model (from Qwen3.8-27B) with ternary weights of ~8.5 GB | Vendor claims 98.2% of full-precision benchmark score — a 27B reasoner that fits consumer hardware |
-| **MiMo-V2.6** | Xiaomi's open-weight Pro/Flash/9B family; Flash is a 309B MoE (15B active) with 1M context, MIT-licensed | Ships 7,000+ RL environments alongside the weights — the training gym, not just the model |
-| **Ling 3.0 Flash VL** | inclusionAI's 124B MoE (5.5B active) with native image and video understanding | Adds visual-agent skills to a small-active-parameter model — agents that can look at a screen |
+| **OpenShell** | NVIDIA's Apache-2.0 runtime that runs autonomous agents in kernel-enforced sandboxes | Agents never see real credentials, and policy changes are verified first — containment as its own product |
+| **OpenRig** | Apache-2.0 harness that turns Claude Code, Codex and Pi sessions into a persistent team defined in YAML | Moves from one agent to several, with roles, shared context and snapshot/restore |
+| **Janus** | A single Go binary serving GGUF models via llama.cpp, Vulkan (AMD/Intel/NVIDIA) or CPU, with an OpenAI-compatible API | Zero dependencies and no CUDA lock-in for local inference |
+| **Ledge** | Markdown notes whose shell, Python and SQL code blocks run in place, locally or over SSH | Ships an MCP server, so agents can read and edit your runbooks |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-01.md">archive/2026-10-01.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-02.md">archive/2026-10-02.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
