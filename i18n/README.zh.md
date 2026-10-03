@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-02
+## 今天 — 2026-10-03
 
-围绕智能体的管道——关住它的沙箱、编组它的编排层、轻量喂它的运行时，还有能直接运行的笔记。
+手工打造的底层——回到底层的工具，外加一个随时随地监督智能体的驾驶舱。
 
 | 入选 | 是什么 | 为什么值得关注 |
 |------|-----------|-----------|
-| **OpenShell** | NVIDIA 的 Apache-2.0 运行时，让自主智能体在内核级隔离的沙箱中运行 | 智能体看不到真实凭据，策略变更也要先验证——隔离本身成了一个产品类别 |
-| **OpenRig** | Apache-2.0 编排框架，把 Claude Code、Codex、Pi 会话组成用 YAML 定义的持久团队 | 从一个智能体走向多个——有角色、共享上下文，还能快照/恢复 |
-| **Janus** | 单个 Go 二进制，基于 llama.cpp 通过 Vulkan（AMD/Intel/NVIDIA）或 CPU 提供 GGUF 模型服务，兼容 OpenAI API | 零依赖，本地推理不再被 CUDA 绑定 |
-| **Ledge** | 代码块（shell、Python、SQL）可就地运行的 Markdown 笔记，本地或经 SSH | 自带 MCP 服务器——智能体可以读写你的运维手册 |
+| **Paseo** | 开源、本地优先的界面，可在桌面、网页和手机上操作 Claude Code、Codex、OpenCode 和 Pi | 智能体监督走出笔记本——用手机就能盯运行，无遥测、无强制登录 |
+| **Rhun** | 用汇编写成的 MIT 代码编辑器，内置终端、Git diff，并支持智能体会话 | 对臃肿智能体 IDE 的有意反向选择——编辑器保持轻量 |
+| **kcc** | 用 ARM64 汇编写的 C17 编译器，以约 1000 页的文学编程之书形式呈现 | 能自举编译、构建 Lua、SQLite 和 DOOM，还能启动 Linux——并注明 Claude 为共同作者 |
+| **OpenDLSS-NR** | 用 Vulkan/WebGPU 重新实现 DLSS 5 的神经渲染网络 | 一个可检视、不依赖厂商的闭源技术实现 |
 
-<sub>今日来源见 <a href="../archive/2026-10-02.md">archive/2026-10-02.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-03.md">archive/2026-10-03.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

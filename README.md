@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-02
+## 🔥 Latest edition — 2026-10-03
 
-> Theme: *The plumbing around agents — a sandbox to contain them, a rig to organize them, a light runtime to feed them, and a notebook that runs.*
+> Theme: *Hand-built and low-level — tools that go back to the metal, plus a cockpit for supervising agents from anywhere.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **OpenShell** | NVIDIA's Apache-2.0 runtime that runs autonomous agents in kernel-enforced sandboxes | Agents never see real credentials, and policy changes are verified first — containment as its own product |
-| **OpenRig** | Apache-2.0 harness that turns Claude Code, Codex and Pi sessions into a persistent team defined in YAML | Moves from one agent to several, with roles, shared context and snapshot/restore |
-| **Janus** | A single Go binary serving GGUF models via llama.cpp, Vulkan (AMD/Intel/NVIDIA) or CPU, with an OpenAI-compatible API | Zero dependencies and no CUDA lock-in for local inference |
-| **Ledge** | Markdown notes whose shell, Python and SQL code blocks run in place, locally or over SSH | Ships an MCP server, so agents can read and edit your runbooks |
+| **Paseo** | Open-source, local-first interface for Claude Code, Codex, OpenCode and Pi, with desktop, web and mobile clients | Agent supervision moves off the laptop — watch runs from your phone, no telemetry or forced login |
+| **Rhun** | MIT code editor written in assembly, with a built-in terminal, Git diffs and room for agent sessions | A deliberate counterweight to heavyweight agent IDEs — keep the editor light |
+| **kcc** | A C17 compiler in ARM64 assembly, written as a ~1000-page literate book | Compiles itself, builds Lua, SQLite and DOOM, boots Linux — and credits Claude as co-author |
+| **OpenDLSS-NR** | Vulkan/WebGPU reimplementation of the DLSS 5 neural rendering network | An inspectable, vendor-independent take on a closed technique |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-02.md">archive/2026-10-02.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-03.md">archive/2026-10-03.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
