@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-03
+## 오늘 — 2026-10-06
 
-손으로 짠 저수준 — 맨 밑바닥으로 돌아간 도구들, 그리고 어디서든 에이전트를 감독하는 조종석.
+로컬 추론이 본격화되고, 모델은 문장 대신 확률로 답하기 시작한다.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Paseo** | Claude Code, Codex, OpenCode, Pi를 데스크톱·웹·모바일에서 다루는 오픈소스 로컬 우선 인터페이스 | 에이전트 감독이 노트북 밖으로 — 폰으로 실행을 지켜본다, 텔레메트리·강제 로그인 없음 |
-| **Rhun** | 어셈블리로 짠 MIT 코드 에디터, 내장 터미널·Git diff·에이전트 세션 지원 | 무거운 에이전트 IDE에 대한 의도적 반대편 — 에디터는 가볍게 |
-| **kcc** | ARM64 어셈블리로 쓴 C17 컴파일러, 약 1000쪽 분량의 문학적 프로그래밍 책 형태 | 자기 자신을 컴파일하고 Lua·SQLite·DOOM을 빌드, 리눅스까지 부팅 — Claude를 공저자로 명시 |
-| **OpenDLSS-NR** | DLSS 5 신경망 렌더링 네트워크를 Vulkan/WebGPU로 재구현한 프로젝트 | 닫힌 기술을 들여다볼 수 있는, 벤더에 묶이지 않은 구현 |
+| **ds4** | DeepSeek V4.x, GLM 5.x, Qwen 3.8 Flash를 Apple Silicon·CUDA·ROCm에서 로컬로 돌리는 MIT 라이선스 C 추론 엔진 | Redis 창시자의 작품. 2비트 전문가 양자화와 SSD로 스트리밍하는 KV 캐시 — HN 메인에 오른 "프런티어급 로컬 추론" 제안 |
+| **Clef / Clef-flash** | 글 대신 타입이 있는 질문에 확률을 돌려주는 Cloudflare의 27B·9B Apache 2.0 결정 모델 | 에이전트 스택의 새 자리 — 출력 파싱 없이 보정된 확률로 싸게 분기·라우팅 (같은 날 Amazon도 2B Strands Decider 공개) |
+| **universal-modder** | Claude Code가 거의 모든 PC 게임을 모딩하게 해주는 스킬과 fal MCP 서버 | 10/5 GitHub 트렌딩 1위 — 스킬+MCP가 취미 영역으로 번지는 모습 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-03.md">archive/2026-10-03.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-06.md">archive/2026-10-06.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

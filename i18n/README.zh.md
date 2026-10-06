@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-03
+## 今天 — 2026-10-06
 
-手工打造的底层——回到底层的工具，外加一个随时随地监督智能体的驾驶舱。
+本地推理走向严肃，模型开始用概率而不是文字作答。
 
 | 入选 | 是什么 | 为什么值得关注 |
 |------|-----------|-----------|
-| **Paseo** | 开源、本地优先的界面，可在桌面、网页和手机上操作 Claude Code、Codex、OpenCode 和 Pi | 智能体监督走出笔记本——用手机就能盯运行，无遥测、无强制登录 |
-| **Rhun** | 用汇编写成的 MIT 代码编辑器，内置终端、Git diff，并支持智能体会话 | 对臃肿智能体 IDE 的有意反向选择——编辑器保持轻量 |
-| **kcc** | 用 ARM64 汇编写的 C17 编译器，以约 1000 页的文学编程之书形式呈现 | 能自举编译、构建 Lua、SQLite 和 DOOM，还能启动 Linux——并注明 Claude 为共同作者 |
-| **OpenDLSS-NR** | 用 Vulkan/WebGPU 重新实现 DLSS 5 的神经渲染网络 | 一个可检视、不依赖厂商的闭源技术实现 |
+| **ds4** | 用 C 编写、MIT 许可的推理引擎，可在 Apple Silicon、CUDA 和 ROCm 上本地运行 DeepSeek V4.x、GLM 5.x 和 Qwen 3.8 Flash | 出自 Redis 作者之手，采用 2 比特专家量化并可把 KV 缓存流式写到 SSD——登上 HN 首页的"前沿级本地推理"方案 |
+| **Clef / Clef-flash** | Cloudflare 的 27B 和 9B Apache 2.0 决策模型，对带类型的问题返回概率而非文字 | 智能体技术栈里的新位置——无需解析输出，用校准过的概率做低成本分支与路由(Amazon 同日也发布了 2B 的 Strands Decider) |
+| **universal-modder** | 让 Claude Code 给几乎任何 PC 游戏做 MOD 的技能和 fal MCP 服务器 | 10 月 5 日登顶 GitHub 趋势榜——技能 + MCP 正在走进爱好者领域 |
 
-<sub>本期来源见 <a href="../archive/2026-10-03.md">archive/2026-10-03.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-06.md">archive/2026-10-06.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

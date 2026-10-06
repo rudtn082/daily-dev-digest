@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-03
+## 🔥 Latest edition — 2026-10-06
 
-> Theme: *Hand-built and low-level — tools that go back to the metal, plus a cockpit for supervising agents from anywhere.*
+> Theme: *Local inference gets serious, and models start answering in probabilities instead of prose.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Paseo** | Open-source, local-first interface for Claude Code, Codex, OpenCode and Pi, with desktop, web and mobile clients | Agent supervision moves off the laptop — watch runs from your phone, no telemetry or forced login |
-| **Rhun** | MIT code editor written in assembly, with a built-in terminal, Git diffs and room for agent sessions | A deliberate counterweight to heavyweight agent IDEs — keep the editor light |
-| **kcc** | A C17 compiler in ARM64 assembly, written as a ~1000-page literate book | Compiles itself, builds Lua, SQLite and DOOM, boots Linux — and credits Claude as co-author |
-| **OpenDLSS-NR** | Vulkan/WebGPU reimplementation of the DLSS 5 neural rendering network | An inspectable, vendor-independent take on a closed technique |
+| **ds4** | MIT C inference engine for running DeepSeek V4.x, GLM 5.x and Qwen 3.8 Flash locally on Apple Silicon, CUDA and ROCm | From Redis's creator, with 2-bit expert quantization and SSD-streamed KV cache — a front-page HN pitch for frontier-class local inference |
+| **Clef / Clef-flash** | Cloudflare's 27B and 9B Apache 2.0 decision models that return probabilities for typed questions, not text | A new slot in the agent stack: cheap, calibrated routing decisions with no output parsing (Amazon shipped a 2B Strands Decider the same day) |
+| **universal-modder** | Skills and a fal MCP server that let Claude Code mod almost any PC game | Topped GitHub trending on Oct 5 — skills + MCP moving into a hobbyist domain |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-03.md">archive/2026-10-03.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-06.md">archive/2026-10-06.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
