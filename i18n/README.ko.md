@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-06
+## 오늘 — 2026-10-07
 
-로컬 추론이 본격화되고, 모델은 문장 대신 확률로 답하기 시작한다.
+에이전트 배관 공사 — 샌드박스, 신원, 받은편지함, 공유 스킬.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **ds4** | DeepSeek V4.x, GLM 5.x, Qwen 3.8 Flash를 Apple Silicon·CUDA·ROCm에서 로컬로 돌리는 MIT 라이선스 C 추론 엔진 | Redis 창시자의 작품. 2비트 전문가 양자화와 SSD로 스트리밍하는 KV 캐시 — HN 메인에 오른 "프런티어급 로컬 추론" 제안 |
-| **Clef / Clef-flash** | 글 대신 타입이 있는 질문에 확률을 돌려주는 Cloudflare의 27B·9B Apache 2.0 결정 모델 | 에이전트 스택의 새 자리 — 출력 파싱 없이 보정된 확률로 싸게 분기·라우팅 (같은 날 Amazon도 2B Strands Decider 공개) |
-| **universal-modder** | Claude Code가 거의 모든 PC 게임을 모딩하게 해주는 스킬과 fal MCP 서버 | 10/5 GitHub 트렌딩 1위 — 스킬+MCP가 취미 영역으로 번지는 모습 |
+| **bVisor** | 사용자 공간에서 syscall을 가로채 에이전트의 bash를 호스트에서 바로 실행하는 Zig 샌드박스. 기동 약 2ms, Linux 전용 | 이번 달 Show HN — VM도 컨테이너도 없는 에이전트 격리 방식 (제작자 말로는 아직 초기 PoC) |
+| **sx** | Claude Code, Cursor, Copilot 등에 쓰는 스킬·MCP 설정·명령을 모아 두는 비공개 레지스트리 역할의 Apache 2.0 Go CLI | 스킬이 개인 dotfiles에 쌓여 가는 중 — 팀이 버전 관리하며 공유할 방법을 준다 |
+| **MachineAuth** | 수명 긴 API 키 대신 짧게 사는 토큰을 에이전트·서비스에 발급하는 오픈소스 인증 서버 | 에이전트가 진짜 자격 증명을 쥐게 됐고, 유출되는 고정 키가 약한 고리 |
+| **e2a** | 에이전트마다 메일 주소를 주고 SPF/DKIM 검사, 서명된 발신자 헤더, 발신 메일 사람 승인 옵션을 갖춘 Apache 2.0 이메일 게이트웨이 | 에이전트가 이메일로 사람과 안전하게 소통하는 방법에 대한 구체적인 답 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-06.md">archive/2026-10-06.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-07.md">archive/2026-10-07.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

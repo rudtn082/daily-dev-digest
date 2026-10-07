@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-06
+## 🔥 Latest edition — 2026-10-07
 
-> Theme: *Local inference gets serious, and models start answering in probabilities instead of prose.*
+> Theme: *Agent plumbing — sandboxes, identities, inboxes and shared skills.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **ds4** | MIT C inference engine for running DeepSeek V4.x, GLM 5.x and Qwen 3.8 Flash locally on Apple Silicon, CUDA and ROCm | From Redis's creator, with 2-bit expert quantization and SSD-streamed KV cache — a front-page HN pitch for frontier-class local inference |
-| **Clef / Clef-flash** | Cloudflare's 27B and 9B Apache 2.0 decision models that return probabilities for typed questions, not text | A new slot in the agent stack: cheap, calibrated routing decisions with no output parsing (Amazon shipped a 2B Strands Decider the same day) |
-| **universal-modder** | Skills and a fal MCP server that let Claude Code mod almost any PC game | Topped GitHub trending on Oct 5 — skills + MCP moving into a hobbyist domain |
+| **bVisor** | Zig sandbox that runs agent bash on the host by intercepting syscalls in userspace, ~2 ms spin-up, Linux only | Show HN this month — a no-VM, no-container take on agent isolation (early proof of concept, per its authors) |
+| **sx** | Apache 2.0 Go CLI that works as a private registry for skills, MCP configs and commands across Claude Code, Cursor, Copilot and more | Skills are piling up in personal dotfiles; this gives teams a versioned way to share them |
+| **MachineAuth** | Open-source auth server issuing short-lived tokens to agents and services instead of long-lived API keys | Agents now hold real credentials, and leaked static keys are the weak link |
+| **e2a** | Apache 2.0 email gateway giving each agent an address, with SPF/DKIM checks, signed sender headers and optional human approval for outbound mail | A concrete answer to how an agent safely talks to people over email |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-06.md">archive/2026-10-06.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-07.md">archive/2026-10-07.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

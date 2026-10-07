@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-06
+## 今天 — 2026-10-07
 
-本地推理走向严肃，模型开始用概率而不是文字作答。
+智能体的管道工程——沙箱、身份、收件箱与共享技能。
 
 | 入选 | 是什么 | 为什么值得关注 |
 |------|-----------|-----------|
-| **ds4** | 用 C 编写、MIT 许可的推理引擎，可在 Apple Silicon、CUDA 和 ROCm 上本地运行 DeepSeek V4.x、GLM 5.x 和 Qwen 3.8 Flash | 出自 Redis 作者之手，采用 2 比特专家量化并可把 KV 缓存流式写到 SSD——登上 HN 首页的"前沿级本地推理"方案 |
-| **Clef / Clef-flash** | Cloudflare 的 27B 和 9B Apache 2.0 决策模型，对带类型的问题返回概率而非文字 | 智能体技术栈里的新位置——无需解析输出，用校准过的概率做低成本分支与路由(Amazon 同日也发布了 2B 的 Strands Decider) |
-| **universal-modder** | 让 Claude Code 给几乎任何 PC 游戏做 MOD 的技能和 fal MCP 服务器 | 10 月 5 日登顶 GitHub 趋势榜——技能 + MCP 正在走进爱好者领域 |
+| **bVisor** | 用 Zig 编写的沙箱，在用户态拦截 syscall，让智能体的 bash 直接在宿主机上运行，启动约 2 毫秒，仅支持 Linux | 本月 Show HN——不用虚拟机也不用容器的智能体隔离思路(作者称仍是早期概念验证) |
+| **sx** | Apache 2.0 许可的 Go 命令行工具，相当于私有注册表，用来分发 Claude Code、Cursor、Copilot 等使用的技能、MCP 配置和命令 | 技能正堆在个人 dotfiles 里——团队终于有了带版本的共享方式 |
+| **MachineAuth** | 开源认证服务器，给智能体和服务签发短期令牌，而不是长期有效的 API 密钥 | 智能体如今握有真实凭据，泄露的静态密钥是薄弱环节 |
+| **e2a** | Apache 2.0 许可的邮件网关，为每个智能体分配邮箱地址，带 SPF/DKIM 校验、签名的发件人头，外发邮件可选人工审批 | 对"智能体如何通过邮件安全地与人沟通"的具体回答 |
 
-<sub>本期来源见 <a href="../archive/2026-10-06.md">archive/2026-10-06.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-07.md">archive/2026-10-07.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
