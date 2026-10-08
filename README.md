@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-07
+## 🔥 Latest edition — 2026-10-08
 
-> Theme: *Agent plumbing — sandboxes, identities, inboxes and shared skills.*
+> Theme: *Local-first and open-licensed — free creative suites, on-device search, a Git for agents, and a 150-language translator.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **bVisor** | Zig sandbox that runs agent bash on the host by intercepting syscalls in userspace, ~2 ms spin-up, Linux only | Show HN this month — a no-VM, no-container take on agent isolation (early proof of concept, per its authors) |
-| **sx** | Apache 2.0 Go CLI that works as a private registry for skills, MCP configs and commands across Claude Code, Cursor, Copilot and more | Skills are piling up in personal dotfiles; this gives teams a versioned way to share them |
-| **MachineAuth** | Open-source auth server issuing short-lived tokens to agents and services instead of long-lived API keys | Agents now hold real credentials, and leaked static keys are the weak link |
-| **e2a** | Apache 2.0 email gateway giving each agent an address, with SPF/DKIM checks, signed sender headers and optional human approval for outbound mail | A concrete answer to how an agent safely talks to people over email |
+| **ArtCraft** | Seven free Rust apps mirroring Adobe's lineup (photo, raw, video, vector, PDF, effects, layout), MIT/Apache 2.0, optional paid AI credits | Hacker News front-page buzz this week — open code that survives even if the company doesn't |
+| **Cloudflare Artifacts** | Versioned filesystem that speaks Git, with programmatic repos, forks and Workers hooks; open beta | Git assumes one human at a time — this targets thousands of agents on one codebase |
+| **SCM (Screen Memories)** | MIT-licensed macOS app for searching photos and videos by meaning, scene, on-screen text and dialogue, fully offline | Show HN this week — a concrete, no-cloud multimodal search example |
+| **Index-Translate-35B-A3B-preview** | Apache 2.0 MoE translator (35B total, 3B active) covering 150 languages, with 2B/9B siblings | Only 3B active params for broad coverage; vendor-reported scores, still a preview |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-07.md">archive/2026-10-07.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-08.md">archive/2026-10-08.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
