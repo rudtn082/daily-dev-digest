@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-08
+## 🔥 Latest edition — 2026-10-11
 
-> Theme: *Local-first and open-licensed — free creative suites, on-device search, a Git for agents, and a 150-language translator.*
+> Theme: *Agents get new output formats — video and CAD from a prompt, a remote GPU over the wire — and a 1996 classic rewritten in Rust.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **ArtCraft** | Seven free Rust apps mirroring Adobe's lineup (photo, raw, video, vector, PDF, effects, layout), MIT/Apache 2.0, optional paid AI credits | Hacker News front-page buzz this week — open code that survives even if the company doesn't |
-| **Cloudflare Artifacts** | Versioned filesystem that speaks Git, with programmatic repos, forks and Workers hooks; open beta | Git assumes one human at a time — this targets thousands of agents on one codebase |
-| **SCM (Screen Memories)** | MIT-licensed macOS app for searching photos and videos by meaning, scene, on-screen text and dialogue, fully offline | Show HN this week — a concrete, no-cloud multimodal search example |
-| **Index-Translate-35B-A3B-preview** | Apache 2.0 MoE translator (35B total, 3B active) covering 150 languages, with 2B/9B siblings | Only 3B active params for broad coverage; vendor-reported scores, still a preview |
+| **HyperFrames** | HeyGen's Apache 2.0 framework that renders HTML/CSS/animations to deterministic MP4 via headless Chrome and FFmpeg, with agent skills | On GitHub weekly trending — video as plain web code that an agent can edit and diff |
+| **text-to-cad** | MIT plugin/skills library giving coding agents CAD workflows: STEP/STL/3MF/GLB models, DFM checks, engineering drawings | On GitHub weekly trending — pushes agents from screens toward manufacturable parts |
+| **rGPU** | PyTorch `rgpu` device and CUDA shim that run GPU work on a remote NVIDIA machine | Show HN this week — neat laptop-plus-GPU-box idea, but unauthenticated and unencrypted, so tunnel it |
+| **QUAKE·SRP** | Quake ported to Rust from its GPL source, software-rendered in the browser | Show HN buzz this week — a playable classic in a memory-safe language |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-08.md">archive/2026-10-08.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-11.md">archive/2026-10-11.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

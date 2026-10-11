@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-08
+## 今天 — 2026-10-11
 
-本地优先、开放许可——免费创作套件、端侧搜索、面向智能体的 Git,以及支持 150 种语言的翻译模型。
+智能体的新产出形式——用提示词生成视频和 CAD、跨网络调用远程 GPU——以及用 Rust 重写的 1996 年经典。
 
 | 入选 | 是什么 | 为什么值得关注 |
 |------|-----------|-----------|
-| **ArtCraft** | 用 Rust 编写的 7 款免费应用,对标 Adobe 全家桶(照片、RAW、视频、矢量、PDF、特效、排版)。MIT/Apache 2.0,AI 额度为可选付费 | 本周在 Hacker News 上热度很高——即使公司倒闭,代码依然开放 |
-| **Cloudflare Artifacts** | 支持 Git 协议的版本化文件系统,可通过代码创建、派生仓库,并与 Workers 联动。公开测试版 | Git 默认一次只有一个人在改,这个则面向成千上万智能体同时操作同一代码库 |
-| **SCM (Screen Memories)** | MIT 许可的 macOS 应用,按语义、场景、画面文字和对白搜索照片与视频,完全离线 | 本周 Show HN——无需云端的多模态搜索的具体范例 |
-| **Index-Translate-35B-A3B-preview** | Apache 2.0 许可的 MoE 翻译模型(总参数 35B,激活 3B),覆盖 150 种语言,另有 2B/9B 版本 | 仅 3B 激活参数就能广覆盖;分数为厂商自报,仍是预览版 |
+| **HyperFrames** | HeyGen 的 Apache 2.0 框架,用无头 Chrome 和 FFmpeg 把 HTML/CSS/动画渲染成确定性的 MP4,并附带智能体技能 | 登上 GitHub 周榜——把视频当作智能体可编辑、可 diff 的网页代码 |
+| **text-to-cad** | 为编码智能体提供 CAD 工作流的 MIT 插件/技能库:STEP/STL/3MF/GLB 模型、DFM 检查、工程图 | 登上 GitHub 周榜——让智能体从屏幕走向可制造的零件 |
+| **rGPU** | 在远程 NVIDIA 机器上运行 GPU 任务的 PyTorch `rgpu` 设备和 CUDA shim | 本周 Show HN——笔记本加 GPU 服务器的好点子,但无认证无加密,务必走隧道 |
+| **QUAKE·SRP** | 基于 GPL 源码用 Rust 移植的 Quake,在浏览器中软件渲染 | 本周 Show HN 热门——用内存安全语言复活的经典,打开就能玩 |
 
-<sub>本期来源见 <a href="../archive/2026-10-08.md">archive/2026-10-08.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-11.md">archive/2026-10-11.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

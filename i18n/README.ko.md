@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-08
+## 오늘 — 2026-10-11
 
-로컬 우선, 오픈 라이선스 — 무료 창작 도구, 온디바이스 검색, 에이전트용 Git, 150개 언어 번역기.
+에이전트의 새로운 출력물 — 프롬프트로 영상과 CAD를, 네트워크 너머의 GPU를 — 그리고 Rust로 다시 쓴 1996년의 고전.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **ArtCraft** | 어도비 라인업(사진, RAW, 영상, 벡터, PDF, 이펙트, 레이아웃)을 본뜬 Rust 제작 무료 앱 7종. MIT/Apache 2.0, 선택형 유료 AI 크레딧 | 이번 주 Hacker News에서 화제 — 회사가 사라져도 코드는 남는 구조 |
-| **Cloudflare Artifacts** | Git을 쓰는 버전 관리형 파일시스템. 코드로 저장소 생성·포크, Workers 연동. 오픈 베타 | Git은 한 번에 한 사람을 전제로 하지만, 이건 하나의 코드베이스에 수천 에이전트가 붙는 상황을 겨냥 |
-| **SCM (Screen Memories)** | 사진·영상을 의미, 장면, 화면 속 글자, 대사로 검색하는 MIT 라이선스 macOS 앱. 완전 오프라인 | 이번 주 Show HN — 클라우드 없는 멀티모달 검색의 구체적인 사례 |
-| **Index-Translate-35B-A3B-preview** | 150개 언어를 다루는 Apache 2.0 MoE 번역 모델(전체 35B, 활성 3B). 2B/9B 형제 모델 포함 | 활성 파라미터 3B로 폭넓은 언어 커버. 점수는 제작사 발표, 아직 프리뷰 |
+| **HyperFrames** | HTML/CSS/애니메이션을 헤드리스 Chrome과 FFmpeg로 결정적 MP4로 렌더링하는 HeyGen의 Apache 2.0 프레임워크. 에이전트용 스킬 포함 | GitHub 주간 트렌딩 — 영상을 에이전트가 고치고 diff 볼 수 있는 웹 코드로 다룸 |
+| **text-to-cad** | 코딩 에이전트에 CAD 워크플로를 붙여주는 MIT 플러그인/스킬 모음. STEP/STL/3MF/GLB 모델, DFM 검사, 도면 생성 | GitHub 주간 트렌딩 — 에이전트가 화면을 넘어 실제 제작 가능한 부품으로 향함 |
+| **rGPU** | 원격 NVIDIA 머신에서 GPU 작업을 돌리는 PyTorch `rgpu` 디바이스와 CUDA shim | 이번 주 Show HN — 노트북+GPU 서버 구성에 쓸 만한 아이디어. 다만 인증·암호화가 없으니 터널 필수 |
+| **QUAKE·SRP** | GPL 소스에서 Rust로 포팅한 Quake. 브라우저에서 소프트웨어 렌더링 | 이번 주 Show HN에서 화제 — 메모리 안전 언어로 되살린 고전을 바로 플레이 가능 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-08.md">archive/2026-10-08.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-11.md">archive/2026-10-11.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
