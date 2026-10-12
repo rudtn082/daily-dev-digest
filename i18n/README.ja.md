@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今日 — 2026-10-11
+## 今日 — 2026-10-12
 
-エージェントの新しいアウトプット — プロンプトから動画とCAD、ネットワーク越しのGPU — そしてRustで書き直された1996年の名作。
+エージェントが外へ手を伸ばす——ウェブへ、画面へ——そしてスマホのキャリア設定を読み解く小さなオープンデータセット。
 
 | ピック | 何か | 気になった理由 |
 |------|-----------|-----------|
-| **HyperFrames** | HTML/CSS/アニメーションをヘッドレスChromeとFFmpegで決定的なMP4にレンダリングするHeyGenのApache 2.0フレームワーク。エージェント用スキル付き | GitHub週間トレンド入り — 動画をエージェントが編集・diffできるWebコードとして扱う |
-| **text-to-cad** | コーディングエージェントにCADワークフローを与えるMITのプラグイン/スキル集。STEP/STL/3MF/GLBモデル、DFMチェック、図面生成 | GitHub週間トレンド入り — エージェントが画面の外、製造できる部品へ踏み出す |
-| **rGPU** | リモートのNVIDIAマシンでGPU処理を行うPyTorchの`rgpu`デバイスとCUDA shim | 今週のShow HN — ノートPC+GPUサーバー構成に便利な発想。ただし認証・暗号化なしなのでトンネル必須 |
-| **QUAKE·SRP** | GPLソースからRustに移植したQuake。ブラウザ上でソフトウェアレンダリング | 今週Show HNで話題 — メモリ安全な言語でよみがえった名作がそのまま遊べる |
+| **Agent-Reach** | エージェントが Twitter/X、Reddit、YouTube、GitHub、RSS、ウェブを読んで検索できる MIT の CLI。バックエンドのフォールバック付き | 10月10日の GitHub トレンドレポートに登場——スクレイパーが壊れてもバックエンドを差し替えて吸収。Cookie 利用はアカウント制限のリスクあり |
+| **bigarrow** | クリックを通す矢印を画面上に描く macOS 用 Swift CLI。Claude Code・Codex 向けスキル同梱 | Show HN——エージェントが自分でクリックせず、ボタンを指し示す。より安全なヒューマン・イン・ザ・ループ |
+| **Carrier-Explode** | iPhone・Pixel・Galaxy のキャリア設定(APN、VoLTE、Wi-Fi Calling、5G)を読み解くオープンソース。JSON API と CC0 データセット | Show HN——不透明だったキャリア設定が差分を追える公開データに |
+| **nanobot** | HKUDS の MIT 製 Python セルフホスト型エージェント。WebUI、チャットアプリ、MCP、サブエージェント、メモリ | 同じトレンドレポート——巨大プラットフォームではなく、読める小さなコア |
 
-<sub>今日の出典は <a href="../archive/2026-10-11.md">archive/2026-10-11.md</a> にあります。</sub>
+<sub>今日の出典は <a href="../archive/2026-10-12.md">archive/2026-10-12.md</a> にあります。</sub>
 <!-- LATEST:END -->
 
 ---

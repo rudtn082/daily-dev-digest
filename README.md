@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-11
+## 🔥 Latest edition — 2026-10-12
 
-> Theme: *Agents get new output formats — video and CAD from a prompt, a remote GPU over the wire — and a 1996 classic rewritten in Rust.*
+> Theme: *Agents reach outward — onto the open web, onto your screen — plus a small open dataset that decodes what your phone's carrier is really doing.*
 
 | Pick | What it is | Why it's on the radar |
-|------|-----------|-----------|
-| **HyperFrames** | HeyGen's Apache 2.0 framework that renders HTML/CSS/animations to deterministic MP4 via headless Chrome and FFmpeg, with agent skills | On GitHub weekly trending — video as plain web code that an agent can edit and diff |
-| **text-to-cad** | MIT plugin/skills library giving coding agents CAD workflows: STEP/STL/3MF/GLB models, DFM checks, engineering drawings | On GitHub weekly trending — pushes agents from screens toward manufacturable parts |
-| **rGPU** | PyTorch `rgpu` device and CUDA shim that run GPU work on a remote NVIDIA machine | Show HN this week — neat laptop-plus-GPU-box idea, but unauthenticated and unencrypted, so tunnel it |
-| **QUAKE·SRP** | Quake ported to Rust from its GPL source, software-rendered in the browser | Show HN buzz this week — a playable classic in a memory-safe language |
+|------|-----------|-----------------------|
+| **Agent-Reach** | MIT CLI that lets agents read and search Twitter/X, Reddit, YouTube, GitHub, RSS and the web, with backend fallback | In an Oct 10 GitHub trends report — swappable backends hide scraper churn. Cookie access can get accounts flagged |
+| **bigarrow** | macOS Swift CLI that draws a click-through arrow on screen; ships a skill for Claude Code and Codex | Show HN — the agent points at the button instead of clicking it, a safer human-in-the-loop |
+| **Carrier-Explode** | Open-source decoder of iPhone, Pixel and Galaxy carrier settings (APNs, VoLTE, Wi-Fi Calling, 5G) with a JSON API and CC0 dataset | Show HN — opaque carrier blobs become a diffable public dataset |
+| **nanobot** | HKUDS's MIT Python self-hosted agent: WebUI, chat apps, MCP, subagents, memory | In the same trends report — a small readable core instead of a giant platform |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-11.md">archive/2026-10-11.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-12.md">archive/2026-10-12.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

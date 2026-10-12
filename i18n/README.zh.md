@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-11
+## 今天 — 2026-10-12
 
-智能体的新产出形式——用提示词生成视频和 CAD、跨网络调用远程 GPU——以及用 Rust 重写的 1996 年经典。
+智能体向外伸手——伸向网络、伸向屏幕——外加一个解读手机运营商配置的小型开放数据集。
 
-| 入选 | 是什么 | 为什么值得关注 |
+| 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **HyperFrames** | HeyGen 的 Apache 2.0 框架,用无头 Chrome 和 FFmpeg 把 HTML/CSS/动画渲染成确定性的 MP4,并附带智能体技能 | 登上 GitHub 周榜——把视频当作智能体可编辑、可 diff 的网页代码 |
-| **text-to-cad** | 为编码智能体提供 CAD 工作流的 MIT 插件/技能库:STEP/STL/3MF/GLB 模型、DFM 检查、工程图 | 登上 GitHub 周榜——让智能体从屏幕走向可制造的零件 |
-| **rGPU** | 在远程 NVIDIA 机器上运行 GPU 任务的 PyTorch `rgpu` 设备和 CUDA shim | 本周 Show HN——笔记本加 GPU 服务器的好点子,但无认证无加密,务必走隧道 |
-| **QUAKE·SRP** | 基于 GPL 源码用 Rust 移植的 Quake,在浏览器中软件渲染 | 本周 Show HN 热门——用内存安全语言复活的经典,打开就能玩 |
+| **Agent-Reach** | 让智能体读取并搜索 Twitter/X、Reddit、YouTube、GitHub、RSS 和网页的 MIT 命令行工具,带后端回退 | 出现在 10 月 10 日的 GitHub 趋势报告——爬虫失效时可切换后端。使用 Cookie 有被封号风险 |
+| **bigarrow** | 在屏幕上绘制可点击穿透箭头的 macOS Swift 命令行工具,附带 Claude Code 和 Codex 技能 | Show HN——智能体不再自己点击,而是指给你看按钮,人在回路更安全 |
+| **Carrier-Explode** | 解码 iPhone、Pixel、Galaxy 运营商配置(APN、VoLTE、Wi-Fi Calling、5G)的开源项目,提供 JSON API 和 CC0 数据集 | Show HN——原本不透明的运营商配置变成可对比差异的公开数据 |
+| **nanobot** | HKUDS 的 MIT 协议 Python 自托管智能体:WebUI、聊天应用、MCP、子智能体、记忆 | 同一份趋势报告——不是庞大平台,而是可读的小核心 |
 
-<sub>本期来源见 <a href="../archive/2026-10-11.md">archive/2026-10-11.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-12.md">archive/2026-10-12.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

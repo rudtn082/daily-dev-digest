@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-11
+## 오늘 — 2026-10-12
 
-에이전트의 새로운 출력물 — 프롬프트로 영상과 CAD를, 네트워크 너머의 GPU를 — 그리고 Rust로 다시 쓴 1996년의 고전.
+에이전트가 바깥으로 손을 뻗는다 — 웹으로, 화면으로 — 그리고 휴대폰 통신사 설정을 풀어 읽는 작은 오픈 데이터셋.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **HyperFrames** | HTML/CSS/애니메이션을 헤드리스 Chrome과 FFmpeg로 결정적 MP4로 렌더링하는 HeyGen의 Apache 2.0 프레임워크. 에이전트용 스킬 포함 | GitHub 주간 트렌딩 — 영상을 에이전트가 고치고 diff 볼 수 있는 웹 코드로 다룸 |
-| **text-to-cad** | 코딩 에이전트에 CAD 워크플로를 붙여주는 MIT 플러그인/스킬 모음. STEP/STL/3MF/GLB 모델, DFM 검사, 도면 생성 | GitHub 주간 트렌딩 — 에이전트가 화면을 넘어 실제 제작 가능한 부품으로 향함 |
-| **rGPU** | 원격 NVIDIA 머신에서 GPU 작업을 돌리는 PyTorch `rgpu` 디바이스와 CUDA shim | 이번 주 Show HN — 노트북+GPU 서버 구성에 쓸 만한 아이디어. 다만 인증·암호화가 없으니 터널 필수 |
-| **QUAKE·SRP** | GPL 소스에서 Rust로 포팅한 Quake. 브라우저에서 소프트웨어 렌더링 | 이번 주 Show HN에서 화제 — 메모리 안전 언어로 되살린 고전을 바로 플레이 가능 |
+| **Agent-Reach** | 에이전트가 Twitter/X, Reddit, YouTube, GitHub, RSS, 웹을 읽고 검색하게 해주는 MIT CLI. 백엔드 폴백 지원 | 10월 10일 GitHub 트렌드 리포트에 등장 — 스크래퍼가 깨져도 백엔드를 갈아끼워 흡수. 쿠키 접근은 계정 제재 위험이 있음 |
+| **bigarrow** | 화면 위에 클릭이 통과되는 화살표를 그리는 macOS Swift CLI. Claude Code·Codex용 스킬 포함 | Show HN — 에이전트가 직접 클릭하는 대신 버튼을 가리켜 주는, 더 안전한 사람 개입 방식 |
+| **Carrier-Explode** | iPhone·Pixel·Galaxy 통신사 설정(APN, VoLTE, Wi-Fi Calling, 5G)을 풀어낸 오픈소스. JSON API와 CC0 데이터셋 제공 | Show HN — 불투명했던 통신사 설정이 diff 가능한 공개 데이터가 됨 |
+| **nanobot** | HKUDS의 MIT Python 셀프호스팅 에이전트. WebUI, 채팅앱, MCP, 서브에이전트, 메모리 | 같은 트렌드 리포트 — 거대 플랫폼 대신 읽을 수 있는 작은 코어 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-11.md">archive/2026-10-11.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-12.md">archive/2026-10-12.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
