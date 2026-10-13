@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-12
+## 今天 — 2026-10-13
 
-智能体向外伸手——伸向网络、伸向屏幕——外加一个解读手机运营商配置的小型开放数据集。
+用着自由,托管也自由——面向维护者的 AI 漏洞扫描、欧洲的开放权重 MoE,以及可自托管的 Canva 替代品。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Agent-Reach** | 让智能体读取并搜索 Twitter/X、Reddit、YouTube、GitHub、RSS 和网页的 MIT 命令行工具,带后端回退 | 出现在 10 月 10 日的 GitHub 趋势报告——爬虫失效时可切换后端。使用 Cookie 有被封号风险 |
-| **bigarrow** | 在屏幕上绘制可点击穿透箭头的 macOS Swift 命令行工具,附带 Claude Code 和 Codex 技能 | Show HN——智能体不再自己点击,而是指给你看按钮,人在回路更安全 |
-| **Carrier-Explode** | 解码 iPhone、Pixel、Galaxy 运营商配置(APN、VoLTE、Wi-Fi Calling、5G)的开源项目,提供 JSON API 和 CC0 数据集 | Show HN——原本不透明的运营商配置变成可对比差异的公开数据 |
-| **nanobot** | HKUDS 的 MIT 协议 Python 自托管智能体:WebUI、聊天应用、MCP、子智能体、记忆 | 同一份趋势报告——不是庞大平台,而是可读的小核心 |
+| **OSS Scanner** | Anthropic 为开源项目免费提供的自愿加入式漏洞扫描,通过 PR 报名 | 10 月 8 日上线——AI 挖漏洞变成可报名的服务。但报告未经人工分拣,可能有误报 |
+| **Kolibri** | Aleph Alpha 约 78B 的德语/英语 MoE(激活约 3.5B),Apache 2.0 权重 | 10 月 3 日发布——来自欧洲的自托管选择。基准测试为厂商自报 |
+| **Doory** | 可自托管的开源 Canva 替代品:模板、协同编辑、导出 PNG/PDF/SVG/MP4/GIF | 10 月 12 日登上 HN 首页——许可证要求显著标注作者署名 |
 
-<sub>本期来源见 <a href="../archive/2026-10-12.md">archive/2026-10-12.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-13.md">archive/2026-10-13.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

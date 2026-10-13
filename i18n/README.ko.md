@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-12
+## 오늘 — 2026-10-13
 
-에이전트가 바깥으로 손을 뻗는다 — 웹으로, 화면으로 — 그리고 휴대폰 통신사 설정을 풀어 읽는 작은 오픈 데이터셋.
+쓰는 것도 무료, 호스팅도 자유 — 메인테이너를 위한 AI 취약점 스캔, 유럽산 오픈 웨이트 MoE, 셀프호스팅 가능한 Canva 대안.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Agent-Reach** | 에이전트가 Twitter/X, Reddit, YouTube, GitHub, RSS, 웹을 읽고 검색하게 해주는 MIT CLI. 백엔드 폴백 지원 | 10월 10일 GitHub 트렌드 리포트에 등장 — 스크래퍼가 깨져도 백엔드를 갈아끼워 흡수. 쿠키 접근은 계정 제재 위험이 있음 |
-| **bigarrow** | 화면 위에 클릭이 통과되는 화살표를 그리는 macOS Swift CLI. Claude Code·Codex용 스킬 포함 | Show HN — 에이전트가 직접 클릭하는 대신 버튼을 가리켜 주는, 더 안전한 사람 개입 방식 |
-| **Carrier-Explode** | iPhone·Pixel·Galaxy 통신사 설정(APN, VoLTE, Wi-Fi Calling, 5G)을 풀어낸 오픈소스. JSON API와 CC0 데이터셋 제공 | Show HN — 불투명했던 통신사 설정이 diff 가능한 공개 데이터가 됨 |
-| **nanobot** | HKUDS의 MIT Python 셀프호스팅 에이전트. WebUI, 채팅앱, MCP, 서브에이전트, 메모리 | 같은 트렌드 리포트 — 거대 플랫폼 대신 읽을 수 있는 작은 코어 |
+| **OSS Scanner** | Anthropic이 오픈소스 프로젝트에 무료로 제공하는 옵트인 취약점 스캔. PR로 신청 | 10월 8일 출시 — AI 버그 사냥이 가입형 서비스로. 다만 사람의 검토 없이 보고서가 나가고 오탐도 있을 수 있음 |
+| **Kolibri** | Aleph Alpha의 약 78B 독일어/영어 MoE(활성 약 3.5B). Apache 2.0 가중치 | 10월 3일 공개 — 유럽산 셀프호스팅 선택지. 벤치마크는 벤더 발표 수치 |
+| **Doory** | 셀프호스팅 가능한 오픈소스 Canva 대안. 템플릿, 공동 편집, PNG/PDF/SVG/MP4/GIF 내보내기 | 10월 12일 HN 프론트 등장 — 라이선스상 저작자 표기가 필수 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-12.md">archive/2026-10-12.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-13.md">archive/2026-10-13.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-12
+## 🔥 Latest edition — 2026-10-13
 
-> Theme: *Agents reach outward — onto the open web, onto your screen — plus a small open dataset that decodes what your phone's carrier is really doing.*
+> Theme: *Free to use, free to host — AI vuln scans for maintainers, a European open-weight MoE, and a self-hostable Canva alternative.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Agent-Reach** | MIT CLI that lets agents read and search Twitter/X, Reddit, YouTube, GitHub, RSS and the web, with backend fallback | In an Oct 10 GitHub trends report — swappable backends hide scraper churn. Cookie access can get accounts flagged |
-| **bigarrow** | macOS Swift CLI that draws a click-through arrow on screen; ships a skill for Claude Code and Codex | Show HN — the agent points at the button instead of clicking it, a safer human-in-the-loop |
-| **Carrier-Explode** | Open-source decoder of iPhone, Pixel and Galaxy carrier settings (APNs, VoLTE, Wi-Fi Calling, 5G) with a JSON API and CC0 dataset | Show HN — opaque carrier blobs become a diffable public dataset |
-| **nanobot** | HKUDS's MIT Python self-hosted agent: WebUI, chat apps, MCP, subagents, memory | In the same trends report — a small readable core instead of a giant platform |
+| **OSS Scanner** | Anthropic's free, opt-in vulnerability scanning for open-source projects; enroll by PR | Launched Oct 8 — AI bug-hunting as a signup service, but reports get no human triage and some may be invalid |
+| **Kolibri** | Aleph Alpha's ~78B German/English MoE (~3.5B active), Apache 2.0 weights | Oct 3 release — a European self-hosting option; benchmarks are vendor-reported |
+| **Doory** | Open-source, self-hostable Canva alternative: templates, co-editing, PNG/PDF/SVG/MP4/GIF export | On the HN front page Oct 12 — note the license requires visible author credit |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-12.md">archive/2026-10-12.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-13.md">archive/2026-10-13.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
