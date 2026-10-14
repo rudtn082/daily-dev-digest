@@ -23,17 +23,19 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-13
+## 🔥 Latest edition — 2026-10-14
 
-> Theme: *Free to use, free to host — AI vuln scans for maintainers, a European open-weight MoE, and a self-hostable Canva alternative.*
+> Theme: *Keeping agents honest — measuring code bloat, linting AI slop, packaging engineering habits as skills, plus two Rust builds.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **OSS Scanner** | Anthropic's free, opt-in vulnerability scanning for open-source projects; enroll by PR | Launched Oct 8 — AI bug-hunting as a signup service, but reports get no human triage and some may be invalid |
-| **Kolibri** | Aleph Alpha's ~78B German/English MoE (~3.5B active), Apache 2.0 weights | Oct 3 release — a European self-hosting option; benchmarks are vendor-reported |
-| **Doory** | Open-source, self-hostable Canva alternative: templates, co-editing, PNG/PDF/SVG/MP4/GIF export | On the HN front page Oct 12 — note the license requires visible author credit |
+| **Parsimony** | Open-source benchmark that ranks AI models by how much code they add to solved tasks | Puts a number on agent over-writing — though more code correlates with more solves, and size isn't quality |
+| **ai-deslop** | Oxlint rules that reject low-signal patterns in AI-generated TypeScript | Turns "review the agent's output" into a lint step that can fail CI |
+| **mattpocock/skills** | ~27 installable agent skills (spec, tickets, TDD, bug diagnosis) for Claude Code, Codex, Copilot, Gemini CLI | On GitHub's weekly trending list — a well-known engineer's agent workflow, published as-is |
+| **SolidCraft** | Parametric CAD in pure Rust: desktop, browser, CLI, plus an MCP server for agents | Show HN pick; the README itself says "early but usable for simple parts" |
+| **mosh-rs** | Mosh rewritten in Rust, wire-compatible with mosh 1.4, with scrollback and a native Windows client | Adds the two things mosh users keep asking for — but it's pre-alpha |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-13.md">archive/2026-10-13.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-14.md">archive/2026-10-14.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
