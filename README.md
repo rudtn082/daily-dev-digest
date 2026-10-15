@@ -23,19 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-14
+## 🔥 Latest edition — 2026-10-15
 
-> Theme: *Keeping agents honest — measuring code bloat, linting AI slop, packaging engineering habits as skills, plus two Rust builds.*
+> Theme: *Agents reach for old tools — disassemblers, MCP, and a frontier model whose weights are still pending.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Parsimony** | Open-source benchmark that ranks AI models by how much code they add to solved tasks | Puts a number on agent over-writing — though more code correlates with more solves, and size isn't quality |
-| **ai-deslop** | Oxlint rules that reject low-signal patterns in AI-generated TypeScript | Turns "review the agent's output" into a lint step that can fail CI |
-| **mattpocock/skills** | ~27 installable agent skills (spec, tickets, TDD, bug diagnosis) for Claude Code, Codex, Copilot, Gemini CLI | On GitHub's weekly trending list — a well-known engineer's agent workflow, published as-is |
-| **SolidCraft** | Parametric CAD in pure Rust: desktop, browser, CLI, plus an MCP server for agents | Show HN pick; the README itself says "early but usable for simple parts" |
-| **mosh-rs** | Mosh rewritten in Rust, wire-compatible with mosh 1.4, with scrollback and a native Windows client | Adds the two things mosh users keep asking for — but it's pre-alpha |
+| **REA** | MIT-licensed MCP bridge from coding agents to Ghidra, Hopper and IDA, for binaries, APKs, Electron apps and firmware | Lets the agent ask the disassembler for evidence — but runtime capture runs the target with your permissions |
+| **Pi 1.0** | Earendil's minimal agent harness, now with Codemode sandbox, deferred tool loading and Pi Durable | Pi was the "MCP is unnecessary" harness; 1.0 adds MCP support |
+| **Beam** | Reflection AI's 501B-parameter (23B active) open-weight MoE with 1M context | Weights promised for October, not out yet — benchmark claims are the company's own |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-14.md">archive/2026-10-14.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-15.md">archive/2026-10-15.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

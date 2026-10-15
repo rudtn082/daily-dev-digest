@@ -21,19 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-14
+## 今天 — 2026-10-15
 
-让智能体保持诚实——衡量代码膨胀、检查 AI 劣质代码、把工程习惯做成技能包,外加两个 Rust 项目。
+智能体伸手去拿老工具——反汇编器、MCP,以及权重尚未放出的前沿模型。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Parsimony** | 开源基准测试,按 AI 模型在已解决任务中新增的代码量排名 | 把智能体"写太多"的问题量化——不过代码越多解决率往往越高,体量不等于质量 |
-| **ai-deslop** | 拦截 AI 生成 TypeScript 中低信号写法的 Oxlint 规则集 | 把"审查智能体产出"变成可让 CI 失败的 lint 步骤 |
-| **mattpocock/skills** | 适用于 Claude Code、Codex、Copilot、Gemini CLI 的可安装智能体技能约 27 个(规格、工单、TDD、排错) | 登上 GitHub 周趋势榜——知名工程师的智能体工作流原样公开 |
-| **SolidCraft** | 纯 Rust 参数化 CAD,支持桌面、浏览器、CLI,并带面向智能体的 MCP 服务器 | Show HN 精选——README 自己写明"简单零件已可用,仍处早期" |
-| **mosh-rs** | 与 mosh 1.4 线协议兼容的 Rust 重写版,支持滚动回看和原生 Windows 客户端 | 补上 mosh 用户长期想要的两项功能——但仍是 pre-alpha |
+| **REA** | 把编码智能体接到 Ghidra、Hopper、IDA 的 MIT 协议 MCP 桥接,可分析二进制、APK、Electron 应用和固件 | 让智能体向反汇编器索取证据——但运行时捕获会以你的权限执行目标程序 |
+| **Pi 1.0** | Earendil 的极简智能体框架,新增 Codemode 沙箱、延迟工具加载和 Pi Durable | 曾主张"MCP 没必要"的框架,在 1.0 中支持了 MCP |
+| **Beam** | Reflection AI 的 501B 参数(激活 23B)开放权重 MoE,100 万 token 上下文 | 权重承诺 10 月发布,目前尚未放出——基准成绩为公司自述 |
 
-<sub>本期来源见 <a href="../archive/2026-10-14.md">archive/2026-10-14.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-15.md">archive/2026-10-15.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
