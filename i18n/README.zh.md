@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-15
+## 今天 — 2026-10-16
 
-智能体伸手去拿老工具——反汇编器、MCP,以及权重尚未放出的前沿模型。
+隔离、协议与巨型模型——给智能体用的沙箱、智能体之间通信的 CLI,以及两个大型开放权重 MoE。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **REA** | 把编码智能体接到 Ghidra、Hopper、IDA 的 MIT 协议 MCP 桥接,可分析二进制、APK、Electron 应用和固件 | 让智能体向反汇编器索取证据——但运行时捕获会以你的权限执行目标程序 |
-| **Pi 1.0** | Earendil 的极简智能体框架,新增 Codemode 沙箱、延迟工具加载和 Pi Durable | 曾主张"MCP 没必要"的框架,在 1.0 中支持了 MCP |
-| **Beam** | Reflection AI 的 501B 参数(激活 23B)开放权重 MoE,100 万 token 上下文 | 权重承诺 10 月发布,目前尚未放出——基准成绩为公司自述 |
+| **Perplexity SPACE** | Perplexity 的智能体隔离沙箱已开源,CoreWeave、Akamai、Crusoe 提供托管 | 称九个前沿模型的 118 次越狱尝试全部失败——公司自述 |
+| **A2A CLI** | 用于发现 Agent2Agent 智能体并发送消息的 Apache 2.0 终端工具,`--exec` 可把 stdin/stdout 脚本变成 A2A 服务 | A2A 有规范和 SDK 却缺少趁手工具,这是个类似 curl 的客户端 |
+| **Step 5 Preview** | 阶跃星辰的 600B 稀疏 MoE(激活 27B),100 万 token 上下文,支持文本+视觉,权重已上 Hugging Face | 面向长程智能体任务——预览版,报道未确认许可证 |
+| **Muse Spark Open** | Meta 的 816B(激活 42B)原生多模态开放权重 MoE,100 万 token 上下文 | 据报道两台 Mac Studio 即可运行——许可证请查看模型卡 |
 
-<sub>本期来源见 <a href="../archive/2026-10-15.md">archive/2026-10-15.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-16.md">archive/2026-10-16.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

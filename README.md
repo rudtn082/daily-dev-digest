@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-15
+## 🔥 Latest edition — 2026-10-16
 
-> Theme: *Agents reach for old tools — disassemblers, MCP, and a frontier model whose weights are still pending.*
+> Theme: *Containment, protocols and heavyweights — a sandbox for agents, a CLI for agent-to-agent, and two giant open-weight MoEs.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **REA** | MIT-licensed MCP bridge from coding agents to Ghidra, Hopper and IDA, for binaries, APKs, Electron apps and firmware | Lets the agent ask the disassembler for evidence — but runtime capture runs the target with your permissions |
-| **Pi 1.0** | Earendil's minimal agent harness, now with Codemode sandbox, deferred tool loading and Pi Durable | Pi was the "MCP is unnecessary" harness; 1.0 adds MCP support |
-| **Beam** | Reflection AI's 501B-parameter (23B active) open-weight MoE with 1M context | Weights promised for October, not out yet — benchmark claims are the company's own |
+| **Perplexity SPACE** | Perplexity's agent-containment sandbox, now open source, with CoreWeave, Akamai and Crusoe offering it | Perplexity says 0 of 118 breakout attempts by nine frontier models succeeded — its own claim |
+| **A2A CLI** | Apache 2.0 terminal client to discover and message Agent2Agent agents; `--exec` turns a stdin/stdout script into an A2A server | A curl-like tool for A2A, which has had specs and SDKs but little hands-on tooling |
+| **Step 5 Preview** | Stepfun's 600B sparse MoE (27B active), 1M context, text + vision, weights on Hugging Face | Aimed at long-horizon agents — preview release, license not confirmed in coverage |
+| **Muse Spark Open** | Meta's 816B (42B active) natively multimodal open-weight MoE with 1M context | Reportedly runs on two Mac Studios — check the model card for license |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-15.md">archive/2026-10-15.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-16.md">archive/2026-10-16.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
