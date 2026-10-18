@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-16
+## 今天 — 2026-10-18
 
-隔离、协议与巨型模型——给智能体用的沙箱、智能体之间通信的 CLI,以及两个大型开放权重 MoE。
+更便宜的智能体运行、会记忆的模型,以及为 harness 准备的友好新家。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Perplexity SPACE** | Perplexity 的智能体隔离沙箱已开源,CoreWeave、Akamai、Crusoe 提供托管 | 称九个前沿模型的 118 次越狱尝试全部失败——公司自述 |
-| **A2A CLI** | 用于发现 Agent2Agent 智能体并发送消息的 Apache 2.0 终端工具,`--exec` 可把 stdin/stdout 脚本变成 A2A 服务 | A2A 有规范和 SDK 却缺少趁手工具,这是个类似 curl 的客户端 |
-| **Step 5 Preview** | 阶跃星辰的 600B 稀疏 MoE(激活 27B),100 万 token 上下文,支持文本+视觉,权重已上 Hugging Face | 面向长程智能体任务——预览版,报道未确认许可证 |
-| **Muse Spark Open** | Meta 的 816B(激活 42B)原生多模态开放权重 MoE,100 万 token 上下文 | 据报道两台 Mac Studio 即可运行——许可证请查看模型卡 |
+| **DeepSeek V4.1-Flash-1017** | DeepSeek 面向智能体任务的新开放权重 Flash 检查点,同时推出 Search/Fetch API | 称每个任务不到 $0.20 即在 DeepSWE 拿到 77.0%——自家数据,报道未提及许可证 |
+| **Kyutai REKI** | 仅用公开数据训练的 2.4B 机器人操作视觉-语言-动作模型,权重已上 Hugging Face | 用记忆 token 利用过往上下文,而不只看当前帧 |
+| **Pi Agent Desktop** | 把 Pi 编码智能体封装成 macOS、Windows、Linux 应用的 MIT 许可 Tauri 项目 | 沿用现有 Pi 会话与认证,支持对话分支和 git worktree 切换——Pi 1.0 之后的首个 GUI |
 
-<sub>本期来源见 <a href="../archive/2026-10-16.md">archive/2026-10-16.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-18.md">archive/2026-10-18.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

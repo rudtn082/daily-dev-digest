@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-16
+## 오늘 — 2026-10-18
 
-격리, 프로토콜, 거대 모델 — 에이전트용 샌드박스, 에이전트 간 통신 CLI, 그리고 두 개의 대형 오픈 웨이트 MoE.
+더 싼 에이전트 실행, 기억하는 모델, 그리고 하네스를 위한 편한 집.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Perplexity SPACE** | Perplexity의 에이전트 격리 샌드박스를 오픈소스로 공개. CoreWeave, Akamai, Crusoe가 제공 | 프론티어 모델 9종의 탈출 시도 118회가 모두 실패했다는 주장 — 회사 자체 발표 |
-| **A2A CLI** | Agent2Agent 에이전트를 찾고 메시지를 보내는 Apache 2.0 터미널 도구. `--exec`로 stdin/stdout 스크립트를 A2A 서버로 변환 | 스펙과 SDK는 있어도 손에 잡히는 도구가 드물던 A2A용 curl 같은 클라이언트 |
-| **Step 5 Preview** | Stepfun의 600B 희소 MoE(활성 27B), 컨텍스트 100만 토큰, 텍스트+비전. Hugging Face에 가중치 공개 | 장기 에이전트 작업이 목표 — 프리뷰 버전이고 보도에는 라이선스 미확인 |
-| **Muse Spark Open** | Meta의 816B(활성 42B) 네이티브 멀티모달 오픈 웨이트 MoE, 컨텍스트 100만 토큰 | Mac Studio 두 대로 돌아간다는 보도 — 라이선스는 모델 카드 확인 필요 |
+| **DeepSeek V4.1-Flash-1017** | 에이전트 작업용 DeepSeek의 새 오픈 웨이트 Flash 체크포인트. Search/Fetch API도 함께 공개 | 작업당 $0.20 미만에 DeepSWE 77.0%라는 주장 — 자체 수치이고 보도에는 라이선스 언급 없음 |
+| **Kyutai REKI** | 공개 데이터로 학습한 2.4B 로봇 조작용 비전-언어-행동 모델. 가중치는 Hugging Face에 공개 | 메모리 토큰으로 현재 프레임만이 아니라 과거 맥락을 활용 |
+| **Pi Agent Desktop** | Pi 코딩 에이전트를 macOS, Windows, Linux용 앱으로 감싼 MIT 라이선스 Tauri 앱 | 기존 Pi 세션과 인증을 그대로 쓰고 대화 분기, git worktree 전환 지원 — Pi 1.0 이후 첫 GUI |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-16.md">archive/2026-10-16.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-18.md">archive/2026-10-18.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

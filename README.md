@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-16
+## 🔥 Latest edition — 2026-10-18
 
-> Theme: *Containment, protocols and heavyweights — a sandbox for agents, a CLI for agent-to-agent, and two giant open-weight MoEs.*
+> Theme: *Cheaper agent runs, models that remember, and a friendlier home for the harness.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Perplexity SPACE** | Perplexity's agent-containment sandbox, now open source, with CoreWeave, Akamai and Crusoe offering it | Perplexity says 0 of 118 breakout attempts by nine frontier models succeeded — its own claim |
-| **A2A CLI** | Apache 2.0 terminal client to discover and message Agent2Agent agents; `--exec` turns a stdin/stdout script into an A2A server | A curl-like tool for A2A, which has had specs and SDKs but little hands-on tooling |
-| **Step 5 Preview** | Stepfun's 600B sparse MoE (27B active), 1M context, text + vision, weights on Hugging Face | Aimed at long-horizon agents — preview release, license not confirmed in coverage |
-| **Muse Spark Open** | Meta's 816B (42B active) natively multimodal open-weight MoE with 1M context | Reportedly runs on two Mac Studios — check the model card for license |
+| **DeepSeek V4.1-Flash-1017** | DeepSeek's new open-weight Flash checkpoint for agentic work, plus Search/Fetch APIs | Claims 77.0% on DeepSWE at under $0.20 per task — its own numbers, license not named in coverage |
+| **Kyutai REKI** | A 2.4B vision-language-action model for robot manipulation, trained on public data, weights on Hugging Face | Memory tokens let the robot use past context instead of only the current frame |
+| **Pi Agent Desktop** | MIT-licensed Tauri app that wraps the Pi coding agent for macOS, Windows and Linux | Reuses your existing Pi sessions and auth, with branching and git-worktree switching — the first GUI after Pi 1.0 |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-16.md">archive/2026-10-16.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-18.md">archive/2026-10-18.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
