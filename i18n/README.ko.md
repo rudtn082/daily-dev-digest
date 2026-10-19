@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-18
+## 오늘 — 2026-10-19
 
-더 싼 에이전트 실행, 기억하는 모델, 그리고 하네스를 위한 편한 집.
+작고 빠르고 로컬로: 폰에서 도는 멀티모달 임베딩, 구글 규모의 Rust 타입 체커, 그리고 순수 HTML 다이어그램.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **DeepSeek V4.1-Flash-1017** | 에이전트 작업용 DeepSeek의 새 오픈 웨이트 Flash 체크포인트. Search/Fetch API도 함께 공개 | 작업당 $0.20 미만에 DeepSWE 77.0%라는 주장 — 자체 수치이고 보도에는 라이선스 언급 없음 |
-| **Kyutai REKI** | 공개 데이터로 학습한 2.4B 로봇 조작용 비전-언어-행동 모델. 가중치는 Hugging Face에 공개 | 메모리 토큰으로 현재 프레임만이 아니라 과거 맥락을 활용 |
-| **Pi Agent Desktop** | Pi 코딩 에이전트를 macOS, Windows, Linux용 앱으로 감싼 MIT 라이선스 Tauri 앱 | 기존 Pi 세션과 인증을 그대로 쓰고 대화 분기, git worktree 전환 지원 — Pi 1.0 이후 첫 GUI |
+| **EmbeddingGemma 2** | 텍스트·코드·이미지·영상·오디오를 다루는 구글의 Apache 2.0 멀티모달 임베딩 모델 | 구글 설명으로는 전체 멀티모달 구성이 폰에서 약 567MB RAM으로 동작 — 자체 수치 |
+| **Pyrefly** | Meta의 Rust 기반 파이썬 타입 체커. 이제 구글 모노레포 전체의 타입 체커 | Pytype을 대체. 구글은 내부 벤치마크에서 자릿수 단위 속도 향상을 보고 |
+| **diagram-design** | 다이어그램을 HTML+SVG 파일 하나로 만들어 주는 MIT 라이선스 에이전트 스킬 | GitHub 주간 트렌딩 진입. Claude Code, Codex, Copilot, Cursor, Pi 등에서 사용 가능 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-18.md">archive/2026-10-18.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-19.md">archive/2026-10-19.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

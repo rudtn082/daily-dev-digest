@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-18
+## 今天 — 2026-10-19
 
-更便宜的智能体运行、会记忆的模型,以及为 harness 准备的友好新家。
+小、快、本地化:能在手机上跑的多模态嵌入、谷歌规模的 Rust 类型检查器,以及纯 HTML 画图。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **DeepSeek V4.1-Flash-1017** | DeepSeek 面向智能体任务的新开放权重 Flash 检查点,同时推出 Search/Fetch API | 称每个任务不到 $0.20 即在 DeepSWE 拿到 77.0%——自家数据,报道未提及许可证 |
-| **Kyutai REKI** | 仅用公开数据训练的 2.4B 机器人操作视觉-语言-动作模型,权重已上 Hugging Face | 用记忆 token 利用过往上下文,而不只看当前帧 |
-| **Pi Agent Desktop** | 把 Pi 编码智能体封装成 macOS、Windows、Linux 应用的 MIT 许可 Tauri 项目 | 沿用现有 Pi 会话与认证,支持对话分支和 git worktree 切换——Pi 1.0 之后的首个 GUI |
+| **EmbeddingGemma 2** | 谷歌的 Apache 2.0 多模态嵌入模型,支持文本、代码、图像、视频和音频 | 谷歌称完整多模态配置在手机上约需 567 MB 内存——自家数据 |
+| **Pyrefly** | Meta 的 Rust 版 Python 类型检查器,现已成为谷歌整个单体仓库的类型检查器 | 取代 Pytype;谷歌内部基准显示速度提升一个数量级 |
+| **diagram-design** | 把图表写成单个 HTML+SVG 文件的 MIT 许可智能体技能 | 登上 GitHub 周趋势榜;可用于 Claude Code、Codex、Copilot、Cursor、Pi 等 |
 
-<sub>本期来源见 <a href="../archive/2026-10-18.md">archive/2026-10-18.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-19.md">archive/2026-10-19.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

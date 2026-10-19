@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-18
+## 🔥 Latest edition — 2026-10-19
 
-> Theme: *Cheaper agent runs, models that remember, and a friendlier home for the harness.*
+> Theme: *Small, fast and local: a multimodal embedder for your phone, a Rust type checker at Google scale, and diagrams as plain HTML.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **DeepSeek V4.1-Flash-1017** | DeepSeek's new open-weight Flash checkpoint for agentic work, plus Search/Fetch APIs | Claims 77.0% on DeepSWE at under $0.20 per task — its own numbers, license not named in coverage |
-| **Kyutai REKI** | A 2.4B vision-language-action model for robot manipulation, trained on public data, weights on Hugging Face | Memory tokens let the robot use past context instead of only the current frame |
-| **Pi Agent Desktop** | MIT-licensed Tauri app that wraps the Pi coding agent for macOS, Windows and Linux | Reuses your existing Pi sessions and auth, with branching and git-worktree switching — the first GUI after Pi 1.0 |
+| **EmbeddingGemma 2** | Google's Apache 2.0 multimodal embedding model for text, code, image, video and audio | Google says the full multimodal setup runs in about 567 MB of RAM on a phone — its own figure |
+| **Pyrefly** | Meta's Rust Python type checker, now Google's checker across its monorepo | Replaces Pytype; Google reports an order-of-magnitude speedup (internal benchmarks) |
+| **diagram-design** | MIT-licensed agent skill that writes diagrams as a single HTML+SVG file | On GitHub weekly trending; works across Claude Code, Codex, Copilot, Cursor, Pi and more |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-18.md">archive/2026-10-18.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-19.md">archive/2026-10-19.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

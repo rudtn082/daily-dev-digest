@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今日 — 2026-10-18
+## 今日 — 2026-10-19
 
-より安いエージェント実行、記憶するモデル、そしてハーネスの使いやすい新居。
+小さく、速く、ローカルで:スマホで動くマルチモーダル埋め込み、Google 規模の Rust 型チェッカー、そして素の HTML で描く図。
 
 | ピック | 何か | 気になった理由 |
 |------|-----------|-----------|
-| **DeepSeek V4.1-Flash-1017** | エージェント作業向けの DeepSeek 新オープンウェイト Flash チェックポイント。Search/Fetch API も追加 | 1タスク $0.20 未満で DeepSWE 77.0% と主張——自社数値で、報道ではライセンス未記載 |
-| **Kyutai REKI** | 公開データで学習した 2.4B のロボット操作向けビジョン・言語・行動モデル。重みは Hugging Face に公開 | メモリトークンで現在のフレームだけでなく過去の文脈を使う |
-| **Pi Agent Desktop** | Pi コーディングエージェントを macOS・Windows・Linux 向けにラップした MIT ライセンスの Tauri アプリ | 既存の Pi セッションと認証をそのまま使え、会話の分岐や git worktree 切り替えも可能——Pi 1.0 後初の GUI |
+| **EmbeddingGemma 2** | テキスト・コード・画像・動画・音声に対応する Google の Apache 2.0 マルチモーダル埋め込みモデル | Google によればフル構成でもスマホで約 567MB の RAM で動作——自社数値 |
+| **Pyrefly** | Meta 製の Rust 製 Python 型チェッカー。Google のモノレポ全体で採用 | Pytype を置き換え。Google は社内ベンチマークで桁違いの高速化を報告 |
+| **diagram-design** | 図を HTML+SVG 1ファイルで書き出す MIT ライセンスのエージェントスキル | GitHub 週間トレンド入り。Claude Code、Codex、Copilot、Cursor、Pi などで利用可 |
 
-<sub>今日の出典は <a href="../archive/2026-10-18.md">archive/2026-10-18.md</a> にあります。</sub>
+<sub>今日の出典は <a href="../archive/2026-10-19.md">archive/2026-10-19.md</a> にあります。</sub>
 <!-- LATEST:END -->
 
 ---
