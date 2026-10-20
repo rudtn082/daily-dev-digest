@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今日 — 2026-10-19
+## 今日 — 2026-10-20
 
-小さく、速く、ローカルで:スマホで動くマルチモーダル埋め込み、Google 規模の Rust 型チェッカー、そして素の HTML で描く図。
+信じて、確かめる:push 前にクイズを出す git フック、AI 特有の文体を抜いた小型モデル、買う前に体感できるローカル AI。
 
 | ピック | 何か | 気になった理由 |
 |------|-----------|-----------|
-| **EmbeddingGemma 2** | テキスト・コード・画像・動画・音声に対応する Google の Apache 2.0 マルチモーダル埋め込みモデル | Google によればフル構成でもスマホで約 567MB の RAM で動作——自社数値 |
-| **Pyrefly** | Meta 製の Rust 製 Python 型チェッカー。Google のモノレポ全体で採用 | Pytype を置き換え。Google は社内ベンチマークで桁違いの高速化を報告 |
-| **diagram-design** | 図を HTML+SVG 1ファイルで書き出す MIT ライセンスのエージェントスキル | GitHub 週間トレンド入り。Claude Code、Codex、Copilot、Cursor、Pi などで利用可 |
+| **Nemotron 3.5** | NVIDIA のオープンウェイト・エージェントモデル。企業向け 120B の Super VL、AI PC / DGX Spark 向け Bolt 74B-A9B | NVIDIA は Super VL が少ないパラメータで Nemotron 3 Ultra のツール利用性能に並ぶと主張——自社の主張で、報道にライセンスの記載なし |
+| **Sphinx** | エージェントの diff について答えられないと push できない MIT ライセンスの Git フック | Show HN 上位。誰も理解していない AI コードが出荷される問題に切り込む。Codex、Claude Code、Cursor、OpenCode、Pi 対応 |
+| **Qwen3-4B deslop** | LoRA 蒸留とニューロン 4 つの符号反転で AI らしい文体を抜いた Qwen3-4B | 作者の検出器で 1000 語あたりの slop スコアが 121 → 12.5。ブラインド読者テストなし、ライセンス記載なし |
+| **Llmspeed** | GPU・Mac・モデルを選ぶとローカル LLM の推定速度がわかるサイト | Show HN で最高得点。買う前に「実用的に動くか?」に答える。コミュニティのベンチマークに基づく推定値を含む |
 
-<sub>今日の出典は <a href="../archive/2026-10-19.md">archive/2026-10-19.md</a> にあります。</sub>
+<sub>今日の出典は <a href="../archive/2026-10-20.md">archive/2026-10-20.md</a> にあります。</sub>
 <!-- LATEST:END -->
 
 ---

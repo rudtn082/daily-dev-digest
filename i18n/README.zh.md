@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-19
+## 今天 — 2026-10-20
 
-小、快、本地化:能在手机上跑的多模态嵌入、谷歌规模的 Rust 类型检查器,以及纯 HTML 画图。
+信任,但要验证:推送前先考你的 git 钩子、去掉 AI 腔的小模型、买之前就能感受速度的本地 AI。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **EmbeddingGemma 2** | 谷歌的 Apache 2.0 多模态嵌入模型,支持文本、代码、图像、视频和音频 | 谷歌称完整多模态配置在手机上约需 567 MB 内存——自家数据 |
-| **Pyrefly** | Meta 的 Rust 版 Python 类型检查器,现已成为谷歌整个单体仓库的类型检查器 | 取代 Pytype;谷歌内部基准显示速度提升一个数量级 |
-| **diagram-design** | 把图表写成单个 HTML+SVG 文件的 MIT 许可智能体技能 | 登上 GitHub 周趋势榜;可用于 Claude Code、Codex、Copilot、Cursor、Pi 等 |
+| **Nemotron 3.5** | 英伟达的开放权重智能体模型:企业用 120B Super VL,面向 AI PC 和 DGX Spark 的 Bolt 74B-A9B | 英伟达称 Super VL 用更少参数在工具使用上追平 Nemotron 3 Ultra——自家说法,报道未提及许可证 |
+| **Sphinx** | 针对智能体生成的 diff 出题,答对才能推送的 MIT 许可 Git 钩子 | 登上 Show HN 前列;直指没人看懂的 AI 代码被发布的问题。支持 Codex、Claude Code、Cursor、OpenCode、Pi |
+| **Qwen3-4B deslop** | 用 LoRA 蒸馏并翻转四个神经元符号、去掉 AI 腔的 Qwen3-4B | 作者的检测器显示每千词 slop 分数从 121 降到 12.5;未做盲测,未标注许可证 |
+| **Llmspeed** | 选择 GPU、Mac 或模型,即可看到本地 LLM 的预估速度 | Show HN 得分最高的一条。在你掏钱前回答"能不能流畅跑"。含基于社区基准的估算值 |
 
-<sub>本期来源见 <a href="../archive/2026-10-19.md">archive/2026-10-19.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-20.md">archive/2026-10-20.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

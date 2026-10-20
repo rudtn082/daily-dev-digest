@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-19
+## 🔥 Latest edition — 2026-10-20
 
-> Theme: *Small, fast and local: a multimodal embedder for your phone, a Rust type checker at Google scale, and diagrams as plain HTML.*
+> Theme: *Trust, but check: a git hook that quizzes you, a small model with the writing tics trained out, and local AI you can size up before you buy.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **EmbeddingGemma 2** | Google's Apache 2.0 multimodal embedding model for text, code, image, video and audio | Google says the full multimodal setup runs in about 567 MB of RAM on a phone — its own figure |
-| **Pyrefly** | Meta's Rust Python type checker, now Google's checker across its monorepo | Replaces Pytype; Google reports an order-of-magnitude speedup (internal benchmarks) |
-| **diagram-design** | MIT-licensed agent skill that writes diagrams as a single HTML+SVG file | On GitHub weekly trending; works across Claude Code, Codex, Copilot, Cursor, Pi and more |
+| **Nemotron 3.5** | Nvidia's open-weight agent models: 120B Super VL for enterprise, Bolt 74B-A9B for AI PCs and DGX Spark | Nvidia claims Super VL matches Nemotron 3 Ultra on tool use with fewer parameters — its own claim; no license named in coverage |
+| **Sphinx** | MIT-licensed Git hook that quizzes you on your agent's diff before you can push | Top of Show HN; tackles shipping AI code nobody understood. Works with Codex, Claude Code, Cursor, OpenCode, Pi |
+| **Qwen3-4B deslop** | Qwen3-4B distilled with a LoRA and four flipped neurons to drop AI writing tics | Author's detector shows slop score 121 → 12.5 per 1000 words; no blind reader test, no license stated |
+| **Llmspeed** | Pick a GPU, Mac or model and see estimated local LLM speed | Top Show HN item; answers "will it run usably?" before you spend. Estimates, partly from community benchmarks |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-19.md">archive/2026-10-19.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-20.md">archive/2026-10-20.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
