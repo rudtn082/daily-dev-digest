@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-20
+## 🔥 Latest edition — 2026-10-21
 
-> Theme: *Trust, but check: a git hook that quizzes you, a small model with the writing tics trained out, and local AI you can size up before you buy.*
+> Theme: *Fast, small and big — a diagram renderer 500× faster, a 12B coding model with 2.5B active, and Google's frontier model going generally available.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Nemotron 3.5** | Nvidia's open-weight agent models: 120B Super VL for enterprise, Bolt 74B-A9B for AI PCs and DGX Spark | Nvidia claims Super VL matches Nemotron 3 Ultra on tool use with fewer parameters — its own claim; no license named in coverage |
-| **Sphinx** | MIT-licensed Git hook that quizzes you on your agent's diff before you can push | Top of Show HN; tackles shipping AI code nobody understood. Works with Codex, Claude Code, Cursor, OpenCode, Pi |
-| **Qwen3-4B deslop** | Qwen3-4B distilled with a LoRA and four flipped neurons to drop AI writing tics | Author's detector shows slop score 121 → 12.5 per 1000 words; no blind reader test, no license stated |
-| **Llmspeed** | Pick a GPU, Mac or model and see estimated local LLM speed | Top Show HN item; answers "will it run usably?" before you spend. Estimates, partly from community benchmarks |
+| **Gemini 4 Argon** | Google's frontier model, generally available since Oct 13 | ~1M-token output per run (up from 64K); intro price $2/$10 per million tokens through Nov 30. Parity with GPT-6 Astra is third-party reporting, unverified |
+| **Mellum 2.1** | JetBrains' Apache 2.0 coding MoE: 12B total, ~2.5B active | RL post-training reportedly lifts SWE-bench Verified from 2% to 47%; self-reported numbers |
+| **Pele** | Zero-dependency Mermaid-to-SVG renderer with CSS-variable themes | Claims 0.05–0.3 ms per diagram vs 6–82 ms for Mermaid.js; own layout engine, so output differs. Hit Hacker News ~Oct 17 |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-20.md">archive/2026-10-20.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-21.md">archive/2026-10-21.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

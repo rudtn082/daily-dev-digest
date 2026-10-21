@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-20
+## 今天 — 2026-10-21
 
-信任,但要验证:推送前先考你的 git 钩子、去掉 AI 腔的小模型、买之前就能感受速度的本地 AI。
+又快、又小、又大:快 500 倍的图表渲染器、活跃参数仅 2.5B 的 12B 编程模型、正式开放的谷歌前沿模型。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Nemotron 3.5** | 英伟达的开放权重智能体模型:企业用 120B Super VL,面向 AI PC 和 DGX Spark 的 Bolt 74B-A9B | 英伟达称 Super VL 用更少参数在工具使用上追平 Nemotron 3 Ultra——自家说法,报道未提及许可证 |
-| **Sphinx** | 针对智能体生成的 diff 出题,答对才能推送的 MIT 许可 Git 钩子 | 登上 Show HN 前列;直指没人看懂的 AI 代码被发布的问题。支持 Codex、Claude Code、Cursor、OpenCode、Pi |
-| **Qwen3-4B deslop** | 用 LoRA 蒸馏并翻转四个神经元符号、去掉 AI 腔的 Qwen3-4B | 作者的检测器显示每千词 slop 分数从 121 降到 12.5;未做盲测,未标注许可证 |
-| **Llmspeed** | 选择 GPU、Mac 或模型,即可看到本地 LLM 的预估速度 | Show HN 得分最高的一条。在你掏钱前回答"能不能流畅跑"。含基于社区基准的估算值 |
+| **Gemini 4 Argon** | 10 月 13 日正式开放的谷歌前沿模型 | 单次运行输出约 100 万 token(此前为 64K)。11 月 30 日前每百万 token 输入/输出 $2/$10 的入门价。与 GPT-6 Astra 持平是第三方报道,未经验证 |
+| **Mellum 2.1** | JetBrains 的 Apache 2.0 编程 MoE:总计 12B,活跃约 2.5B | 据称 RL 后训练让 SWE-bench Verified 从 2% 升到 47%;为自报数据 |
+| **Pele** | 零依赖的 Mermaid 转 SVG 渲染器,用 CSS 变量换主题 | 称每张图 0.05–0.3ms,Mermaid.js 为 6–82ms;自带布局引擎,输出与原版不同。10 月 17 日前后登上 Hacker News |
 
-<sub>本期来源见 <a href="../archive/2026-10-20.md">archive/2026-10-20.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-21.md">archive/2026-10-21.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
