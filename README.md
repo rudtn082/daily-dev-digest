@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-21
+## 🔥 Latest edition — 2026-10-22
 
-> Theme: *Fast, small and big — a diagram renderer 500× faster, a 12B coding model with 2.5B active, and Google's frontier model going generally available.*
+> Theme: *Fences for agents — a permissions spec, a hands-off build plugin, and a language built to keep the models out.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Gemini 4 Argon** | Google's frontier model, generally available since Oct 13 | ~1M-token output per run (up from 64K); intro price $2/$10 per million tokens through Nov 30. Parity with GPT-6 Astra is third-party reporting, unverified |
-| **Mellum 2.1** | JetBrains' Apache 2.0 coding MoE: 12B total, ~2.5B active | RL post-training reportedly lifts SWE-bench Verified from 2% to 47%; self-reported numbers |
-| **Pele** | Zero-dependency Mermaid-to-SVG renderer with CSS-variable themes | Claims 0.05–0.3 ms per diagram vs 6–82 ms for Mermaid.js; own layout engine, so output differs. Hit Hacker News ~Oct 17 |
+| **Docker Sandbox Kit Spec v3** | Open Apache 2.0 spec that declares an agent's access (network, credentials, volumes) inside its container image | Permissions become signable and reviewable; a new version that asks for more access needs fresh approval. Docker plans to submit it to the CNCF |
+| **Superlite** | Claude Code plugin: approve one plan, then it builds in parallel without stopping | The anti-Superpowers: one approval instead of many. The 16.1 vs 33.6 min benchmark is the author's single self-run |
+| **KillSwitch** | Esoteric stack language built to be hard for LLMs: hidden lies in the spec, letter-count rules | A playful probe of how models fail on unfamiliar specs; author's own top score was 66.8 on simple tasks |
+| **Timestral** | Mistral's first time-series foundation models, 5M–209M parameters, CPU inference | Mistral steps outside language models into small forecasting models; modified MIT license |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-21.md">archive/2026-10-21.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-22.md">archive/2026-10-22.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
