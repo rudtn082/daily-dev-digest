@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-22
+## 🔥 Latest edition — 2026-10-23
 
-> Theme: *Fences for agents — a permissions spec, a hands-off build plugin, and a language built to keep the models out.*
+> Theme: *Local and durable — a laptop-sized coding model, a long-term-support database, and agents whose state survives a crash.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Docker Sandbox Kit Spec v3** | Open Apache 2.0 spec that declares an agent's access (network, credentials, volumes) inside its container image | Permissions become signable and reviewable; a new version that asks for more access needs fresh approval. Docker plans to submit it to the CNCF |
-| **Superlite** | Claude Code plugin: approve one plan, then it builds in parallel without stopping | The anti-Superpowers: one approval instead of many. The 16.1 vs 33.6 min benchmark is the author's single self-run |
-| **KillSwitch** | Esoteric stack language built to be hard for LLMs: hidden lies in the spec, letter-count rules | A playful probe of how models fail on unfamiliar specs; author's own top score was 66.8 on simple tasks |
-| **Timestral** | Mistral's first time-series foundation models, 5M–209M parameters, CPU inference | Mistral steps outside language models into small forecasting models; modified MIT license |
+| **Flint** | Recursive's open-weight coding MoE (~40B total, ~2.5B active), Apache 2.0, built to run locally | Recursive says its own research system did most of the build. Speed and benchmark figures are vendor-reported |
+| **DuckDB 2.0.0 LTS** | First 2.x long-term release of the embedded analytics database: VARIANT, triggers, async I/O, agent mode | Supported until at least October 2027. New storage format that older versions can't open, so test on a copy first |
+| **Omnara** | Apache 2.0 control plane for durable agents, with state kept in your own Postgres | Agents recover from crashes and disconnects, and history stays queryable. One of several self-hostable takes on Claude Managed Agents |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-22.md">archive/2026-10-22.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-23.md">archive/2026-10-23.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
