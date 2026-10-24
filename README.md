@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-23
+## 🔥 Latest edition — 2026-10-24
 
-> Theme: *Local and durable — a laptop-sized coding model, a long-term-support database, and agents whose state survives a crash.*
+> Theme: *Hardware freedom and agent-native tooling — PyTorch off Nvidia, a cheap 1M-context agentic model, and a terminal multiplexer agents can drive.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Flint** | Recursive's open-weight coding MoE (~40B total, ~2.5B active), Apache 2.0, built to run locally | Recursive says its own research system did most of the build. Speed and benchmark figures are vendor-reported |
-| **DuckDB 2.0.0 LTS** | First 2.x long-term release of the embedded analytics database: VARIANT, triggers, async I/O, agent mode | Supported until at least October 2027. New storage format that older versions can't open, so test on a copy first |
-| **Omnara** | Apache 2.0 control plane for durable agents, with state kept in your own Postgres | Agents recover from crashes and disconnects, and history stays queryable. One of several self-hostable takes on Claude Managed Agents |
+| **TorchNeuron** | Amazon's Apache 2.0 PyTorch backend for AWS Trainium2/3, in public beta | Runs existing PyTorch code with one config change, aimed at Nvidia's software lock-in. Early release: no dynamic shapes yet, many PyTorch tests skipped |
+| **MiniMax M3.1 Flash** | Multimodal agentic model with 1M context and adjustable reasoning depth; open weights promised for Oct 23 | Cheap API pricing and big vendor-reported speed claims. Size and license weren't stated at announcement, so check Hugging Face first |
+| **Corgi** | Alpha, MIT-licensed Rust terminal multiplexer with a structured API for agents | Agents open panes and read output directly instead of faking keystrokes. Build from source, thin docs |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-23.md">archive/2026-10-23.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-24.md">archive/2026-10-24.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
