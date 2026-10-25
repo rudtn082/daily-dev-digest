@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-24
+## 🔥 Latest edition — 2026-10-25
 
-> Theme: *Hardware freedom and agent-native tooling — PyTorch off Nvidia, a cheap 1M-context agentic model, and a terminal multiplexer agents can drive.*
+> Theme: *Models and benchmarks get their receipts — a trillion-scale open-weights bet, an eval for forgotten languages, and AI-found bugs landing in PHP.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **TorchNeuron** | Amazon's Apache 2.0 PyTorch backend for AWS Trainium2/3, in public beta | Runs existing PyTorch code with one config change, aimed at Nvidia's software lock-in. Early release: no dynamic shapes yet, many PyTorch tests skipped |
-| **MiniMax M3.1 Flash** | Multimodal agentic model with 1M context and adjustable reasoning depth; open weights promised for Oct 23 | Cheap API pricing and big vendor-reported speed claims. Size and license weren't stated at announcement, so check Hugging Face first |
-| **Corgi** | Alpha, MIT-licensed Rust terminal multiplexer with a structured API for agents | Agents open panes and read output directly instead of faking keystrokes. Build from source, thin docs |
+| **Kimi K3.1 Pro** | Moonshot's 2.8T-parameter (104B active) 1M-context follow-up to K3; weights promised for early November | Claims a big agentic-eval jump over K3, but weights and license aren't out and the numbers are Moonshot's own |
+| **MultiLangBench** | OpenAI's eval: build a SQLite-compatible engine from scratch in 20 languages, COBOL and Fortran included | Setup and test suite are on GitHub, so you can rerun it on other models. Scores are self-reported |
+| **PHP2Shell** | Severe PHP remote-code-execution flaws found with AI help, patched Oct 22 | A concrete AI-found, human-coordinated disclosure in software under much of the web. Sources disagree on credit, so read the advisory and update |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-24.md">archive/2026-10-24.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-25.md">archive/2026-10-25.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
