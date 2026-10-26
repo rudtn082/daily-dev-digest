@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-25
+## 🔥 Latest edition — 2026-10-26
 
-> Theme: *Models and benchmarks get their receipts — a trillion-scale open-weights bet, an eval for forgotten languages, and AI-found bugs landing in PHP.*
+> Theme: *Agents leave the terminal — they click through your apps, ship as CLI-native models, and run into a Brotli bug and a Reddit ban.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Kimi K3.1 Pro** | Moonshot's 2.8T-parameter (104B active) 1M-context follow-up to K3; weights promised for early November | Claims a big agentic-eval jump over K3, but weights and license aren't out and the numbers are Moonshot's own |
-| **MultiLangBench** | OpenAI's eval: build a SQLite-compatible engine from scratch in 20 languages, COBOL and Fortran included | Setup and test suite are on GitHub, so you can rerun it on other models. Scores are self-reported |
-| **PHP2Shell** | Severe PHP remote-code-execution flaws found with AI help, patched Oct 22 | A concrete AI-found, human-coordinated disclosure in software under much of the web. Sources disagree on credit, so read the advisory and update |
+| **Cursor Computer Use** | Cursor's agents can now click and type in desktop apps and the iOS Simulator | Closes the loop from "it compiles" to "the app works" in native and mobile apps. Needs macOS Accessibility and Screen Recording permissions |
+| **IQuest-Q1** | A 320B sparse MoE (15B active, 512K context) built for command-line agent work | Authors say weights are out and the model helped build its successors. Scores are self-reported and the license is unconfirmed |
+| **Node2Shell (CVE-2026-111497)** | A Brotli decoder out-of-bounds write reaching Node.js, Bun and Envoy | Node patched Oct 21 (22.23.4 / 24.22.1 / 26.12.1), a PoC exists, and apps bundling their own Brotli must update separately |
+| **r/opensource AI ban** | Moderators bar projects that use, are made by, or target AI, and require year-old, multi-contributor projects | A signal of open-source gatekeeping pushing back on AI-generated project posts. One subreddit's policy, with a splinter community already formed |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-25.md">archive/2026-10-25.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-26.md">archive/2026-10-26.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
