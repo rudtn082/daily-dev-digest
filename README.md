@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-26
+## 🔥 Latest edition — 2026-10-27
 
-> Theme: *Agents leave the terminal — they click through your apps, ship as CLI-native models, and run into a Brotli bug and a Reddit ban.*
+> Theme: *Smaller, closer to the metal — a local-first desktop AI app, a process CLI agents can parse, and a trillion-parameter open-weight model waiting on its weights.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Cursor Computer Use** | Cursor's agents can now click and type in desktop apps and the iOS Simulator | Closes the loop from "it compiles" to "the app works" in native and mobile apps. Needs macOS Accessibility and Screen Recording permissions |
-| **IQuest-Q1** | A 320B sparse MoE (15B active, 512K context) built for command-line agent work | Authors say weights are out and the model helped build its successors. Scores are self-reported and the license is unconfirmed |
-| **Node2Shell (CVE-2026-111497)** | A Brotli decoder out-of-bounds write reaching Node.js, Bun and Envoy | Node patched Oct 21 (22.23.4 / 24.22.1 / 26.12.1), a PoC exists, and apps bundling their own Brotli must update separately |
-| **r/opensource AI ban** | Moderators bar projects that use, are made by, or target AI, and require year-old, multi-contributor projects | A signal of open-source gatekeeping pushing back on AI-generated project posts. One subreddit's policy, with a splinter community already formed |
+| **Hob** | An open-source desktop app that picks and runs an open-weight model on your own machine, offline | A Show HN pitching it as an on-device alternative to Claude Cowork and ChatGPT drew 113 points. MIT-licensed; commenters question scaling beyond basic tasks |
+| **proc** | A process and port CLI: `proc free :3000` replaces the lsof/xargs/kill pipeline | Built for agents: `--json`, fixed exit codes, `--dry-run` and an agent skill for Claude Code, Codex, Cursor and Gemini CLI. MIT-licensed |
+| **Mistral Large 4** | A ~1T-parameter multimodal MoE (52B active) with a public preview API | Mistral says weights drop by the end of October. No license stated and not out yet, so don't plan around it until it ships |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-26.md">archive/2026-10-26.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-27.md">archive/2026-10-27.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
