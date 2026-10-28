@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-27
+## 今天 — 2026-10-28
 
-更小、更贴近硬件:本地优先的桌面 AI 应用、便于智能体解析的进程 CLI,以及等待放出权重的万亿参数级开放权重模型。
+在其之上搭建的底层设施:终端、操作系统和 GPU 调度器,都是本月发布或开源的。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Hob** | 开源桌面应用,按你的硬件挑选开放权重模型并离线运行 | 主打端侧版 Claude Cowork / ChatGPT 替代的 Show HN 获 113 分。MIT 许可,评论者质疑其在基础任务之外的扩展性 |
-| **proc** | 进程与端口 CLI,`proc free :3000` 一条命令取代 lsof/xargs/kill 管道 | 为智能体设计:`--json`、固定退出码、`--dry-run`,以及适配 Claude Code、Codex、Cursor、Gemini CLI 的智能体技能。MIT 许可 |
-| **Mistral Large 4** | 约 1T 参数(激活 52B)的多模态 MoE,已开放公开预览 API | Mistral 称权重将在 10 月底前放出。未注明许可证且尚未发布,在发布前别把它排进计划 |
+| **Ghostty 1.4** | GPU 终端模拟器的新版本:补全 Kitty 图形协议、滚动缓冲压缩、GTK 的 EGL 渲染器、`ghostty +ssh` | 10 月 27 日发布,在 HN 首页快照中获 841 分。发布说明称 macOS 上 pty I/O 吞吐提升 25%–55% |
+| **Moxnox 1.0** | 把 Windows NT 风格的系统调用和 PE 可执行文件放在 Unix 布局上的业余操作系统,支持 x86-64 和 ARM64 | 出自 WinBtrfs 作者。Btrfs 测试不足,没有桌面和安全模型。许可证未能确认,请到仓库核实 |
+| **NVIDIA Run:ai(开源)** | 面向 Kubernetes GPU 编排的 KAI Scheduler、GPU Fractioning Operator 等 | 原本商用的产品于 10 月 13 日开源。KAI 为 Apache 2.0,属 CNCF Sandbox 项目。各组件许可证不同 |
 
-<sub>本期来源见 <a href="../archive/2026-10-27.md">archive/2026-10-27.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-28.md">archive/2026-10-28.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-27
+## 🔥 Latest edition — 2026-10-28
 
-> Theme: *Smaller, closer to the metal — a local-first desktop AI app, a process CLI agents can parse, and a trillion-parameter open-weight model waiting on its weights.*
+> Theme: *Plumbing you build on — a terminal, an operating system and a GPU scheduler, all shipped or opened up this month.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Hob** | An open-source desktop app that picks and runs an open-weight model on your own machine, offline | A Show HN pitching it as an on-device alternative to Claude Cowork and ChatGPT drew 113 points. MIT-licensed; commenters question scaling beyond basic tasks |
-| **proc** | A process and port CLI: `proc free :3000` replaces the lsof/xargs/kill pipeline | Built for agents: `--json`, fixed exit codes, `--dry-run` and an agent skill for Claude Code, Codex, Cursor and Gemini CLI. MIT-licensed |
-| **Mistral Large 4** | A ~1T-parameter multimodal MoE (52B active) with a public preview API | Mistral says weights drop by the end of October. No license stated and not out yet, so don't plan around it until it ships |
+| **Ghostty 1.4** | The GPU terminal emulator's new release: completed Kitty graphics, scrollback compression, EGL renderer on GTK, `ghostty +ssh` | Released Oct 27; 841 points on an HN front-page snapshot; notes claim 25–55% higher pty I/O throughput on macOS |
+| **Moxnox 1.0** | A hobby OS with Windows NT-style syscalls and PE executables on a Unix layout, x86-64 and ARM64 | From the WinBtrfs author. Btrfs lightly tested, no desktop or security model; license not confirmed, check the repo |
+| **NVIDIA Run:ai (open source)** | KAI Scheduler, GPU Fractioning Operator and more for Kubernetes GPU orchestration | A formerly commercial product opened up Oct 13; KAI is Apache 2.0 and a CNCF Sandbox project. Licenses vary by component |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-27.md">archive/2026-10-27.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-28.md">archive/2026-10-28.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

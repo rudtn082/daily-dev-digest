@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-27
+## 오늘 — 2026-10-28
 
-더 작게, 더 하드웨어 가까이: 로컬 우선 데스크톱 AI 앱, 에이전트가 읽기 좋은 프로세스 CLI, 웨이트를 기다리는 1조 파라미터급 오픈웨이트 모델.
+그 위에 쌓는 배관: 터미널, 운영체제, GPU 스케줄러. 모두 이번 달에 나왔거나 공개된 것들.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Hob** | 내 컴퓨터에 맞는 오픈웨이트 모델을 골라 오프라인으로 돌려 주는 오픈소스 데스크톱 앱 | 온디바이스 Claude Cowork·ChatGPT 대안을 내세운 Show HN이 113점을 받음. MIT 라이선스, 기본 작업을 넘어선 확장성엔 의문 제기 |
-| **proc** | 프로세스·포트 CLI. `proc free :3000` 한 줄이 lsof/xargs/kill 파이프라인을 대체 | 에이전트용 설계: `--json`, 고정 종료 코드, `--dry-run`, Claude Code·Codex·Cursor·Gemini CLI용 에이전트 스킬. MIT 라이선스 |
-| **Mistral Large 4** | 약 1T 파라미터(활성 52B) 멀티모달 MoE, 공개 프리뷰 API 제공 | Mistral은 10월 말까지 웨이트를 공개한다고 밝힘. 라이선스 미표기에 아직 미공개이니 나오기 전엔 계획에 넣지 말 것 |
+| **Ghostty 1.4** | GPU 터미널 에뮬레이터의 새 릴리스: Kitty 그래픽 완성, 스크롤백 압축, GTK용 EGL 렌더러, `ghostty +ssh` | 10월 27일 출시, HN 메인 스냅샷에서 841점. 릴리스 노트상 macOS pty I/O 처리량 25~55% 향상 |
+| **Moxnox 1.0** | Windows NT식 시스콜과 PE 실행 파일을 유닉스 구조 위에 올린 취미 OS. x86-64·ARM64 지원 | WinBtrfs 개발자의 작품. Btrfs는 테스트 부족, 데스크톱·보안 모델 없음. 라이선스는 확인 못 했으니 저장소에서 확인할 것 |
+| **NVIDIA Run:ai (오픈소스)** | 쿠버네티스 GPU 오케스트레이션용 KAI Scheduler, GPU Fractioning Operator 등 | 상용이던 제품이 10월 13일 공개됨. KAI는 Apache 2.0, CNCF Sandbox 프로젝트. 라이선스는 구성 요소별로 다름 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-27.md">archive/2026-10-27.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-28.md">archive/2026-10-28.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
