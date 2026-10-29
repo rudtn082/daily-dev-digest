@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-28
+## 🔥 Latest edition — 2026-10-29
 
-> Theme: *Plumbing you build on — a terminal, an operating system and a GPU scheduler, all shipped or opened up this month.*
+> Theme: *Giving agents structure — design reviews, agents-as-code, and a speech model that remembers who said what.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Ghostty 1.4** | The GPU terminal emulator's new release: completed Kitty graphics, scrollback compression, EGL renderer on GTK, `ghostty +ssh` | Released Oct 27; 841 points on an HN front-page snapshot; notes claim 25–55% higher pty I/O throughput on macOS |
-| **Moxnox 1.0** | A hobby OS with Windows NT-style syscalls and PE executables on a Unix layout, x86-64 and ARM64 | From the WinBtrfs author. Btrfs lightly tested, no desktop or security model; license not confirmed, check the repo |
-| **NVIDIA Run:ai (open source)** | KAI Scheduler, GPU Fractioning Operator and more for Kubernetes GPU orchestration | A formerly commercial product opened up Oct 13; KAI is Apache 2.0 and a CNCF Sandbox project. Licenses vary by component |
+| **Nemotron 3.5 Transcribe** | Nvidia's open-weight speech model: transcription in 40 languages, translation, speaker labels, up to 8 speakers | Released Oct 28; reported #1 among open-weight models on the HF English Open ASR Leaderboard (5.33% avg WER). Param count differs by source, check the model card |
+| **Cursor Agent SDK** | A framework for defining agents as code: Markdown prompts, TypeScript tools, evals, PR triggers | Oct 20; the same harness behind Cursor's Bugbot and Security Reviewer, now usable for your own bots |
+| **Elephant-Goldfish Model** | Google's open-source plugin: a context-rich agent drafts a design, fresh-context reviewers attack it before any code | Oct 22, Apache 2.0, initially for Antigravity; Google says its engineers use it daily |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-28.md">archive/2026-10-28.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-29.md">archive/2026-10-29.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

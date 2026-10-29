@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-28
+## 오늘 — 2026-10-29
 
-그 위에 쌓는 배관: 터미널, 운영체제, GPU 스케줄러. 모두 이번 달에 나왔거나 공개된 것들.
+에이전트에 구조를 입히다: 설계 리뷰, 코드로 정의하는 에이전트, 누가 말했는지 기억하는 음성 모델.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Ghostty 1.4** | GPU 터미널 에뮬레이터의 새 릴리스: Kitty 그래픽 완성, 스크롤백 압축, GTK용 EGL 렌더러, `ghostty +ssh` | 10월 27일 출시, HN 메인 스냅샷에서 841점. 릴리스 노트상 macOS pty I/O 처리량 25~55% 향상 |
-| **Moxnox 1.0** | Windows NT식 시스콜과 PE 실행 파일을 유닉스 구조 위에 올린 취미 OS. x86-64·ARM64 지원 | WinBtrfs 개발자의 작품. Btrfs는 테스트 부족, 데스크톱·보안 모델 없음. 라이선스는 확인 못 했으니 저장소에서 확인할 것 |
-| **NVIDIA Run:ai (오픈소스)** | 쿠버네티스 GPU 오케스트레이션용 KAI Scheduler, GPU Fractioning Operator 등 | 상용이던 제품이 10월 13일 공개됨. KAI는 Apache 2.0, CNCF Sandbox 프로젝트. 라이선스는 구성 요소별로 다름 |
+| **Nemotron 3.5 Transcribe** | Nvidia의 오픈 웨이트 음성 모델: 40개 언어 전사, 번역, 화자 구분(최대 8명) | 10월 28일 공개. HF 영어 Open ASR 리더보드 오픈 웨이트 1위로 보도(평균 WER 5.33%). 파라미터 수는 출처마다 달라 모델 카드 확인 필요 |
+| **Cursor Agent SDK** | 에이전트를 코드로 정의하는 프레임워크: Markdown 프롬프트, TypeScript 도구, 평가, PR 트리거 | 10월 20일 공개. Cursor의 Bugbot, Security Reviewer와 같은 하네스를 직접 만드는 봇에도 쓸 수 있음 |
+| **Elephant-Goldfish Model** | Google의 오픈소스 플러그인: 맥락을 다 아는 에이전트가 설계를 쓰고, 맥락 없는 리뷰어가 코드 전에 공격 | 10월 22일 공개, Apache 2.0, 우선 Antigravity용. Google 엔지니어들이 매일 쓴다고 함 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-28.md">archive/2026-10-28.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-29.md">archive/2026-10-29.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

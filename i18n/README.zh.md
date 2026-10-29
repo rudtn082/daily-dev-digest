@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-28
+## 今天 — 2026-10-29
 
-在其之上搭建的底层设施:终端、操作系统和 GPU 调度器,都是本月发布或开源的。
+给智能体加上结构:设计评审、用代码定义的智能体,以及记得谁说了什么的语音模型。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Ghostty 1.4** | GPU 终端模拟器的新版本:补全 Kitty 图形协议、滚动缓冲压缩、GTK 的 EGL 渲染器、`ghostty +ssh` | 10 月 27 日发布,在 HN 首页快照中获 841 分。发布说明称 macOS 上 pty I/O 吞吐提升 25%–55% |
-| **Moxnox 1.0** | 把 Windows NT 风格的系统调用和 PE 可执行文件放在 Unix 布局上的业余操作系统,支持 x86-64 和 ARM64 | 出自 WinBtrfs 作者。Btrfs 测试不足,没有桌面和安全模型。许可证未能确认,请到仓库核实 |
-| **NVIDIA Run:ai(开源)** | 面向 Kubernetes GPU 编排的 KAI Scheduler、GPU Fractioning Operator 等 | 原本商用的产品于 10 月 13 日开源。KAI 为 Apache 2.0,属 CNCF Sandbox 项目。各组件许可证不同 |
+| **Nemotron 3.5 Transcribe** | Nvidia 的开放权重语音模型:40 种语言转写、翻译、说话人标注(最多 8 人) | 10 月 28 日发布。据报道在 HF 英语 Open ASR 排行榜开放权重模型中排名第一(平均 WER 5.33%)。各来源参数量不一致,请查看模型卡 |
+| **Cursor Agent SDK** | 用代码定义智能体的框架:Markdown 提示词、TypeScript 工具、评测、PR 触发 | 10 月 20 日发布。与 Cursor 自家 Bugbot、Security Reviewer 使用同一套框架,现在可用来做自己的机器人 |
+| **Elephant-Goldfish Model** | Google 的开源插件:掌握全部上下文的智能体写设计,无上下文的评审者在写代码前挑错 | 10 月 22 日发布,Apache 2.0,首先支持 Antigravity。Google 称其工程师每天都在用 |
 
-<sub>本期来源见 <a href="../archive/2026-10-28.md">archive/2026-10-28.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-29.md">archive/2026-10-29.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
