@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-29
+## 今天 — 2026-10-30
 
-给智能体加上结构:设计评审、用代码定义的智能体,以及记得谁说了什么的语音模型。
+智能体规模的代码,以及用来证明、检验和约束它的工具。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Nemotron 3.5 Transcribe** | Nvidia 的开放权重语音模型:40 种语言转写、翻译、说话人标注(最多 8 人) | 10 月 28 日发布。据报道在 HF 英语 Open ASR 排行榜开放权重模型中排名第一(平均 WER 5.33%)。各来源参数量不一致,请查看模型卡 |
-| **Cursor Agent SDK** | 用代码定义智能体的框架:Markdown 提示词、TypeScript 工具、评测、PR 触发 | 10 月 20 日发布。与 Cursor 自家 Bugbot、Security Reviewer 使用同一套框架,现在可用来做自己的机器人 |
-| **Elephant-Goldfish Model** | Google 的开源插件:掌握全部上下文的智能体写设计,无上下文的评审者在写代码前挑错 | 10 月 22 日发布,Apache 2.0,首先支持 Antigravity。Google 称其工程师每天都在用 |
+| **Gemini 4 Carbon** | Google 面向网络安全与长程任务的前沿模型 | 10 月 28 日发布,晚于 Argon 两周。目前仅向经审核的网络防御者开放;基准数据来自 Google 自己 |
+| **GitHub Octoverse 2026** | GitHub 年度代码现状报告 | 据 Simon Willison 总结,每月合并 PR 2.2 亿、提交 73.8 亿、新仓库 3030 万。他认为是智能体式工程所致 |
+| **Lasm** | 把 Lean 4 编译为 WebAssembly,可在 Node、边缘、WASI 和浏览器运行的 MIT 工具链 | 今日 Show HN。示例应用 Conduit 有 117 条已证明定理,是对"谁来检查智能体写的代码"的一种回答 |
+| **Doomformer** | 把整数神经网络转成 ZDoom 地图,用 ViZDoom 运行 | 今日 Show HN。巫毒娃娃负责运算,并与 NumPy 零误差比对。离奇,但真的能跑 |
 
-<sub>本期来源见 <a href="../archive/2026-10-29.md">archive/2026-10-29.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-30.md">archive/2026-10-30.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

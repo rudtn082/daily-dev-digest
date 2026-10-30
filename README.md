@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-29
+## 🔥 Latest edition — 2026-10-30
 
-> Theme: *Giving agents structure — design reviews, agents-as-code, and a speech model that remembers who said what.*
+> Theme: *Code at agent scale — and the tools that prove, test, or restrict it.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Nemotron 3.5 Transcribe** | Nvidia's open-weight speech model: transcription in 40 languages, translation, speaker labels, up to 8 speakers | Released Oct 28; reported #1 among open-weight models on the HF English Open ASR Leaderboard (5.33% avg WER). Param count differs by source, check the model card |
-| **Cursor Agent SDK** | A framework for defining agents as code: Markdown prompts, TypeScript tools, evals, PR triggers | Oct 20; the same harness behind Cursor's Bugbot and Security Reviewer, now usable for your own bots |
-| **Elephant-Goldfish Model** | Google's open-source plugin: a context-rich agent drafts a design, fresh-context reviewers attack it before any code | Oct 22, Apache 2.0, initially for Antigravity; Google says its engineers use it daily |
+| **Gemini 4 Carbon** | Google's frontier model tuned for cybersecurity and long-horizon work | Announced Oct 28, two weeks after Argon. Access starts with vetted cyber defenders; benchmark numbers are Google's own |
+| **GitHub Octoverse 2026** | GitHub's annual state-of-code report | 220M merged PRs, 7.38B commits and 30.3M new repos per month, per Simon Willison's summary; he credits agentic engineering |
+| **Lasm** | MIT-licensed toolchain compiling Lean 4 to WebAssembly for Node, edge, WASI and browsers | Show HN today. Example app Conduit has 117 proved theorems: verification as an answer to agent-written code |
+| **Doomformer** | Turns integer neural networks into ZDoom maps run through ViZDoom | Show HN today. Voodoo dolls do the math, checked against NumPy with zero tolerance. Weird, and it works |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-29.md">archive/2026-10-29.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-30.md">archive/2026-10-30.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

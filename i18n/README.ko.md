@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-29
+## 오늘 — 2026-10-30
 
-에이전트에 구조를 입히다: 설계 리뷰, 코드로 정의하는 에이전트, 누가 말했는지 기억하는 음성 모델.
+에이전트 규모의 코드, 그리고 그것을 증명하고 검증하고 제한하는 도구들.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Nemotron 3.5 Transcribe** | Nvidia의 오픈 웨이트 음성 모델: 40개 언어 전사, 번역, 화자 구분(최대 8명) | 10월 28일 공개. HF 영어 Open ASR 리더보드 오픈 웨이트 1위로 보도(평균 WER 5.33%). 파라미터 수는 출처마다 달라 모델 카드 확인 필요 |
-| **Cursor Agent SDK** | 에이전트를 코드로 정의하는 프레임워크: Markdown 프롬프트, TypeScript 도구, 평가, PR 트리거 | 10월 20일 공개. Cursor의 Bugbot, Security Reviewer와 같은 하네스를 직접 만드는 봇에도 쓸 수 있음 |
-| **Elephant-Goldfish Model** | Google의 오픈소스 플러그인: 맥락을 다 아는 에이전트가 설계를 쓰고, 맥락 없는 리뷰어가 코드 전에 공격 | 10월 22일 공개, Apache 2.0, 우선 Antigravity용. Google 엔지니어들이 매일 쓴다고 함 |
+| **Gemini 4 Carbon** | 사이버보안과 장기 작업에 맞춘 Google의 프런티어 모델 | 10월 28일 발표, Argon 두 주 뒤. 우선 검증된 사이버 방어자에게만 제공. 벤치마크 수치는 Google 자체 발표 |
+| **GitHub Octoverse 2026** | GitHub의 연례 코드 현황 리포트 | Simon Willison 요약 기준 월 PR 병합 2.2억 건, 커밋 73.8억 건, 신규 저장소 3,030만 개. 그는 에이전트 엔지니어링 때문이라고 봄 |
+| **Lasm** | Lean 4를 WebAssembly로 컴파일해 Node, 엣지, WASI, 브라우저에서 돌리는 MIT 툴체인 | 오늘 Show HN. 예제 앱 Conduit에 증명된 정리 117개. 에이전트가 쓴 코드의 검증이라는 답 |
+| **Doomformer** | 정수 신경망을 ZDoom 맵으로 바꿔 ViZDoom에서 실행 | 오늘 Show HN. 부두 인형이 연산하고 NumPy와 오차 0으로 대조. 황당한데 진짜 돌아감 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-29.md">archive/2026-10-29.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-30.md">archive/2026-10-30.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
