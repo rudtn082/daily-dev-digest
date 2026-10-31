@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-30
+## 今天 — 2026-10-31
 
-智能体规模的代码,以及用来证明、检验和约束它的工具。
+少信任一点工具链:被植入后门的扩展,以及让 AI 基础设施摆脱单一厂商的开源栈。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Gemini 4 Carbon** | Google 面向网络安全与长程任务的前沿模型 | 10 月 28 日发布,晚于 Argon 两周。目前仅向经审核的网络防御者开放;基准数据来自 Google 自己 |
-| **GitHub Octoverse 2026** | GitHub 年度代码现状报告 | 据 Simon Willison 总结,每月合并 PR 2.2 亿、提交 73.8 亿、新仓库 3030 万。他认为是智能体式工程所致 |
-| **Lasm** | 把 Lean 4 编译为 WebAssembly,可在 Node、边缘、WASI 和浏览器运行的 MIT 工具链 | 今日 Show HN。示例应用 Conduit 有 117 条已证明定理,是对"谁来检查智能体写的代码"的一种回答 |
-| **Doomformer** | 把整数神经网络转成 ZDoom 地图,用 ViZDoom 运行 | 今日 Show HN。巫毒娃娃负责运算,并与 NumPy 零误差比对。离奇,但真的能跑 |
+| **Claude Code 扩展后门(Cursor Marketplace)** | Claude Code for VS Code 扩展的 2.1.312/2.1.313 版本被植入 SSH 后门 | Phorion 通报:加载即执行,写入攻击者密钥、建立反向隧道并持久化。Cursor 已下架这些版本,仅卸载并不能清除 |
+| **TorchTPU** | Google 与 Meta 合作的开源原生 PyTorch 后端,面向 Google TPU | TPU 过去是 JAX/TensorFlow 的天下,这次想让 PyTorch 不用重写就能跑。性能说法来自作者自己 |
+| **llm-d 1.0** | CNCF Sandbox 中的 Kubernetes 原生分布式 LLM 推理栈,可配合 vLLM 与 SGLang | 1.0 新增多租户流控、零停机升级和会话感知的 KV 缓存路由,支持 GPU 与 TPU |
+| **Sleep framework** | Google Research 的持续学习思路:清醒之后进入睡眠阶段整合记忆 | 报告称几乎不遗忘,长上下文结果可达 1000 万 token。属作者主张,尚无独立复现 |
 
-<sub>本期来源见 <a href="../archive/2026-10-30.md">archive/2026-10-30.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-10-31.md">archive/2026-10-31.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

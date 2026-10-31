@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-10-30
+## 오늘 — 2026-10-31
 
-에이전트 규모의 코드, 그리고 그것을 증명하고 검증하고 제한하는 도구들.
+툴체인을 덜 믿자 — 백도어가 심긴 확장, 그리고 AI 인프라를 한 벤더에서 떼어내는 오픈 스택들.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Gemini 4 Carbon** | 사이버보안과 장기 작업에 맞춘 Google의 프런티어 모델 | 10월 28일 발표, Argon 두 주 뒤. 우선 검증된 사이버 방어자에게만 제공. 벤치마크 수치는 Google 자체 발표 |
-| **GitHub Octoverse 2026** | GitHub의 연례 코드 현황 리포트 | Simon Willison 요약 기준 월 PR 병합 2.2억 건, 커밋 73.8억 건, 신규 저장소 3,030만 개. 그는 에이전트 엔지니어링 때문이라고 봄 |
-| **Lasm** | Lean 4를 WebAssembly로 컴파일해 Node, 엣지, WASI, 브라우저에서 돌리는 MIT 툴체인 | 오늘 Show HN. 예제 앱 Conduit에 증명된 정리 117개. 에이전트가 쓴 코드의 검증이라는 답 |
-| **Doomformer** | 정수 신경망을 ZDoom 맵으로 바꿔 ViZDoom에서 실행 | 오늘 Show HN. 부두 인형이 연산하고 NumPy와 오차 0으로 대조. 황당한데 진짜 돌아감 |
+| **Claude Code 확장 백도어 (Cursor Marketplace)** | Claude Code for VS Code 확장 2.1.312/2.1.313 버전에 SSH 백도어가 들어 있었음 | Phorion 보고: 로드 즉시 실행, 공격자 키 추가, 리버스 터널, 지속성 확보. Cursor가 해당 버전을 내렸고, 삭제만으로는 정리되지 않음 |
+| **TorchTPU** | Google과 Meta가 만든 Google TPU용 오픈소스 네이티브 PyTorch 백엔드 | TPU는 JAX/TensorFlow 영역이었는데, 다시 짜지 않고 PyTorch를 돌리겠다는 시도. 성능 수치는 저자 측 주장 |
+| **llm-d 1.0** | CNCF Sandbox의 쿠버네티스 네이티브 분산 LLM 추론 스택, vLLM·SGLang과 연동 | 1.0에서 멀티테넌트 흐름 제어, 무중단 업그레이드, 세션 인식 KV 캐시 라우팅 추가. GPU와 TPU에서 동작 |
+| **Sleep framework** | Google Research의 지속 학습 접근: 깨어 있는 단계 뒤 잠자며 기억을 정리 | 망각이 거의 없고 최대 1,000만 토큰 장문 맥락 결과를 보고. 저자 주장이며 독립 재현은 아직 |
 
-<sub>오늘 출처는 <a href="../archive/2026-10-30.md">archive/2026-10-30.md</a>.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-10-31.md">archive/2026-10-31.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
