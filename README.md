@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-10-31
+## 🔥 Latest edition — 2026-11-01
 
-> Theme: *Trust the toolchain less — a backdoored extension, and the open stacks moving AI infra off one vendor.*
+> Theme: *Tiny models and big swarms — a 512-byte boot-sector LM, and fifty agents let loose in a world.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Claude Code extension backdoor (Cursor Marketplace)** | Versions 2.1.312/2.1.313 of the Claude Code for VS Code extension carried an SSH backdoor | Phorion's advisory: runs on load, adds an attacker key, reverse tunnel, persistence. Cursor pulled the versions; uninstalling alone doesn't clean up |
-| **TorchTPU** | Open-source native PyTorch backend for Google TPUs, from Google and Meta | TPUs were a JAX/TensorFlow world; this aims to run PyTorch there without a rewrite. Performance claims are the authors' own |
-| **llm-d 1.0** | Kubernetes-native distributed LLM inference stack in the CNCF Sandbox, works with vLLM and SGLang | 1.0 adds multi-tenant flow control, zero-downtime upgrades and session-aware KV-cache routing, on GPUs and TPUs |
-| **Sleep framework** | Google Research approach to continual learning: wake, then sleep to consolidate memory | Reports near-zero forgetting and long-context results up to 10M tokens. Authors' claims, not independently reproduced |
+| **bootgpt** | A character-level language model that runs from a 512-byte boot sector and prints fake kernel boot logs | 11.5 KB int8 weights, no OS, 386 real mode; the trainer simulates the assembly's integer math and the README says outputs match exactly |
+| **YC Labs agent swarms** | 50 GPT-6.1 Sol agents in Minecraft, plus Claude Opus 5.5 vs GPT-6.1 Sol Bed Wars | Informal leaders, invented bureaucracy and growing caution emerged; the failure modes echo overcautious coding agents |
+| **Simantic** | Firmware simulation (Rust engine) for engineers and AI agents, Launch HN YC F26 | Lets agents test embedded code per commit without hardware; no analog co-simulation yet, accuracy report still promised |
+| **LFM3** | Liquid AI's six open-weight 2B-class models: text, vision, audio, omni, two decision models | 1.7B text model fits in ~1 GB at 4-bit for on-device use; benchmarks are Liquid's own, check the license |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-10-31.md">archive/2026-10-31.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-01.md">archive/2026-11-01.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

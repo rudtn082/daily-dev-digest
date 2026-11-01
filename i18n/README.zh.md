@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-10-31
+## 今天 — 2026-11-01
 
-少信任一点工具链:被植入后门的扩展,以及让 AI 基础设施摆脱单一厂商的开源栈。
+小模型与大集群:住在 512 字节引导扇区里的语言模型,以及被放进一个世界的 50 个智能体。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Claude Code 扩展后门(Cursor Marketplace)** | Claude Code for VS Code 扩展的 2.1.312/2.1.313 版本被植入 SSH 后门 | Phorion 通报:加载即执行,写入攻击者密钥、建立反向隧道并持久化。Cursor 已下架这些版本,仅卸载并不能清除 |
-| **TorchTPU** | Google 与 Meta 合作的开源原生 PyTorch 后端,面向 Google TPU | TPU 过去是 JAX/TensorFlow 的天下,这次想让 PyTorch 不用重写就能跑。性能说法来自作者自己 |
-| **llm-d 1.0** | CNCF Sandbox 中的 Kubernetes 原生分布式 LLM 推理栈,可配合 vLLM 与 SGLang | 1.0 新增多租户流控、零停机升级和会话感知的 KV 缓存路由,支持 GPU 与 TPU |
-| **Sleep framework** | Google Research 的持续学习思路:清醒之后进入睡眠阶段整合记忆 | 报告称几乎不遗忘,长上下文结果可达 1000 万 token。属作者主张,尚无独立复现 |
+| **bootgpt** | 从 512 字节引导扇区运行、打印伪造内核启动日志的字符级语言模型 | 11.5KB 的 int8 权重,无操作系统,在 386 实模式下运行。训练脚本复现了汇编的整数运算,README 称输出逐字符一致 |
+| **YC Labs 智能体集群** | 在 Minecraft 中放入 50 个 GPT-6.1 Sol 智能体,另有 Claude Opus 5.5 对 GPT-6.1 Sol 的起床战争 | 出现了非正式领袖、凭空发明的官僚体系和越来越谨慎的倾向,失败模式很像过度谨慎的编码智能体 |
+| **Simantic** | 面向工程师与 AI 智能体的固件仿真(Rust 引擎),Launch HN YC F26 | 无需硬件即可在每次提交时测试嵌入式代码。尚无模拟电路联合仿真,精度报告仍在预告中 |
+| **LFM3** | Liquid AI 的六个开放权重 2B 级模型:文本、视觉、音频、全模态、两个决策模型 | 1.7B 文本模型 4 位量化后约 1GB,面向端侧。基准为 Liquid 自测,使用前请核对许可证 |
 
-<sub>本期来源见 <a href="../archive/2026-10-31.md">archive/2026-10-31.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-11-01.md">archive/2026-11-01.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
