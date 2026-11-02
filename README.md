@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-01
+## 🔥 Latest edition — 2026-11-02
 
-> Theme: *Tiny models and big swarms — a 512-byte boot-sector LM, and fifty agents let loose in a world.*
+> Theme: *Lean replacements — a diff tool, a browser, an API client and a camera app, each lighter than what it stands in for.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **bootgpt** | A character-level language model that runs from a 512-byte boot sector and prints fake kernel boot logs | 11.5 KB int8 weights, no OS, 386 real mode; the trainer simulates the assembly's integer math and the README says outputs match exactly |
-| **YC Labs agent swarms** | 50 GPT-6.1 Sol agents in Minecraft, plus Claude Opus 5.5 vs GPT-6.1 Sol Bed Wars | Informal leaders, invented bureaucracy and growing caution emerged; the failure modes echo overcautious coding agents |
-| **Simantic** | Firmware simulation (Rust engine) for engineers and AI agents, Launch HN YC F26 | Lets agents test embedded code per commit without hardware; no analog co-simulation yet, accuracy report still promised |
-| **LFM3** | Liquid AI's six open-weight 2B-class models: text, vision, audio, omni, two decision models | 1.7B text model fits in ~1 GB at 4-bit for on-device use; benchmarks are Liquid's own, check the license |
+| **OmniDiff** | Syntax-aware, move-aware diff tool in Rust, usable as a git/jj difftool | Tree-sitter parsing for 25 languages, content diffs for fonts and PDFs; top Show HN today, accuracy claims are the author's own |
+| **Lightpanda** | Headless browser written from scratch in Zig, with CDP and an MCP server | Trending on GitHub; claims ~16x less memory and ~9x faster than Chromium on its own benchmark; AGPL-3.0 |
+| **Ghostman** | Terminal API client and webhook inspector (Python/Textual) | A Postman alternative that keeps requests as plain files for Git; very new (v0.1.0), MIT |
+| **Outcrop** | Phone app that overlays geologic maps on your camera view | Names the rock you point at, with age and rock column; Android live, iPhone in beta |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-01.md">archive/2026-11-01.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-02.md">archive/2026-11-02.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
