@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-02
+## 🔥 Latest edition — 2026-11-03
 
-> Theme: *Lean replacements — a diff tool, a browser, an API client and a camera app, each lighter than what it stands in for.*
+> Theme: *Agents that learn from their own runs, and video models that plan before they render.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **OmniDiff** | Syntax-aware, move-aware diff tool in Rust, usable as a git/jj difftool | Tree-sitter parsing for 25 languages, content diffs for fonts and PDFs; top Show HN today, accuracy claims are the author's own |
-| **Lightpanda** | Headless browser written from scratch in Zig, with CDP and an MCP server | Trending on GitHub; claims ~16x less memory and ~9x faster than Chromium on its own benchmark; AGPL-3.0 |
-| **Ghostman** | Terminal API client and webhook inspector (Python/Textual) | A Postman alternative that keeps requests as plain files for Git; very new (v0.1.0), MIT |
-| **Outcrop** | Phone app that overlays geologic maps on your camera view | Names the rock you point at, with age and rock column; Android live, iPhone in beta |
+| **TokenEconomizer** | Paper: an external controller that cuts coding-agent token cost without touching the agent | Reports 18.4–30.9% lower mean cost on SWE-Bench (277 tasks); the authors' own numbers |
+| **Harness²** | Paper: recursive, verifier-free improvement of the harness around a frozen LLM agent | Moves the lever from model to scaffolding; up to 11.5 points one-step gain on WorkBuddy-Bench, self-reported |
+| **Hy-Nomas** | Tencent's interactive video world model with text and camera control | Fresh paper (Oct 27) with 123 upvotes on Hugging Face; license and weights not checked |
+| **SenseNova-6.8-Code2Video** | SenseTime's open-weight 27B model that writes and revises code for each shot | Weights on Hugging Face Oct 27; GGUF quants already out; no benchmarks published in coverage |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-02.md">archive/2026-11-02.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-03.md">archive/2026-11-03.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

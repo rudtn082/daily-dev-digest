@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-02
+## 今天 — 2026-11-03
 
-更轻的替代品:diff 工具、浏览器、API 客户端、相机应用,各自都比它要替代的东西更轻。
+从自身运行中学习的智能体,以及先规划再渲染的视频模型。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **OmniDiff** | Rust 编写的语法感知、移动感知 diff 工具,可作 git/jj 的 difftool | 用 tree-sitter 解析 25 种语言,字体和 PDF 按内容比较。今日 Show HN 高位,准确度说法为作者自测 |
-| **Lightpanda** | 用 Zig 从零写成的无头浏览器,支持 CDP 与 MCP 服务器 | 登上 GitHub 趋势。按其自测基准称比 Chromium 省约 16 倍内存、快约 9 倍。AGPL-3.0 |
-| **Ghostman** | 终端里的 API 客户端兼 Webhook 检查器(Python/Textual) | Postman 的替代品,请求以普通文件保存,可直接进 Git。非常新(v0.1.0),MIT |
-| **Outcrop** | 在相机画面上叠加地质图的手机应用 | 指向岩石即显示名称、年代和岩层柱状图。Android 已上架,iPhone 为测试版 |
+| **TokenEconomizer** | 不改动智能体本身,即可降低编码智能体 token 成本的外部控制器(论文) | 在 SWE-Bench 277 个任务上报告平均成本降低 18.4–30.9%,为作者自测 |
+| **Harness²** | 无需验证器、递归改进冻结 LLM 智能体外围 harness 的论文 | 把着力点从模型转向脚手架。WorkBuddy-Bench 上单步最高提升 11.5 分,自行报告 |
+| **Hy-Nomas** | 腾讯的交互式视频世界模型,支持文本与相机控制 | 10/27 发布的论文,Hugging Face 上 123 个点赞。许可证和权重未核实 |
+| **SenseNova-6.8-Code2Video** | 商汤的开源权重 27B 模型,逐镜头写代码并反复修改 | 10/27 权重上线 Hugging Face,社区已有 GGUF 量化版。报道中未见基准成绩 |
 
-<sub>本期来源见 <a href="../archive/2026-11-02.md">archive/2026-11-02.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-11-03.md">archive/2026-11-03.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
