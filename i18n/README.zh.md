@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-03
+## 今天 — 2026-11-04
 
-从自身运行中学习的智能体,以及先规划再渲染的视频模型。
+给智能体更稳的立足点的工具,以及围绕它们悄悄装上的东西。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **TokenEconomizer** | 不改动智能体本身,即可降低编码智能体 token 成本的外部控制器(论文) | 在 SWE-Bench 277 个任务上报告平均成本降低 18.4–30.9%,为作者自测 |
-| **Harness²** | 无需验证器、递归改进冻结 LLM 智能体外围 harness 的论文 | 把着力点从模型转向脚手架。WorkBuddy-Bench 上单步最高提升 11.5 分,自行报告 |
-| **Hy-Nomas** | 腾讯的交互式视频世界模型,支持文本与相机控制 | 10/27 发布的论文,Hugging Face 上 123 个点赞。许可证和权重未核实 |
-| **SenseNova-6.8-Code2Video** | 商汤的开源权重 27B 模型,逐镜头写代码并反复修改 | 10/27 权重上线 Hugging Face,社区已有 GGUF 量化版。报道中未见基准成绩 |
+| **Auto-Ontology** | NVIDIA 的 Apache-2.0 上下文层,把数据库元数据编译成本体,供智能体通过 MCP/REST 查询 | 为减少 text-to-SQL 智能体的错误答案提供了具体做法。准确率说法为项目自述 |
+| **Postman 自动安装智能体插件** | GitHub issue:Postman 桌面应用被指自动安装 Codex/Claude Code 插件和会话钩子 | Postman 表示会明确 opt-in。可以检查一下自己的智能体配置目录。指控未经核实 |
+| **Sparks of Weight-Space Programming** | 论文称模型仅凭原始权重就能推断网络的用途 | Simon Willison 用本地 Qwen 27B 复现了读取任务;也有人批评编辑权重的说法有误导性 |
+| **Hue** | 获 YC 投资的模拟器,仿造 Gmail/Slack/Salesforce 等环境来测试智能体 | 无需碰真实邮箱即可评测。为厂商自述,未亲自试用 |
 
-<sub>本期来源见 <a href="../archive/2026-11-03.md">archive/2026-11-03.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-11-04.md">archive/2026-11-04.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

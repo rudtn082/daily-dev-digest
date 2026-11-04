@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-03
+## 🔥 Latest edition — 2026-11-04
 
-> Theme: *Agents that learn from their own runs, and video models that plan before they render.*
+> Theme: *Giving agents better ground to stand on — and noticing what installs itself around them.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **TokenEconomizer** | Paper: an external controller that cuts coding-agent token cost without touching the agent | Reports 18.4–30.9% lower mean cost on SWE-Bench (277 tasks); the authors' own numbers |
-| **Harness²** | Paper: recursive, verifier-free improvement of the harness around a frozen LLM agent | Moves the lever from model to scaffolding; up to 11.5 points one-step gain on WorkBuddy-Bench, self-reported |
-| **Hy-Nomas** | Tencent's interactive video world model with text and camera control | Fresh paper (Oct 27) with 123 upvotes on Hugging Face; license and weights not checked |
-| **SenseNova-6.8-Code2Video** | SenseTime's open-weight 27B model that writes and revises code for each shot | Weights on Hugging Face Oct 27; GGUF quants already out; no benchmarks published in coverage |
+| **Auto-Ontology** | NVIDIA's Apache-2.0 context layer that compiles database metadata into an ontology agents query via MCP/REST | A concrete take on fewer wrong answers for text-to-SQL agents; accuracy claim is the project's own |
+| **Postman agent-plugin auto-install** | GitHub issue: Postman's desktop app reportedly installs Codex/Claude Code plugins and a session hook | Postman says it will clarify opt-in; check your own agent config dirs. Allegations unverified |
+| **Sparks of Weight-Space Programming** | Paper claiming a model can infer what a network does from its raw weights | Simon Willison reproduced the reading task with a local Qwen 27B; critics call the editing claims misleading |
+| **Hue** | YC-backed simulator of Gmail/Slack/Salesforce-style worlds for testing agents | Evals without touching real inboxes; vendor claims, not tried |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-03.md">archive/2026-11-03.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-04.md">archive/2026-11-04.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
