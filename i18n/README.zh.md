@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-04
+## 今天 — 2026-11-05
 
-给智能体更稳的立足点的工具,以及围绕它们悄悄装上的东西。
+智能体有了手,也有了队友:桌面应用、浏览器内部,以及彼此之间。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Auto-Ontology** | NVIDIA 的 Apache-2.0 上下文层,把数据库元数据编译成本体,供智能体通过 MCP/REST 查询 | 为减少 text-to-SQL 智能体的错误答案提供了具体做法。准确率说法为项目自述 |
-| **Postman 自动安装智能体插件** | GitHub issue:Postman 桌面应用被指自动安装 Codex/Claude Code 插件和会话钩子 | Postman 表示会明确 opt-in。可以检查一下自己的智能体配置目录。指控未经核实 |
-| **Sparks of Weight-Space Programming** | 论文称模型仅凭原始权重就能推断网络的用途 | Simon Willison 用本地 Qwen 27B 复现了读取任务;也有人批评编辑权重的说法有误导性 |
-| **Hue** | 获 YC 投资的模拟器,仿造 Gmail/Slack/Salesforce 等环境来测试智能体 | 无需碰真实邮箱即可评测。为厂商自述,未亲自试用 |
+| **agent-desktop** | Vercel Labs 的 Apache-2.0 库,让智能体通过操作系统无障碍树读取并操作桌面应用 | 电脑操控正变成可安装的库。README 提醒快照可能包含隐私内容。未亲自试用 |
+| **Tucano** | 在本地运行 Claude Code、Codex、Cursor CLI、OpenCode、Pi 智能体团队的 Apache-2.0 工具 | 合并、删除等高风险操作内置审批环节。早期项目 |
+| **Chrome DevTools for agents** | Chrome 155/156 为编码智能体新增 CSS 样式查看、大型 trace 解析和对话框处理 | 浏览器厂商自己开始提供面向智能体的调试能力 |
+| **Tencent Hy4** | 11 月 4 日发布的 770B MoE(激活 49B,上下文 100 万+),权重称“数日内”放出 | 又一个大型开放模型登场。定位为腾讯自述,尚未见独立基准测试 |
 
-<sub>本期来源见 <a href="../archive/2026-11-04.md">archive/2026-11-04.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-11-05.md">archive/2026-11-05.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

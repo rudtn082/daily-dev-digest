@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-04
+## 🔥 Latest edition — 2026-11-05
 
-> Theme: *Giving agents better ground to stand on — and noticing what installs itself around them.*
+> Theme: *Agents get hands and teammates — desktop apps, browser internals, and each other.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Auto-Ontology** | NVIDIA's Apache-2.0 context layer that compiles database metadata into an ontology agents query via MCP/REST | A concrete take on fewer wrong answers for text-to-SQL agents; accuracy claim is the project's own |
-| **Postman agent-plugin auto-install** | GitHub issue: Postman's desktop app reportedly installs Codex/Claude Code plugins and a session hook | Postman says it will clarify opt-in; check your own agent config dirs. Allegations unverified |
-| **Sparks of Weight-Space Programming** | Paper claiming a model can infer what a network does from its raw weights | Simon Willison reproduced the reading task with a local Qwen 27B; critics call the editing claims misleading |
-| **Hue** | YC-backed simulator of Gmail/Slack/Salesforce-style worlds for testing agents | Evals without touching real inboxes; vendor claims, not tried |
+| **agent-desktop** | Vercel Labs' Apache-2.0 library that lets agents read and operate desktop apps via the OS accessibility tree | Computer use is becoming an installable library; README warns snapshots may contain private content. Not tried |
+| **Tucano** | Apache-2.0 tool for running a team of agents (Claude Code, Codex, Cursor CLI, OpenCode, Pi) locally with approval gates | Orchestration with human gates for merges and deletes built in; early project |
+| **Chrome DevTools for agents** | Chrome 155/156 adds CSS style inspection, large-trace parsing and dialog handling for coding agents | The browser vendor now ships agent-facing debugging itself |
+| **Tencent Hy4** | 770B MoE (49B active, 1M+ context) announced Nov 4; weights promised "in the coming days" | Another big open-weight entrant; positioning is Tencent's own, no independent benchmarks seen |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-04.md">archive/2026-11-04.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-05.md">archive/2026-11-05.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
