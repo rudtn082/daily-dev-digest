@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-05
+## 今天 — 2026-11-06
 
-智能体有了手,也有了队友:桌面应用、浏览器内部,以及彼此之间。
+会咬人的默认值,被修好的默认值 —— 还有越来越便宜的东西。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **agent-desktop** | Vercel Labs 的 Apache-2.0 库,让智能体通过操作系统无障碍树读取并操作桌面应用 | 电脑操控正变成可安装的库。README 提醒快照可能包含隐私内容。未亲自试用 |
-| **Tucano** | 在本地运行 Claude Code、Codex、Cursor CLI、OpenCode、Pi 智能体团队的 Apache-2.0 工具 | 合并、删除等高风险操作内置审批环节。早期项目 |
-| **Chrome DevTools for agents** | Chrome 155/156 为编码智能体新增 CSS 样式查看、大型 trace 解析和对话框处理 | 浏览器厂商自己开始提供面向智能体的调试能力 |
-| **Tencent Hy4** | 11 月 4 日发布的 770B MoE(激活 49B,上下文 100 万+),权重称“数日内”放出 | 又一个大型开放模型登场。定位为腾讯自述,尚未见独立基准测试 |
+| **Alpine OpenSSH 绕过** | 安全公告:未启用 PAM 构建的 sshd 会让无密码账户凭 257–1024 字节的密码登录(musl `crypt()` 返回 `*`) | 发布当天登上 HN 首页。修复需重启守护进程,临时办法是 `PasswordAuthentication no`。暂无 CVE |
+| **Go encoding/json/v2** | `encoding/json/v2` 与 `jsontext` 在 Go 1.27 转为稳定版,v1 继续支持 | 默认行为更严格、选项作为参数传入。Go 团队称 Unmarshal 最高快 10 倍(自家基准测试) |
+| **Pyramid-JiT (pjit-21k)** | Linum 发布的 Apache-2.0 2B 文生图模型,训练成本 $21,038(64 张 H100) | 说明可用的开放图像模型已经便宜到什么程度。作者承认文字和多人场景较弱。未亲自试用 |
+| **Rivet** | Apache-2.0 智能体编排器,Actor 的 SQLite 状态由 S3 支撑,只需对象存储 | 今天的 Launch HN。省去智能体状态所需的 Postgres/队列栈。性能数字为项目自述 |
 
-<sub>本期来源见 <a href="../archive/2026-11-05.md">archive/2026-11-05.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-11-06.md">archive/2026-11-06.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

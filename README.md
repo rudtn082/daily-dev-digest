@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-05
+## 🔥 Latest edition — 2026-11-06
 
-> Theme: *Agents get hands and teammates — desktop apps, browser internals, and each other.*
+> Theme: *Defaults that bite, defaults that get fixed — and cheap things getting cheaper.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **agent-desktop** | Vercel Labs' Apache-2.0 library that lets agents read and operate desktop apps via the OS accessibility tree | Computer use is becoming an installable library; README warns snapshots may contain private content. Not tried |
-| **Tucano** | Apache-2.0 tool for running a team of agents (Claude Code, Codex, Cursor CLI, OpenCode, Pi) locally with approval gates | Orchestration with human gates for merges and deletes built in; early project |
-| **Chrome DevTools for agents** | Chrome 155/156 adds CSS style inspection, large-trace parsing and dialog handling for coding agents | The browser vendor now ships agent-facing debugging itself |
-| **Tencent Hy4** | 770B MoE (49B active, 1M+ context) announced Nov 4; weights promised "in the coming days" | Another big open-weight entrant; positioning is Tencent's own, no independent benchmarks seen |
+| **Alpine OpenSSH bypass** | Advisory: sshd builds without PAM accept a 257–1024 byte password for passwordless accounts (musl `crypt()` returns `*`) | Hit HN front page same day; fix needs a daemon restart, workaround is `PasswordAuthentication no`. No CVE yet |
+| **Go encoding/json/v2** | `encoding/json/v2` and `jsontext` go stable in Go 1.27; v1 stays supported | Stricter defaults and options-as-arguments; Go team claims up to 10x faster Unmarshal (their benchmarks) |
+| **Pyramid-JiT (pjit-21k)** | Linum's Apache-2.0 2B text-to-image model, stated training cost $21,038 on 64 H100s | Data point on how cheap a usable open image model is; authors admit weak text and multi-person scenes. Not tried |
+| **Rivet** | Apache-2.0 agent orchestrator; actors with SQLite state backed by S3, object storage the only dependency | Launch HN today; drops the Postgres/queue stack for agent state. Perf figures are the project's own |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-05.md">archive/2026-11-05.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-06.md">archive/2026-11-06.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
