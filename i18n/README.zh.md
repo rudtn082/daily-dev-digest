@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-06
+## 今天 — 2026-11-07
 
-会咬人的默认值,被修好的默认值 —— 还有越来越便宜的东西。
+更小的开放模型、本地智能体 —— 还有只能租用的编码模型。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Alpine OpenSSH 绕过** | 安全公告:未启用 PAM 构建的 sshd 会让无密码账户凭 257–1024 字节的密码登录(musl `crypt()` 返回 `*`) | 发布当天登上 HN 首页。修复需重启守护进程,临时办法是 `PasswordAuthentication no`。暂无 CVE |
-| **Go encoding/json/v2** | `encoding/json/v2` 与 `jsontext` 在 Go 1.27 转为稳定版,v1 继续支持 | 默认行为更严格、选项作为参数传入。Go 团队称 Unmarshal 最高快 10 倍(自家基准测试) |
-| **Pyramid-JiT (pjit-21k)** | Linum 发布的 Apache-2.0 2B 文生图模型,训练成本 $21,038(64 张 H100) | 说明可用的开放图像模型已经便宜到什么程度。作者承认文字和多人场景较弱。未亲自试用 |
-| **Rivet** | Apache-2.0 智能体编排器,Actor 的 SQLite 状态由 S3 支撑,只需对象存储 | 今天的 Launch HN。省去智能体状态所需的 Postgres/队列栈。性能数字为项目自述 |
+| **Ripple-65B Preview** | Ricursive Intelligence 的 65B 稠密编码模型,含 instruct、NVFP4、base 检查点,Apache 2.0 | 稠密 65B 是可以自己托管的体量。基准为厂商自报,模型卡写的 1M 上下文与 OpenRouter 上的 16,384 不一致 |
+| **SWE-2 Flash** | Cognition 更快更便宜的编码模型,11 月 30 日前在 Devin Desktop/CLI 免费 | 据 Cognition,价格为 SWE-2 的五分之一、速度快 3 倍。无公开权重和 API,基准互有胜负且为公司自测 |
+| **Local Code** | Draw Things 的开源 macOS 智能体应用,无需 API 密钥、登录或云端,只用本地模型 | 10 月 28 日发布,本周 Mac 软件周报再度出现。可按 16GiB 到 64GiB+ 的内存选模型。文章未写明许可证,性能说法为自述 |
+| **Inkling 2 Small** | Thinking Machines 的 MoE 模型,支持图像输入、1M 上下文,承诺发布 Apache 2.0 权重 | 11 月 5 日发布,权重待安全测试后放出。SWE-2 Flash 基于其前身 Inkling-Small |
 
-<sub>本期来源见 <a href="../archive/2026-11-06.md">archive/2026-11-06.md</a>。</sub>
+<sub>本期来源见 <a href="../archive/2026-11-07.md">archive/2026-11-07.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

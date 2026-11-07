@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-06
+## 🔥 Latest edition — 2026-11-07
 
-> Theme: *Defaults that bite, defaults that get fixed — and cheap things getting cheaper.*
+> Theme: *Smaller open models and local agents — and a coding model you can only rent.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Alpine OpenSSH bypass** | Advisory: sshd builds without PAM accept a 257–1024 byte password for passwordless accounts (musl `crypt()` returns `*`) | Hit HN front page same day; fix needs a daemon restart, workaround is `PasswordAuthentication no`. No CVE yet |
-| **Go encoding/json/v2** | `encoding/json/v2` and `jsontext` go stable in Go 1.27; v1 stays supported | Stricter defaults and options-as-arguments; Go team claims up to 10x faster Unmarshal (their benchmarks) |
-| **Pyramid-JiT (pjit-21k)** | Linum's Apache-2.0 2B text-to-image model, stated training cost $21,038 on 64 H100s | Data point on how cheap a usable open image model is; authors admit weak text and multi-person scenes. Not tried |
-| **Rivet** | Apache-2.0 agent orchestrator; actors with SQLite state backed by S3, object storage the only dependency | Launch HN today; drops the Postgres/queue stack for agent state. Perf figures are the project's own |
+| **Ripple-65B Preview** | Ricursive Intelligence's 65B dense coding model; instruct, NVFP4 and base checkpoints, Apache 2.0 | A dense 65B is a size people can host. Benchmarks are vendor-reported, and the 1M context on the model card doesn't match the 16,384 window on OpenRouter |
+| **SWE-2 Flash** | Cognition's faster, cheaper coding model, free in Devin Desktop and CLI through Nov 30 | Per Cognition: one-fifth the price of SWE-2, 3x faster. No public weights or API; benchmarks are mixed and company-reported |
+| **Local Code** | Draw Things' open-source macOS agent app; no API key, sign-in or cloud, local models only | Announced Oct 28, in this week's Mac roundups. Model picker runs from 16 GiB to 64 GiB+ Macs. No license named in the post; performance claims are theirs |
+| **Inkling 2 Small** | Thinking Machines' MoE with image input and 1M context; Apache 2.0 weights promised | Released Nov 5, weights pending safety testing. SWE-2 Flash is built on the earlier Inkling-Small |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-06.md">archive/2026-11-06.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-07.md">archive/2026-11-07.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

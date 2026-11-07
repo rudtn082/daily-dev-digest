@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-11-06
+## 오늘 — 2026-11-07
 
-물리는 기본값, 고쳐지는 기본값 — 그리고 점점 싸지는 것들.
+더 작아진 오픈 모델, 로컬 에이전트 — 그리고 빌려 쓰기만 되는 코딩 모델.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Alpine OpenSSH 우회** | PAM 없이 빌드된 sshd가 비밀번호 없는 계정에 257~1024바이트 비밀번호로 로그인을 허용(musl `crypt()`가 `*` 반환)한다는 권고문 | 게시 당일 HN 첫 페이지. 수정하려면 데몬 재시작 필요, 임시 방편은 `PasswordAuthentication no`. 아직 CVE 없음 |
-| **Go encoding/json/v2** | `encoding/json/v2`와 `jsontext`가 Go 1.27에서 정식 안정화. v1도 계속 지원 | 더 엄격한 기본값과 옵션 인자 방식. Go 팀은 Unmarshal이 최대 10배 빠르다고 주장(자체 벤치마크) |
-| **Pyramid-JiT (pjit-21k)** | Linum이 공개한 Apache-2.0 2B 텍스트→이미지 모델. 학습비 $21,038(H100 64장) | 쓸 만한 오픈 이미지 모델이 얼마나 싸졌는지 보여주는 사례. 텍스트·다인물 장면은 약하다고 저자가 인정. 직접 써보지 않음 |
-| **Rivet** | Apache-2.0 에이전트 오케스트레이터. S3가 백업하는 SQLite 상태의 액터, 오브젝트 스토리지만 있으면 됨 | 오늘 Launch HN. 에이전트 상태용 Postgres/큐 스택을 걷어냄. 성능 수치는 프로젝트 자체 주장 |
+| **Ripple-65B Preview** | Ricursive Intelligence의 65B dense 코딩 모델. instruct·NVFP4·base 체크포인트, Apache 2.0 | dense 65B는 직접 호스팅할 만한 크기. 벤치마크는 제조사 발표치고, 모델 카드의 1M 컨텍스트는 OpenRouter의 16,384와 다름 |
+| **SWE-2 Flash** | Cognition의 더 빠르고 싼 코딩 모델. 11월 30일까지 Devin Desktop·CLI에서 무료 | Cognition 말로는 SWE-2의 5분의 1 가격, 3배 빠름. 공개 가중치·API 없음. 벤치마크는 엇갈리고 회사 자체 수치 |
+| **Local Code** | Draw Things의 오픈소스 macOS 에이전트 앱. API 키·로그인·클라우드 없이 로컬 모델만 사용 | 10월 28일 공개, 이번 주 Mac 소프트웨어 소식에 재등장. 16GiB~64GiB+ Mac용 모델 선택 가능. 글에 라이선스 명시 없음, 성능 주장은 자체 주장 |
+| **Inkling 2 Small** | Thinking Machines의 MoE 모델. 이미지 입력, 1M 컨텍스트. Apache 2.0 가중치 공개 예정 | 11월 5일 공개, 가중치는 안전성 테스트 후. SWE-2 Flash가 이전 Inkling-Small 기반 |
 
-<sub>오늘 출처는 <a href="../archive/2026-11-06.md">archive/2026-11-06.md</a>에 있습니다.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-11-07.md">archive/2026-11-07.md</a>에 있습니다.</sub>
 <!-- LATEST:END -->
 
 ---

@@ -21,18 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今日 — 2026-11-06
+## 今日 — 2026-11-07
 
-牙をむくデフォルト、直されるデフォルト — そして安くなっていくもの。
+小さくなるオープンモデル、ローカルエージェント — そして借りるしかないコーディングモデル。
 
 | ピック | 何か | 気になった理由 |
 |------|-----------|-----------|
-| **Alpine OpenSSH バイパス** | PAM なしでビルドされた sshd が、パスワード未設定アカウントに 257〜1024 バイトのパスワードでログインを許す(musl の `crypt()` が `*` を返す)という勧告 | 公開当日に HN トップページ入り。修正にはデーモン再起動が必要、回避策は `PasswordAuthentication no`。CVE は未割り当て |
-| **Go encoding/json/v2** | `encoding/json/v2` と `jsontext` が Go 1.27 で安定版に。v1 も引き続きサポート | より厳格なデフォルトとオプション引数方式。Go チームは Unmarshal が最大 10 倍高速と主張(自社ベンチマーク) |
-| **Pyramid-JiT (pjit-21k)** | Linum 公開の Apache-2.0 2B テキスト→画像モデル。学習費用 $21,038(H100 64 基) | 使えるオープン画像モデルがどれだけ安くなったかの一例。文字や複数人物のシーンは弱いと著者も認める。試してはいない |
-| **Rivet** | Apache-2.0 のエージェントオーケストレーター。S3 でバックアップされる SQLite 状態を持つアクター、必要なのはオブジェクトストレージだけ | 今日 Launch HN。エージェント状態のための Postgres/キュー構成を不要に。性能数値はプロジェクト自身の主張 |
+| **Ripple-65B Preview** | Ricursive Intelligence の 65B dense コーディングモデル。instruct・NVFP4・base の各チェックポイント、Apache 2.0 | dense 65B は自前でホストできるサイズ。ベンチマークはベンダー発表値で、モデルカードの 1M コンテキストは OpenRouter の 16,384 と食い違う |
+| **SWE-2 Flash** | Cognition の高速・低価格なコーディングモデル。11月30日まで Devin Desktop/CLI で無料 | Cognition によれば SWE-2 の 5分の1の価格で 3倍高速。重みも API も非公開。ベンチマークは割れており社内数値 |
+| **Local Code** | Draw Things のオープンソース macOS エージェントアプリ。API キー・サインイン・クラウド不要、ローカルモデルのみ | 10月28日発表、今週の Mac ソフト週報にも登場。16GiB〜64GiB+ の Mac 向けにモデルを選べる。記事にライセンス記載なし、性能は自社主張 |
+| **Inkling 2 Small** | Thinking Machines の MoE モデル。画像入力、1M コンテキスト。Apache 2.0 の重みを公開予定 | 11月5日公開、重みは安全性テスト後。SWE-2 Flash は前身の Inkling-Small がベース |
 
-<sub>今日の出典は <a href="../archive/2026-11-06.md">archive/2026-11-06.md</a> にあります。</sub>
+<sub>今日の出典は <a href="../archive/2026-11-07.md">archive/2026-11-07.md</a> にあります。</sub>
 <!-- LATEST:END -->
 
 ---
