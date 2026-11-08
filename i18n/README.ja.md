@@ -21,18 +21,19 @@
 ---
 
 <!-- LATEST:START -->
-## 今日 — 2026-11-07
+## 今日 — 2026-11-08
 
-小さくなるオープンモデル、ローカルエージェント — そして借りるしかないコーディングモデル。
+コーディングエージェントの足元の配管 — 共有ライブラリ、漏れるデフォルト、ひびが入るベンチマーク。
 
 | ピック | 何か | 気になった理由 |
 |------|-----------|-----------|
-| **Ripple-65B Preview** | Ricursive Intelligence の 65B dense コーディングモデル。instruct・NVFP4・base の各チェックポイント、Apache 2.0 | dense 65B は自前でホストできるサイズ。ベンチマークはベンダー発表値で、モデルカードの 1M コンテキストは OpenRouter の 16,384 と食い違う |
-| **SWE-2 Flash** | Cognition の高速・低価格なコーディングモデル。11月30日まで Devin Desktop/CLI で無料 | Cognition によれば SWE-2 の 5分の1の価格で 3倍高速。重みも API も非公開。ベンチマークは割れており社内数値 |
-| **Local Code** | Draw Things のオープンソース macOS エージェントアプリ。API キー・サインイン・クラウド不要、ローカルモデルのみ | 10月28日発表、今週の Mac ソフト週報にも登場。16GiB〜64GiB+ の Mac 向けにモデルを選べる。記事にライセンス記載なし、性能は自社主張 |
-| **Inkling 2 Small** | Thinking Machines の MoE モデル。画像入力、1M コンテキスト。Apache 2.0 の重みを公開予定 | 11月5日公開、重みは安全性テスト後。SWE-2 Flash は前身の Inkling-Small がベース |
+| **libghostty-vt 1.0** | Ghostty のターミナルコアを安定した C ライブラリ(MIT)として公開 | 11月6日に安定 C ABI を公開。JetBrains のターミナル、Konsole の実験、herdr・cmux などエージェントツールが採用 |
+| **Claude Code「今後は確認しない」** | 公開された `.claude/settings.local.json` を調べた Apiiro の調査 | 104,185件中1,122件に実際の認証情報。承認したコマンドがそのまま保存されるため。公開リポジトリにコミットした場合のみ問題 |
+| **MaxxBench** | DeepSWE の89タスクに要件の小変更を加えたベンチマーク | 作者によれば Flash 級2モデルは約74%から53〜56%に低下、Claude Opus 5.5 は76.4%に上昇。一チームのベンチマーク |
+| **GitHub Project Rubicon** | GitHub が作り直した Git ストレージ: blob にパック、複製ログに ref | 1つのリポジトリに数千のエージェントが push する状況が狙い。5,000エージェント・毎秒7,200 push は GitHub 社内の数値 |
+| **ERNIE 5.5 Flash Base** | Baidu の 280B MoE ベースチェックポイント(アクティブ約14B)、FP8/BF16 の重み | 11月5日公開。重みは入手可能だがライセンスは OSI 未承認の独自型。先に確認を |
 
-<sub>今日の出典は <a href="../archive/2026-11-07.md">archive/2026-11-07.md</a> にあります。</sub>
+<sub>今日の出典は <a href="../archive/2026-11-08.md">archive/2026-11-08.md</a> にあります。</sub>
 <!-- LATEST:END -->
 
 ---

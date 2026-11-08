@@ -21,18 +21,19 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-11-07
+## 오늘 — 2026-11-08
 
-더 작아진 오픈 모델, 로컬 에이전트 — 그리고 빌려 쓰기만 되는 코딩 모델.
+코딩 에이전트 밑바닥 배관 — 공유 라이브러리, 새는 기본값, 금 가는 벤치마크.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Ripple-65B Preview** | Ricursive Intelligence의 65B dense 코딩 모델. instruct·NVFP4·base 체크포인트, Apache 2.0 | dense 65B는 직접 호스팅할 만한 크기. 벤치마크는 제조사 발표치고, 모델 카드의 1M 컨텍스트는 OpenRouter의 16,384와 다름 |
-| **SWE-2 Flash** | Cognition의 더 빠르고 싼 코딩 모델. 11월 30일까지 Devin Desktop·CLI에서 무료 | Cognition 말로는 SWE-2의 5분의 1 가격, 3배 빠름. 공개 가중치·API 없음. 벤치마크는 엇갈리고 회사 자체 수치 |
-| **Local Code** | Draw Things의 오픈소스 macOS 에이전트 앱. API 키·로그인·클라우드 없이 로컬 모델만 사용 | 10월 28일 공개, 이번 주 Mac 소프트웨어 소식에 재등장. 16GiB~64GiB+ Mac용 모델 선택 가능. 글에 라이선스 명시 없음, 성능 주장은 자체 주장 |
-| **Inkling 2 Small** | Thinking Machines의 MoE 모델. 이미지 입력, 1M 컨텍스트. Apache 2.0 가중치 공개 예정 | 11월 5일 공개, 가중치는 안전성 테스트 후. SWE-2 Flash가 이전 Inkling-Small 기반 |
+| **libghostty-vt 1.0** | Ghostty의 터미널 코어를 안정 C 라이브러리(MIT)로 분리 | 11월 6일 안정 C ABI 공개. JetBrains 터미널, Konsole 실험, herdr·cmux 같은 에이전트 도구가 기반으로 사용 |
+| **Claude Code "다시 묻지 않기"** | 공개된 `.claude/settings.local.json`을 훑은 Apiiro의 조사 | 104,185개 중 1,122개에서 실제 자격 증명 발견. 승인한 명령이 그대로 저장되기 때문. 파일을 공개 저장소에 커밋했을 때만 문제 |
+| **MaxxBench** | DeepSWE 89개 과제에 요구사항을 살짝 바꾼 벤치마크 | 제작진 말로는 Flash급 두 모델이 약 74%에서 53~56%로 하락, Claude Opus 5.5는 76.4%로 상승. 한 팀의 벤치마크 |
+| **GitHub Project Rubicon** | GitHub이 다시 짠 Git 저장소 구조: blob에 팩, 복제 로그에 ref | 한 저장소에 수천 에이전트가 푸시하는 상황이 목표. 에이전트 5,000개·초당 7,200 푸시는 GitHub 내부 수치 |
+| **ERNIE 5.5 Flash Base** | Baidu의 280B MoE 베이스 체크포인트(활성 ~14B), FP8·BF16 가중치 | 11월 5일 공개. 가중치는 받을 수 있지만 라이선스는 OSI 미승인 맞춤형. 먼저 읽어볼 것 |
 
-<sub>오늘 출처는 <a href="../archive/2026-11-07.md">archive/2026-11-07.md</a>에 있습니다.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-11-08.md">archive/2026-11-08.md</a>에 있습니다.</sub>
 <!-- LATEST:END -->
 
 ---

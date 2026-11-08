@@ -23,18 +23,19 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-07
+## 🔥 Latest edition — 2026-11-08
 
-> Theme: *Smaller open models and local agents — and a coding model you can only rent.*
+> Theme: *The plumbing under coding agents — shared libraries, leaky defaults, and benchmarks that crack.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Ripple-65B Preview** | Ricursive Intelligence's 65B dense coding model; instruct, NVFP4 and base checkpoints, Apache 2.0 | A dense 65B is a size people can host. Benchmarks are vendor-reported, and the 1M context on the model card doesn't match the 16,384 window on OpenRouter |
-| **SWE-2 Flash** | Cognition's faster, cheaper coding model, free in Devin Desktop and CLI through Nov 30 | Per Cognition: one-fifth the price of SWE-2, 3x faster. No public weights or API; benchmarks are mixed and company-reported |
-| **Local Code** | Draw Things' open-source macOS agent app; no API key, sign-in or cloud, local models only | Announced Oct 28, in this week's Mac roundups. Model picker runs from 16 GiB to 64 GiB+ Macs. No license named in the post; performance claims are theirs |
-| **Inkling 2 Small** | Thinking Machines' MoE with image input and 1M context; Apache 2.0 weights promised | Released Nov 5, weights pending safety testing. SWE-2 Flash is built on the earlier Inkling-Small |
+| **libghostty-vt 1.0** | Ghostty's terminal core as a stable, MIT-licensed C library | Stable C ABI shipped Nov 6; JetBrains terminals, Konsole experiments and agent tools like herdr and cmux build on it |
+| **Claude Code "don't ask again"** | Apiiro's scan of public `.claude/settings.local.json` files | Real credentials in 1,122 of 104,185 files, because approved commands are saved verbatim. Only bites if the file is committed to a public repo |
+| **MaxxBench** | DeepSWE's 89 tasks with small requirement tweaks | Per its authors, two Flash-class models drop from ~74% to 53–56% while Claude Opus 5.5 rises to 76.4%. One team's benchmark |
+| **GitHub Project Rubicon** | GitHub's rebuilt Git storage: blob-stored packs plus a replicated ref log | Aimed at thousands of agents pushing to one repo; 5,000 agents and 7,200 pushes/s are GitHub's internal figures |
+| **ERNIE 5.5 Flash Base** | Baidu's 280B MoE base checkpoint (~14B active), FP8 and BF16 weights | Released Nov 5. Weights are downloadable, but the license is custom, not OSI-approved. Read it first |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-07.md">archive/2026-11-07.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-08.md">archive/2026-11-08.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
