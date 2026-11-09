@@ -23,19 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-08
+## 🔥 Latest edition — 2026-11-09
 
-> Theme: *The plumbing under coding agents — shared libraries, leaky defaults, and benchmarks that crack.*
+> Theme: *Where agents live — sandboxes, serving runtimes, memory formats, CPU-only inference.*
 
 | Pick | What it is | Why it's on the radar |
-|------|-----------|-----------------------|
-| **libghostty-vt 1.0** | Ghostty's terminal core as a stable, MIT-licensed C library | Stable C ABI shipped Nov 6; JetBrains terminals, Konsole experiments and agent tools like herdr and cmux build on it |
-| **Claude Code "don't ask again"** | Apiiro's scan of public `.claude/settings.local.json` files | Real credentials in 1,122 of 104,185 files, because approved commands are saved verbatim. Only bites if the file is committed to a public repo |
-| **MaxxBench** | DeepSWE's 89 tasks with small requirement tweaks | Per its authors, two Flash-class models drop from ~74% to 53–56% while Claude Opus 5.5 rises to 76.4%. One team's benchmark |
-| **GitHub Project Rubicon** | GitHub's rebuilt Git storage: blob-stored packs plus a replicated ref log | Aimed at thousands of agents pushing to one repo; 5,000 agents and 7,200 pushes/s are GitHub's internal figures |
-| **ERNIE 5.5 Flash Base** | Baidu's 280B MoE base checkpoint (~14B active), FP8 and BF16 weights | Released Nov 5. Weights are downloadable, but the license is custom, not OSI-approved. Read it first |
+|------|-----------|-----------|
+| **Agent Substrate + gVisor** | Google's Kubernetes agent runtime and sandbox kernel, donated to the CNCF (Sandbox) | Idle agents snapshot to storage and free their Pod; Google claims resume in under 500 ms (vendor figure). License not stated in the post |
+| **XLA Serving Engine** | C++ runtime that serves exported JAX/XLA models without Python (Apache 2.0) | Google reports 2–5x throughput over its best Python server. Aimed at non-LLM models; PyTorch support is planned |
+| **LoreKit agent-memory format** | A proposed shared record format plus five MCP operations for agent memory | Early sketch, no working group yet. Every agent tool stores memory differently, so the interop question is live |
+| **llama-modchip** | llama.cpp patches to run a 284B MoE on a CPU-only 64 GB machine (Apache 2.0) | README claims ~9–15 tok/s decode on one Ryzen box. Needs the patched build; quality numbers are the author's own |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-08.md">archive/2026-11-08.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-09.md">archive/2026-11-09.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

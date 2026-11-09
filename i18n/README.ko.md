@@ -21,19 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-11-08
+## 오늘 — 2026-11-09
 
-코딩 에이전트 밑바닥 배관 — 공유 라이브러리, 새는 기본값, 금 가는 벤치마크.
+에이전트가 사는 곳 — 샌드박스, 서빙 런타임, 메모리 포맷, CPU 전용 추론.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **libghostty-vt 1.0** | Ghostty의 터미널 코어를 안정 C 라이브러리(MIT)로 분리 | 11월 6일 안정 C ABI 공개. JetBrains 터미널, Konsole 실험, herdr·cmux 같은 에이전트 도구가 기반으로 사용 |
-| **Claude Code "다시 묻지 않기"** | 공개된 `.claude/settings.local.json`을 훑은 Apiiro의 조사 | 104,185개 중 1,122개에서 실제 자격 증명 발견. 승인한 명령이 그대로 저장되기 때문. 파일을 공개 저장소에 커밋했을 때만 문제 |
-| **MaxxBench** | DeepSWE 89개 과제에 요구사항을 살짝 바꾼 벤치마크 | 제작진 말로는 Flash급 두 모델이 약 74%에서 53~56%로 하락, Claude Opus 5.5는 76.4%로 상승. 한 팀의 벤치마크 |
-| **GitHub Project Rubicon** | GitHub이 다시 짠 Git 저장소 구조: blob에 팩, 복제 로그에 ref | 한 저장소에 수천 에이전트가 푸시하는 상황이 목표. 에이전트 5,000개·초당 7,200 푸시는 GitHub 내부 수치 |
-| **ERNIE 5.5 Flash Base** | Baidu의 280B MoE 베이스 체크포인트(활성 ~14B), FP8·BF16 가중치 | 11월 5일 공개. 가중치는 받을 수 있지만 라이선스는 OSI 미승인 맞춤형. 먼저 읽어볼 것 |
+| **Agent Substrate + gVisor** | Google의 쿠버네티스 에이전트 런타임과 샌드박스 커널, CNCF(Sandbox)에 기증 | 유휴 에이전트를 스토리지에 스냅샷하고 Pod를 반환. Google 주장 재개 시간 500ms 미만(자사 수치). 글에 라이선스 언급 없음 |
+| **XLA Serving Engine** | 내보낸 JAX/XLA 모델을 Python 없이 서빙하는 C++ 런타임(Apache 2.0) | Google 보고: 최선의 Python 서버 대비 처리량 2~5배. 주 대상은 비LLM 모델, PyTorch 지원은 계획 단계 |
+| **LoreKit 에이전트 메모리 포맷** | 에이전트 메모리용 공용 레코드 포맷 + MCP 연산 5개 제안 | 초기 스케치, 워킹그룹 아직 없음. 도구마다 메모리 저장 방식이 달라 상호운용 논의가 뜨는 중 |
+| **llama-modchip** | CPU 전용 64GB 머신에서 284B MoE를 돌리는 llama.cpp 패치(Apache 2.0) | README 주장: Ryzen 한 대에서 디코드 약 9~15 tok/s. 패치 빌드 필요, 품질 수치는 제작자 자체 평가 |
 
-<sub>오늘 출처는 <a href="../archive/2026-11-08.md">archive/2026-11-08.md</a>에 있습니다.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-11-09.md">archive/2026-11-09.md</a>에 있습니다.</sub>
 <!-- LATEST:END -->
 
 ---

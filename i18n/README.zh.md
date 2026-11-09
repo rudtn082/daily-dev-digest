@@ -21,19 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-08
+## 今天 — 2026-11-09
 
-编码智能体脚下的管道 —— 共享库、会泄密的默认设置、出现裂缝的基准测试。
+智能体的栖息地 —— 沙箱、推理服务运行时、记忆格式、纯 CPU 推理。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **libghostty-vt 1.0** | Ghostty 的终端核心,作为稳定的 C 库(MIT)发布 | 11 月 6 日发布稳定 C ABI。JetBrains 终端、Konsole 实验以及 herdr、cmux 等智能体工具都在用 |
-| **Claude Code“不再询问”** | Apiiro 对公开 `.claude/settings.local.json` 文件的扫描 | 104,185 个文件中 1,122 个含真实凭据,因为批准的命令会原样保存。仅当文件被提交到公开仓库时才有问题 |
-| **MaxxBench** | 在 DeepSWE 的 89 个任务上微调需求的基准 | 据作者称,两个 Flash 级模型从约 74% 跌到 53–56%,Claude Opus 5.5 升至 76.4%。仅为一个团队的基准 |
-| **GitHub Project Rubicon** | GitHub 重做的 Git 存储:包放 blob,引用放复制日志 | 目标是数千个智能体向同一仓库推送;5,000 个智能体、每秒 7,200 次推送为 GitHub 内部数据 |
-| **ERNIE 5.5 Flash Base** | Baidu 的 280B MoE 基座检查点(激活约 14B),FP8 和 BF16 权重 | 11 月 5 日发布。权重可下载,但许可证为定制版,未获 OSI 认可。使用前先读 |
+| **Agent Substrate + gVisor** | Google 的 Kubernetes 智能体运行时与沙箱内核,捐赠给 CNCF(Sandbox) | 空闲智能体快照到存储并释放 Pod。Google 称恢复时间低于 500ms(厂商数据)。文章未说明许可证 |
+| **XLA Serving Engine** | 无需 Python 即可服务已导出 JAX/XLA 模型的 C++ 运行时(Apache 2.0) | Google 称吞吐量是其最佳 Python 服务器的 2–5 倍。主要面向非 LLM 模型,PyTorch 支持尚在计划中 |
+| **LoreKit 智能体记忆格式** | 为智能体记忆提出的通用记录格式 + 5 个 MCP 操作 | 早期草案,尚无工作组。各工具存储记忆的方式不一,互操作话题正热 |
+| **llama-modchip** | 让 284B MoE 在纯 CPU、64GB 机器上运行的 llama.cpp 补丁(Apache 2.0) | README 称单台 Ryzen 解码约 9–15 tok/s。需要打补丁的构建,质量数据来自作者自测 |
 
-<sub>本期来源见 <a href="../archive/2026-11-08.md">archive/2026-11-08.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-09.md">archive/2026-11-09.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
