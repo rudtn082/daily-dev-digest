@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-09
+## 今天 — 2026-11-10
 
-智能体的栖息地 —— 沙箱、推理服务运行时、记忆格式、纯 CPU 推理。
+前沿更强,价格更低 —— 旗舰更新、廉价的智能体主力模型、开源 CAD。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Agent Substrate + gVisor** | Google 的 Kubernetes 智能体运行时与沙箱内核,捐赠给 CNCF(Sandbox) | 空闲智能体快照到存储并释放 Pod。Google 称恢复时间低于 500ms(厂商数据)。文章未说明许可证 |
-| **XLA Serving Engine** | 无需 Python 即可服务已导出 JAX/XLA 模型的 C++ 运行时(Apache 2.0) | Google 称吞吐量是其最佳 Python 服务器的 2–5 倍。主要面向非 LLM 模型,PyTorch 支持尚在计划中 |
-| **LoreKit 智能体记忆格式** | 为智能体记忆提出的通用记录格式 + 5 个 MCP 操作 | 早期草案,尚无工作组。各工具存储记忆的方式不一,互操作话题正热 |
-| **llama-modchip** | 让 284B MoE 在纯 CPU、64GB 机器上运行的 llama.cpp 补丁(Apache 2.0) | README 称单台 Ryzen 解码约 9–15 tok/s。需要打补丁的构建,质量数据来自作者自测 |
+| **Claude Fable 5.2** | Anthropic 旗舰更新;Mythos 5.2 是同一模型,仅限验证计划内的组织 | Anthropic 称比 Opus 5.5 更进一步,输出最高快 30%,每百万 token $8 / $40(厂商说法) |
+| **Muse Ember** | Meta 最小的模型,面向工具调用、路由与信息抽取 | Meta 称以约三分之一的成本达到 Haiku 5.5 的最高分,每百万 token $0.10 / $0.50。未提及开放权重 |
+| **KetchUp** | 用 Rust 和 WebGPU 构建的开源 SketchUp 替代品,可在浏览器中运行 | SketchUp 用户寻找替代品之际,在 Show HN 上获得 700+ 分。项目尚早期,许可证未确认 |
 
-<sub>今日来源见 <a href="../archive/2026-11-09.md">archive/2026-11-09.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-10.md">archive/2026-11-10.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

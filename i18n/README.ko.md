@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 오늘 — 2026-11-09
+## 오늘 — 2026-11-10
 
-에이전트가 사는 곳 — 샌드박스, 서빙 런타임, 메모리 포맷, CPU 전용 추론.
+프런티어는 올라가고 가격은 내려간다 — 플래그십 갱신, 저렴한 에이전트 일꾼, 오픈소스 CAD.
 
 | 픽 | 뭔데 | 왜 눈에 띄었나 |
 |------|-----------|-----------|
-| **Agent Substrate + gVisor** | Google의 쿠버네티스 에이전트 런타임과 샌드박스 커널, CNCF(Sandbox)에 기증 | 유휴 에이전트를 스토리지에 스냅샷하고 Pod를 반환. Google 주장 재개 시간 500ms 미만(자사 수치). 글에 라이선스 언급 없음 |
-| **XLA Serving Engine** | 내보낸 JAX/XLA 모델을 Python 없이 서빙하는 C++ 런타임(Apache 2.0) | Google 보고: 최선의 Python 서버 대비 처리량 2~5배. 주 대상은 비LLM 모델, PyTorch 지원은 계획 단계 |
-| **LoreKit 에이전트 메모리 포맷** | 에이전트 메모리용 공용 레코드 포맷 + MCP 연산 5개 제안 | 초기 스케치, 워킹그룹 아직 없음. 도구마다 메모리 저장 방식이 달라 상호운용 논의가 뜨는 중 |
-| **llama-modchip** | CPU 전용 64GB 머신에서 284B MoE를 돌리는 llama.cpp 패치(Apache 2.0) | README 주장: Ryzen 한 대에서 디코드 약 9~15 tok/s. 패치 빌드 필요, 품질 수치는 제작자 자체 평가 |
+| **Claude Fable 5.2** | Anthropic 플래그십 갱신. Mythos 5.2는 같은 모델이며 검증 프로그램 조직 전용 | Anthropic 주장: Opus 5.5보다 한 단계 위, 출력 최대 30% 빨라짐, 100만 토큰당 $8 / $40(자사 주장) |
+| **Muse Ember** | 도구 호출·라우팅·추출용으로 만든 Meta의 가장 작은 모델 | Meta 주장: Haiku 5.5 최고 점수를 약 3분의 1 비용으로, 100만 토큰당 $0.10 / $0.50. 오픈 웨이트 언급 없음 |
+| **KetchUp** | Rust와 WebGPU로 만든 오픈소스 SketchUp 대안, 브라우저에서 실행 | SketchUp 사용자가 대안을 찾는 가운데 Show HN 700점 이상. 초기 프로젝트, 라이선스는 미확인 |
 
-<sub>오늘 출처는 <a href="../archive/2026-11-09.md">archive/2026-11-09.md</a>에 있습니다.</sub>
+<sub>오늘 출처는 <a href="../archive/2026-11-10.md">archive/2026-11-10.md</a>에 있습니다.</sub>
 <!-- LATEST:END -->
 
 ---

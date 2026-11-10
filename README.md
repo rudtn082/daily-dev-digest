@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-09
+## 🔥 Latest edition — 2026-11-10
 
-> Theme: *Where agents live — sandboxes, serving runtimes, memory formats, CPU-only inference.*
+> Theme: *Frontier up, price down — a flagship refresh, a cheap agent workhorse, an open-source CAD.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Agent Substrate + gVisor** | Google's Kubernetes agent runtime and sandbox kernel, donated to the CNCF (Sandbox) | Idle agents snapshot to storage and free their Pod; Google claims resume in under 500 ms (vendor figure). License not stated in the post |
-| **XLA Serving Engine** | C++ runtime that serves exported JAX/XLA models without Python (Apache 2.0) | Google reports 2–5x throughput over its best Python server. Aimed at non-LLM models; PyTorch support is planned |
-| **LoreKit agent-memory format** | A proposed shared record format plus five MCP operations for agent memory | Early sketch, no working group yet. Every agent tool stores memory differently, so the interop question is live |
-| **llama-modchip** | llama.cpp patches to run a 284B MoE on a CPU-only 64 GB machine (Apache 2.0) | README claims ~9–15 tok/s decode on one Ryzen box. Needs the patched build; quality numbers are the author's own |
+| **Claude Fable 5.2** | Anthropic's flagship refresh; Mythos 5.2 is the same model, gated to verification programs | Anthropic claims a step above Opus 5.5 and up to 30% faster output at $8 / $40 per M tokens (vendor claims) |
+| **Muse Ember** | Meta's smallest model, aimed at tool calls, routing and extraction | Meta claims Haiku 5.5's best score at about a third of the cost, $0.10 / $0.50 per M tokens. No open weights mentioned |
+| **KetchUp** | Open-source SketchUp alternative built with Rust and WebGPU, runs in the browser | 700+ points on Show HN as SketchUp users shop for alternatives. Young project; license not confirmed |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-09.md">archive/2026-11-09.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-10.md">archive/2026-11-10.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
