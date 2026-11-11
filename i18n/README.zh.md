@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-10
+## 今天 — 2026-11-11
 
-前沿更强,价格更低 —— 旗舰更新、廉价的智能体主力模型、开源 CAD。
+小而具体胜过大而通用 —— 决策模型、Web 标准技能包、被下架的驱动。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Claude Fable 5.2** | Anthropic 旗舰更新;Mythos 5.2 是同一模型,仅限验证计划内的组织 | Anthropic 称比 Opus 5.5 更进一步,输出最高快 30%,每百万 token $8 / $40(厂商说法) |
-| **Muse Ember** | Meta 最小的模型,面向工具调用、路由与信息抽取 | Meta 称以约三分之一的成本达到 Haiku 5.5 的最高分,每百万 token $0.10 / $0.50。未提及开放权重 |
-| **KetchUp** | 用 Rust 和 WebGPU 构建的开源 SketchUp 替代品,可在浏览器中运行 | SketchUp 用户寻找替代品之际,在 Show HN 上获得 700+ 分。项目尚早期,许可证未确认 |
+| **Strands Decider** | 不生成文本、而是为每个选项给出概率的决策模型;Amazon 使用基于 Gemma 4 的版本 | Amazon 称在工单分类上替换了 Claude Sonnet 4.6,每张工单约 $0.0005 对 $0.0222。为作者自报数据,无准确率数字,未注明许可证 |
+| **Modern Web Guidance** | Chrome 推出的 CLI 与技能包,向编程智能体提供 Web 最佳实践和浏览器兼容数据 | 由浏览器厂商给出的、针对智能体写出过时 Web 代码的方案。Apache-2.0 |
+| **Vino** | 部分借助 Claude Code 编写的、面向 DisplayLink DL3 扩展坞的净室 Rust DRM 驱动 | 据报道在 Synaptics 法律函后下线。细节未经证实,未找到 Synaptics 的声明 |
 
-<sub>今日来源见 <a href="../archive/2026-11-10.md">archive/2026-11-10.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-11.md">archive/2026-11-11.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

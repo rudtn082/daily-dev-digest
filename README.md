@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-10
+## 🔥 Latest edition — 2026-11-11
 
-> Theme: *Frontier up, price down — a flagship refresh, a cheap agent workhorse, an open-source CAD.*
+> Theme: *Small and specific beats big and general — a decision model, a web-standards skill pack, a driver pulled offline.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Claude Fable 5.2** | Anthropic's flagship refresh; Mythos 5.2 is the same model, gated to verification programs | Anthropic claims a step above Opus 5.5 and up to 30% faster output at $8 / $40 per M tokens (vendor claims) |
-| **Muse Ember** | Meta's smallest model, aimed at tool calls, routing and extraction | Meta claims Haiku 5.5's best score at about a third of the cost, $0.10 / $0.50 per M tokens. No open weights mentioned |
-| **KetchUp** | Open-source SketchUp alternative built with Rust and WebGPU, runs in the browser | 700+ points on Show HN as SketchUp users shop for alternatives. Young project; license not confirmed |
+| **Strands Decider** | A decision model (not a text generator) that returns probabilities per option; Amazon uses a Gemma 4-based build | Amazon says it replaced Claude Sonnet 4.6 for ticket labeling at about $0.0005 vs. $0.0222 per ticket. Authors' numbers, no accuracy figures, license not stated |
+| **Modern Web Guidance** | Chrome's CLI and skill pack that feeds web best practices and browser-compat data to coding agents | Browser-vendor-backed fix for agents writing dated web code. Apache-2.0 |
+| **Vino** | Clean-room Rust DRM driver for DisplayLink DL3 docks, written partly with Claude Code | Reportedly offline after a Synaptics legal letter. Details unconfirmed; no Synaptics statement found |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-10.md">archive/2026-11-10.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-11.md">archive/2026-11-11.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
