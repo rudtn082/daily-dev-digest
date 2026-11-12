@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-11
+## 今天 — 2026-11-12
 
-小而具体胜过大而通用 —— 决策模型、Web 标准技能包、被下架的驱动。
+开放权重与开源应用正闯入闭源模型的地盘 —— 笔记本上的会议纪要、万亿参数的 MIT 模型、登陆对手云的 Meta Muse。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Strands Decider** | 不生成文本、而是为每个选项给出概率的决策模型;Amazon 使用基于 Gemma 4 的版本 | Amazon 称在工单分类上替换了 Claude Sonnet 4.6,每张工单约 $0.0005 对 $0.0222。为作者自报数据,无准确率数字,未注明许可证 |
-| **Modern Web Guidance** | Chrome 推出的 CLI 与技能包,向编程智能体提供 Web 最佳实践和浏览器兼容数据 | 由浏览器厂商给出的、针对智能体写出过时 Web 代码的方案。Apache-2.0 |
-| **Vino** | 部分借助 Claude Code 编写的、面向 DisplayLink DL3 扩展坞的净室 Rust DRM 驱动 | 据报道在 Synaptics 法律函后下线。细节未经证实,未找到 Synaptics 的声明 |
+| **Yogurt** | 免费、MIT 许可的 Granola 替代品:无需机器人录制通话,用本地模型转写并总结 | 11 月 11 日在 Hacker News 发布。本地优先的会议纪要是检验端侧模型水平的好试金石。仅找到二手收录 |
+| **LongCat-2.5** | 美团的 1.6T 多模态 MoE(激活约 48B),据报道权重采用 MIT 许可,面向长程智能体任务 | 宽松许可开放权重中规模最大之一。2.5 这一名称仅见于单一来源,需核对模型卡 |
+| **Muse on Google Cloud** | Meta 的 Muse Ember、Spark 1.3 和 Wonder 上线 Google Cloud Model Garden | Meta 模型进入竞争对手的云平台,说明分发才是新的战场。仅单一媒体报道 |
 
-<sub>今日来源见 <a href="../archive/2026-11-11.md">archive/2026-11-11.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-12.md">archive/2026-11-12.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

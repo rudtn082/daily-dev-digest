@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-11
+## 🔥 Latest edition — 2026-11-12
 
-> Theme: *Small and specific beats big and general — a decision model, a web-standards skill pack, a driver pulled offline.*
+> Theme: *Open weights and open apps push into turf closed models used to own — notes on your laptop, a trillion-parameter MIT model, Meta's Muse on a rival cloud.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Strands Decider** | A decision model (not a text generator) that returns probabilities per option; Amazon uses a Gemma 4-based build | Amazon says it replaced Claude Sonnet 4.6 for ticket labeling at about $0.0005 vs. $0.0222 per ticket. Authors' numbers, no accuracy figures, license not stated |
-| **Modern Web Guidance** | Chrome's CLI and skill pack that feeds web best practices and browser-compat data to coding agents | Browser-vendor-backed fix for agents writing dated web code. Apache-2.0 |
-| **Vino** | Clean-room Rust DRM driver for DisplayLink DL3 docks, written partly with Claude Code | Reportedly offline after a Synaptics legal letter. Details unconfirmed; no Synaptics statement found |
+| **Yogurt** | Free, MIT-licensed Granola alternative: records calls without a bot, transcribes and summarizes with local models | Launched on Hacker News Nov 11. Local-first note-taking is a clean test of on-device models. Only a secondary listing found |
+| **LongCat-2.5** | Meituan's 1.6T multimodal MoE (~48B active), reportedly MIT-licensed weights, built for long-horizon agents | One of the largest permissive open-weight releases. The 2.5 name appears in a single source; verify the model card |
+| **Muse on Google Cloud** | Meta's Muse Ember, Spark 1.3 and Wonder now in Google Cloud's Model Garden | Meta models on a rival hyperscaler shows distribution is the new battleground. Single-outlet report |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-11.md">archive/2026-11-11.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-12.md">archive/2026-11-12.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
