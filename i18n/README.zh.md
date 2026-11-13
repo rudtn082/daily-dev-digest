@@ -21,17 +21,18 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-12
+## 今天 — 2026-11-13
 
-开放权重与开源应用正闯入闭源模型的地盘 —— 笔记本上的会议纪要、万亿参数的 MIT 模型、登陆对手云的 Meta Muse。
+智能体在防火墙两侧都变得更锋利 —— 攻击者放出智能体集群,厂商给网络安全模型设门槛,一个小小的掩码追平全量微调。
 
 | 精选 | 是什么 | 为何上榜 |
 |------|-----------|-----------|
-| **Yogurt** | 免费、MIT 许可的 Granola 替代品:无需机器人录制通话,用本地模型转写并总结 | 11 月 11 日在 Hacker News 发布。本地优先的会议纪要是检验端侧模型水平的好试金石。仅找到二手收录 |
-| **LongCat-2.5** | 美团的 1.6T 多模态 MoE(激活约 48B),据报道权重采用 MIT 许可,面向长程智能体任务 | 宽松许可开放权重中规模最大之一。2.5 这一名称仅见于单一来源,需核对模型卡 |
-| **Muse on Google Cloud** | Meta 的 Muse Ember、Spark 1.3 和 Wonder 上线 Google Cloud Model Garden | Meta 模型进入竞争对手的云平台,说明分发才是新的战场。仅单一媒体报道 |
+| **Deletion Tuning** | 通过学习掩码将不到 0.05% 的权重置零来适配 LLM 的 arXiv 方法 | 据称可媲美全量微调,掩码小数百到数千倍,RL 中遗忘也更少。v1 预印本,尚未复现 |
+| **Dream 的智能体攻击报告** | 基于 Hermes 和 OpenClaw、分波投入最多 8 个子智能体的国家背景入侵 | 现成智能体框架执行多步入侵的具体案例(Dream,经 Recorded Future 引用)。Dream 只说“亚洲”,台湾是媒体的表述 |
+| **GPT-6 Cyber** | 仅向获批的 Daybreak Red 客户开放、OpenAI 今年第四个网络安全模型 | 在 Preparedness Framework 下被评为“Critical”。ExploitGym 得分 48.5%(前代 32.1%)。数据来自厂商 |
+| **PostgreSQL 19** | 发布候选阶段:RC 2 标注日期为 11 月 12 日,GA 计划 11 月 19 日 | 测试版带来并行 autovacuum、REPACK CONCURRENTLY 和 SQL/PGQ 图查询,部分功能已被回退。该测试升级了 |
 
-<sub>今日来源见 <a href="../archive/2026-11-12.md">archive/2026-11-12.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-13.md">archive/2026-11-13.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

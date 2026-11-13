@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-12
+## 🔥 Latest edition — 2026-11-13
 
-> Theme: *Open weights and open apps push into turf closed models used to own — notes on your laptop, a trillion-parameter MIT model, Meta's Muse on a rival cloud.*
+> Theme: *Agents get sharper on both sides of the firewall — attackers run swarms, vendors gate cyber models, and a small mask beats full fine-tuning.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Yogurt** | Free, MIT-licensed Granola alternative: records calls without a bot, transcribes and summarizes with local models | Launched on Hacker News Nov 11. Local-first note-taking is a clean test of on-device models. Only a secondary listing found |
-| **LongCat-2.5** | Meituan's 1.6T multimodal MoE (~48B active), reportedly MIT-licensed weights, built for long-horizon agents | One of the largest permissive open-weight releases. The 2.5 name appears in a single source; verify the model card |
-| **Muse on Google Cloud** | Meta's Muse Ember, Spark 1.3 and Wonder now in Google Cloud's Model Garden | Meta models on a rival hyperscaler shows distribution is the new battleground. Single-outlet report |
+| **Deletion Tuning** | arXiv method that adapts an LLM by learning a mask that zeroes <0.05% of weights | Reported to match full fine-tuning with a mask hundreds to thousands of times smaller, and less forgetting under RL. v1 preprint, unreplicated |
+| **Dream's agent-campaign report** | State-linked intrusion run by waves of up to eight sub-agents on Hermes and OpenClaw | Concrete case of off-the-shelf agent frameworks doing multi-step intrusion, per Dream via Recorded Future. Dream says "Asia"; Taiwan is the outlet's wording |
+| **GPT-6 Cyber** | OpenAI's fourth cyber model this year, limited to approved Daybreak Red customers | Rated "Critical" under OpenAI's Preparedness Framework; 48.5% on ExploitGym vs 32.1% for its predecessor. Vendor-reported numbers |
+| **PostgreSQL 19** | Release candidate stage: RC 2 listed Nov 12, GA planned Nov 19 | Betas brought parallel autovacuum, REPACK CONCURRENTLY and SQL/PGQ graph queries; some features were reverted. Time to test upgrades |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-12.md">archive/2026-11-12.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-13.md">archive/2026-11-13.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
