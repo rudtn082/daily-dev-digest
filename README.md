@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-13
+## 🔥 Latest edition — 2026-11-14
 
-> Theme: *Agents get sharper on both sides of the firewall — attackers run swarms, vendors gate cyber models, and a small mask beats full fine-tuning.*
+> Theme: *Agent plumbing gets real — a local-first agent anyone can run, an editor consolidating on one harness, and an inference vendor's breach that spread through a cloud provider.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------|
-| **Deletion Tuning** | arXiv method that adapts an LLM by learning a mask that zeroes <0.05% of weights | Reported to match full fine-tuning with a mask hundreds to thousands of times smaller, and less forgetting under RL. v1 preprint, unreplicated |
-| **Dream's agent-campaign report** | State-linked intrusion run by waves of up to eight sub-agents on Hermes and OpenClaw | Concrete case of off-the-shelf agent frameworks doing multi-step intrusion, per Dream via Recorded Future. Dream says "Asia"; Taiwan is the outlet's wording |
-| **GPT-6 Cyber** | OpenAI's fourth cyber model this year, limited to approved Daybreak Red customers | Rated "Critical" under OpenAI's Preparedness Framework; 48.5% on ExploitGym vs 32.1% for its predecessor. Vendor-reported numbers |
-| **PostgreSQL 19** | Release candidate stage: RC 2 listed Nov 12, GA planned Nov 19 | Betas brought parallel autovacuum, REPACK CONCURRENTLY and SQL/PGQ graph queries; some features were reverted. Time to test upgrades |
+| **Nod** | n8n Labs' open-source (Apache 2.0) personal agent that runs on your Mac or Windows machine | Local-first: memory and credentials stay on-device, you pick the model. Research preview, n8n says not production-ready |
+| **VS Code 1.146** | Local agent harness deprecated; Copilot harness is the path forward | Docs say the Local harness is removed by Feb 2027, so extension and workflow authors have about a quarter to migrate |
+| **Fireworks AI breach** | Second intrusion, via a compromised third-party cloud provider hosting its R&D machines | Billing data and, for some customers, secrets, datasets and incomplete model weights exposed. Rotate anything you gave an AI vendor. Press-reported details |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-13.md">archive/2026-11-13.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-14.md">archive/2026-11-14.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
