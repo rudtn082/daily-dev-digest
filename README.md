@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-14
+## 🔥 Latest edition — 2026-11-15
 
-> Theme: *Agent plumbing gets real — a local-first agent anyone can run, an editor consolidating on one harness, and an inference vendor's breach that spread through a cloud provider.*
+> Theme: *Trust at the edges — a package index that says when it can't vouch for a release, an app builder whose apps leaked data, and the plumbing (ggml, a browser for agents) that local AI runs on.*
 
 | Pick | What it is | Why it's on the radar |
-|------|-----------|-----------|
-| **Nod** | n8n Labs' open-source (Apache 2.0) personal agent that runs on your Mac or Windows machine | Local-first: memory and credentials stay on-device, you pick the model. Research preview, n8n says not production-ready |
-| **VS Code 1.146** | Local agent harness deprecated; Copilot harness is the path forward | Docs say the Local harness is removed by Feb 2027, so extension and workflow authors have about a quarter to migrate |
-| **Fireworks AI breach** | Second intrusion, via a compromised third-party cloud provider hosting its R&D machines | Billing data and, for some customers, secrets, datasets and incomplete model weights exposed. Rotate anything you gave an AI vendor. Press-reported details |
+|------|-----------|-----------------------|
+| **PyPI provenance warnings** | PyPI now flags releases whose origin can't be verified | New security tab and warnings for missing, incomplete or changed provenance. Doesn't catch outright malicious packages; many older releases have no attestations |
+| **Lovable apps leak** | Researchers scanned 159,041 Lovable projects and found Supabase-backed apps exposing data without login | Includes 200,000 private messages and passport numbers. Root cause per Lovable: weak Row-Level Security. Audit your RLS. Researchers' claims |
+| **ggml 1.0.0** | Tensor library under llama.cpp-style local inference hits 1.0 | Removes legacy APIs (can break downstream), adds FP8 and broad backend speedups |
+| **Agweb** | macOS WebKit browser for coding agents, driven by an `agweb` shell command | Never steals focus and avoids heavy headless browsers. License not stated on the page I found |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-14.md">archive/2026-11-14.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-15.md">archive/2026-11-15.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
