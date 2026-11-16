@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-15
+## 🔥 Latest edition — 2026-11-16
 
-> Theme: *Trust at the edges — a package index that says when it can't vouch for a release, an app builder whose apps leaked data, and the plumbing (ggml, a browser for agents) that local AI runs on.*
+> Theme: *Trust you didn't know you were extending — a blocker's picker that took orders from any site, std-library code that safe Rust can break, short links anyone can re-register, and database branches for agent sandboxes.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **PyPI provenance warnings** | PyPI now flags releases whose origin can't be verified | New security tab and warnings for missing, incomplete or changed provenance. Doesn't catch outright malicious packages; many older releases have no attestations |
-| **Lovable apps leak** | Researchers scanned 159,041 Lovable projects and found Supabase-backed apps exposing data without login | Includes 200,000 private messages and passport numbers. Root cause per Lovable: weak Row-Level Security. Audit your RLS. Researchers' claims |
-| **ggml 1.0.0** | Tensor library under llama.cpp-style local inference hits 1.0 | Removes legacy APIs (can break downstream), adds FP8 and broad backend speedups |
-| **Agweb** | macOS WebKit browser for coding agents, driven by an `agweb` shell command | Never steals focus and avoids heavy headless browsers. License not stated on the page I found |
+| **uBlock Origin (Firefox) universal XSS** | A malicious site could abuse the extension's element picker to run JavaScript on any domain | One click was enough per the write-up; reported patched, no version named. Keep extensions updated |
+| **Hyenas (Microsoft FORGE Lab)** | AI-powered scanner that found soundness bugs in Rust's core and std libraries | Safe code could trigger undefined behavior. One fix reportedly lands in Rust 1.100; other fix status unconfirmed |
+| **Bitly dead links** | Expired short links from old Burger King, McDonald's and Trump tweets were re-registered by strangers | No hack, just reclaimed endings, per one report. Any short link you published is a dependency you don't control |
+| **db-branch** | Instant MySQL/PostgreSQL branches via ZFS clones, with CLI, REST and MCP server | Cheap disposable databases for agent sandboxes and per-PR CI. Apache-2.0; appears to need ZFS |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-15.md">archive/2026-11-15.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-16.md">archive/2026-11-16.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
