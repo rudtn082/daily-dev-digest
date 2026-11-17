@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-16
+## 🔥 Latest edition — 2026-11-17
 
-> Theme: *Trust you didn't know you were extending — a blocker's picker that took orders from any site, std-library code that safe Rust can break, short links anyone can re-register, and database branches for agent sandboxes.*
+> Theme: *Agents on every side — attackers automating intrusions, defenders plugging threat intel into their assistant, a self-hosted platform that lets agents only propose, and a cloud outage that came from a quiet gateway bug.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **uBlock Origin (Firefox) universal XSS** | A malicious site could abuse the extension's element picker to run JavaScript on any domain | One click was enough per the write-up; reported patched, no version named. Keep extensions updated |
-| **Hyenas (Microsoft FORGE Lab)** | AI-powered scanner that found soundness bugs in Rust's core and std libraries | Safe code could trigger undefined behavior. One fix reportedly lands in Rust 1.100; other fix status unconfirmed |
-| **Bitly dead links** | Expired short links from old Burger King, McDonald's and Trump tweets were re-registered by strangers | No hack, just reclaimed endings, per one report. Any short link you published is a dependency you don't control |
-| **db-branch** | Instant MySQL/PostgreSQL branches via ZFS clones, with CLI, REST and MCP server | Cheap disposable databases for agent sandboxes and per-PR CI. Apache-2.0; appears to need ZFS |
+| **Google GTIG AI Threat Tracker** | Google's report on attackers using LLM frameworks (ARTEX, CAIRN, HexStrike AI and others) to automate vulnerability discovery and exploitation | First reported run with no human in the loop; Google projects mostly-agent attacks in ~3 months. Projections, not measurements |
+| **VirusTotal connector for Claude** | MCP connector that pulls file, URL, domain and IP threat-intel reports into the assistant | Defender-side counterpart to the above. Submissions are shared with VirusTotal's community; zero detections isn't proof of safety |
+| **Sutra-OS** | Self-hosted ontology platform with typed objects, lineage and branching; agents can only propose changes | Puts "agents can't write directly" in the data layer. AGPL-3.0, beta, one maintainer; untested by me |
+| **Microsoft 365 outage post-mortem** | July gateway-server bug behind the Nov 12–13 global outage | Load tests ran on weaker hardware than production. Final report still pending |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-16.md">archive/2026-11-16.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-17.md">archive/2026-11-17.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
