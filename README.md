@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-17
+## 🔥 Latest edition — 2026-11-18
 
-> Theme: *Agents on every side — attackers automating intrusions, defenders plugging threat intel into their assistant, a self-hosted platform that lets agents only propose, and a cloud outage that came from a quiet gateway bug.*
+> Theme: *The agent bill and the agent's homework — tools that cut coding-agent cost, grade the skills you hand them, run them as a daemon, and a default model swap that quietly costs 15x.*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Google GTIG AI Threat Tracker** | Google's report on attackers using LLM frameworks (ARTEX, CAIRN, HexStrike AI and others) to automate vulnerability discovery and exploitation | First reported run with no human in the loop; Google projects mostly-agent attacks in ~3 months. Projections, not measurements |
-| **VirusTotal connector for Claude** | MCP connector that pulls file, URL, domain and IP threat-intel reports into the assistant | Defender-side counterpart to the above. Submissions are shared with VirusTotal's community; zero detections isn't proof of safety |
-| **Sutra-OS** | Self-hosted ontology platform with typed objects, lineage and branching; agents can only propose changes | Puts "agents can't write directly" in the data layer. AGPL-3.0, beta, one maintainer; untested by me |
-| **Microsoft 365 outage post-mortem** | July gateway-server bug behind the Nov 12–13 global outage | Load tests ran on weaker hardware than production. Final report still pending |
+| **TokenEconomizer** | Microsoft's MIT-licensed plugin that learns repo facts, prunes unused tools and nudges stuck turns to make coding agents cheaper | Cost is the complaint of the week. Works with Claude Code, Codex, Copilot CLI; savings not measured by me |
+| **SkillEvaluator** | NVIDIA's tool that validates agent skills, checks overlap, and A/B tests them with and without the skill in a sandbox | Skills get installed like packages with little vetting; this is a test suite for them. Experimental |
+| **agentproto** | Open TypeScript daemon that runs coding-agent sessions in the background and exposes tools over CLI, HTTP, MCP | Usage-cap failover across accounts and stale-CI filtering are the unglamorous problems of long-running agents. Release notes only; untested by me |
+| **Browser Use 1.0.6** | Release that makes `bu-4.0` the default model for `Agent(task)` | Listed at 15x the price of `bu-fast`; pin your model before upgrading |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-17.md">archive/2026-11-17.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-18.md">archive/2026-11-18.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
