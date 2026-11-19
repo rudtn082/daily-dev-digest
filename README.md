@@ -23,18 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-18
+## 🔥 Latest edition — 2026-11-19
 
-> Theme: *The agent bill and the agent's homework — tools that cut coding-agent cost, grade the skills you hand them, run them as a daemon, and a default model swap that quietly costs 15x.*
+> Theme: *Agents get hands and hazards — your real browser, a poisoned repo, a verification playbook, and cheaper serving on Trainium*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **TokenEconomizer** | Microsoft's MIT-licensed plugin that learns repo facts, prunes unused tools and nudges stuck turns to make coding agents cheaper | Cost is the complaint of the week. Works with Claude Code, Codex, Copilot CLI; savings not measured by me |
-| **SkillEvaluator** | NVIDIA's tool that validates agent skills, checks overlap, and A/B tests them with and without the skill in a sandbox | Skills get installed like packages with little vetting; this is a test suite for them. Experimental |
-| **agentproto** | Open TypeScript daemon that runs coding-agent sessions in the background and exposes tools over CLI, HTTP, MCP | Usage-cap failover across accounts and stale-CI filtering are the unglamorous problems of long-running agents. Release notes only; untested by me |
-| **Browser Use 1.0.6** | Release that makes `bu-4.0` the default model for `Agent(task)` | Listed at 15x the price of `bu-fast`; pin your model before upgrading |
+| **OpenCode Browse** | MCP server + Chromium extension that lends coding agents your real browser, tabs and logins | Agents need signed-in sites; it hands control back for 2FA/payments and can limit sites. License not stated on the page |
+| **Poisoned-repo agent hijack** | Bitdefender's map of 22 malicious GitHub links using AGENTS.md/CLAUDE.md and session-start hooks to run a credential-stealing loader | Agent instruction files are now an attack surface. Read them before trusting a cloned repo |
+| **Claude Code verification playbook** | Anthropic's write-up on verify skills, hard-to-fool tests and judges a change can't edit | Review, not writing, is this week's bottleneck. Practical rules, not theory |
+| **TrnRT** | Apache-2.0 LLM inference engine for AWS Trainium with an OpenAI-compatible API | A non-NVIDIA self-hosting path. Supports one model so far; benchmark numbers are the project's own |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-18.md">archive/2026-11-18.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-19.md">archive/2026-11-19.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
