@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-19
+## 🔥 Latest edition — 2026-11-20
 
-> Theme: *Agents get hands and hazards — your real browser, a poisoned repo, a verification playbook, and cheaper serving on Trainium*
+> Theme: *Old stacks, new agents — a third PHP session-handler RCE, AI agents poking a 1994 Jeep ECU, and one UI for all your coding agents*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **OpenCode Browse** | MCP server + Chromium extension that lends coding agents your real browser, tabs and logins | Agents need signed-in sites; it hands control back for 2FA/payments and can limit sites. License not stated on the page |
-| **Poisoned-repo agent hijack** | Bitdefender's map of 22 malicious GitHub links using AGENTS.md/CLAUDE.md and session-start hooks to run a credential-stealing loader | Agent instruction files are now an attack surface. Read them before trusting a cloned repo |
-| **Claude Code verification playbook** | Anthropic's write-up on verify skills, hard-to-fool tests and judges a change can't edit | Review, not writing, is this week's bottleneck. Practical rules, not theory |
-| **TrnRT** | Apache-2.0 LLM inference engine for AWS Trainium with an OpenAI-compatible API | A non-NVIDIA self-hosting path. Supports one model so far; benchmark numbers are the project's own |
+| **CVE-2026-115560 (PHP)** | A third PHP session-handler RCE, disclosed days after the PHP2Shell patches | No patch yet. Mitigation: set `session.upload_progress.enabled` to 0. Affected versions not yet named |
+| **xj-scanner** | Open-source scanner for 1991–95 Jeep/Chrysler engine computers, built with Claude Code and Codex | Hit the HN front page as agents reverse-engineer legacy hardware. One owner's account, not reproduced |
+| **T3 Code** | Free local app that runs Claude Code, Codex, Cursor, OpenCode and more from one UI | Fastest-growing repo in early-November trending lists. Sources disagree on the official repo, so verify |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-19.md">archive/2026-11-19.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-20.md">archive/2026-11-20.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
