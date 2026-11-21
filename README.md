@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-20
+## 🔥 Latest edition — 2026-11-21
 
-> Theme: *Old stacks, new agents — a third PHP session-handler RCE, AI agents poking a 1994 Jeep ECU, and one UI for all your coding agents*
+> Theme: *Boring infrastructure ships, big open weights land, and agents move into Slack*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **CVE-2026-115560 (PHP)** | A third PHP session-handler RCE, disclosed days after the PHP2Shell patches | No patch yet. Mitigation: set `session.upload_progress.enabled` to 0. Affected versions not yet named |
-| **xj-scanner** | Open-source scanner for 1991–95 Jeep/Chrysler engine computers, built with Claude Code and Codex | Hit the HN front page as agents reverse-engineer legacy hardware. One owner's account, not reproduced |
-| **T3 Code** | Free local app that runs Claude Code, Codex, Cursor, OpenCode and more from one UI | Fastest-growing repo in early-November trending lists. Sources disagree on the official repo, so verify |
+| **PostgreSQL 19** | GA release of the database, with `REPACK (CONCURRENTLY)`, `pg_plan_advice` and parallel autovacuum index work | Top HN thread on Nov 20; online repacking removes a common reason to use external tools. Check the notes on graph queries |
+| **Hy4 Flash** | Tencent's open-weight Hy4 follow-up: about 220B total / 12B active, plus FP8 and Base checkpoints | Delivers the weights promised on Nov 4. License looks custom, so read it first |
+| **OpenComputer** | Open-source cloud computers for long-running agents, now steerable from Slack threads | Showed up on HN Nov 20 as agent runtimes move into team chat. Details from a secondary write-up |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-20.md">archive/2026-11-20.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-21.md">archive/2026-11-21.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
