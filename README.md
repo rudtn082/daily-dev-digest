@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-21
+## 🔥 Latest edition — 2026-11-22
 
-> Theme: *Boring infrastructure ships, big open weights land, and agents move into Slack*
+> Theme: *Agents get OS-level permissions — and the OS vendors are catching up*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **PostgreSQL 19** | GA release of the database, with `REPACK (CONCURRENTLY)`, `pg_plan_advice` and parallel autovacuum index work | Top HN thread on Nov 20; online repacking removes a common reason to use external tools. Check the notes on graph queries |
-| **Hy4 Flash** | Tencent's open-weight Hy4 follow-up: about 220B total / 12B active, plus FP8 and Base checkpoints | Delivers the weights promised on Nov 4. License looks custom, so read it first |
-| **OpenComputer** | Open-source cloud computers for long-running agents, now steerable from Slack threads | Showed up on HN Nov 20 as agent runtimes move into team chat. Details from a secondary write-up |
+| **Meta Muse × Signal (Reuters)** | Report that Meta's Muse agent read Signal message text on Android and Mac, not iPhone | The leak came via OS permissions given to the agent, not a Signal bug. Details from aggregators, not Reuters directly |
+| **macOS 27.3 beta 2** | Apple splits its device-control permission into Accessibility and System & App Protection Override, scoped per app | Aimed at autonomous agents; adds a menu bar indicator. Beta, existing grants reportedly stay |
+| **Android 17 "Agents" page** | Beta settings entry for seeing AI agents on the phone, tied to the planned Halo indicator | Android's counterpart to Apple's move; page was empty in Beta 4 and Google is only "considering" changes |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-21.md">archive/2026-11-21.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-22.md">archive/2026-11-22.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---

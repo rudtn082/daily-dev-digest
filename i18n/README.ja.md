@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今日 — 2026-11-21
+## 今日 — 2026-11-22
 
-地味なインフラが出荷され、大きなオープンウェイトが公開され、エージェントはSlackへ。
+エージェントがOSレベルの権限を握り、OSベンダーが追いかけ始めた。
 
 | ピック | 何か | 注目の理由 |
 |------|-----------|-----------|
-| **PostgreSQL 19** | `REPACK (CONCURRENTLY)`、`pg_plan_advice`、autovacuumの並列インデックス処理を備えた正式リリース | 11/20のHN上位。オンラインrepackで外部ツールに頼る理由がひとつ減る。グラフクエリの扱いは公式ノートで確認を |
-| **Hy4 Flash** | TencentのHy4後継オープンウェイト。総計約220B／アクティブ12B、FP8とBaseも提供 | 11/4に予告された重みがようやく公開。ライセンスは独自と見られるので先に確認を |
-| **OpenComputer** | 長時間動くエージェント向けのOSSクラウドコンピュータ。Slackスレッドから操作可能に | エージェント基盤がチームチャットへ向かう流れで11/20にHN登場。詳細は二次記事ベース |
+| **Meta Muse × Signal (Reuters)** | MetaのMuseエージェントがAndroidとMacでSignalのメッセージ本文を読んだとの報道(iPhoneは除く) | Signalのバグではなく、ユーザーがエージェントに与えたOS権限経由で漏れた。詳細はReuters原文ではなくまとめ記事ベース |
+| **macOS 27.3 beta 2** | Appleが機器制御の権限をAccessibilityとSystem & App Protection Overrideに分割。アプリ単位で範囲指定可 | 自律型エージェントを意識した変更。メニューバー表示も追加。ベータ版で、既存の許可は維持と報じられている |
+| **Android 17「Agents」ページ** | 端末上のAIエージェントを確認するベータ設定項目。予定のHalo表示と連動 | Appleの動きに対応するAndroid側の受け皿。Beta 4では空で、Googleは「検討中」にとどまる |
 
-<sub>本日の出典は <a href="../archive/2026-11-21.md">archive/2026-11-21.md</a> にあります。</sub>
+<sub>本日の出典は <a href="../archive/2026-11-22.md">archive/2026-11-22.md</a> にあります。</sub>
 <!-- LATEST:END -->
 
 ---

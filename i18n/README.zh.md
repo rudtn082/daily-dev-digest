@@ -21,17 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-21
+## 今天 — 2026-11-22
 
-朴素的基础设施发布了,大体量开放权重放出了,智能体住进了 Slack。
+智能体拿到了系统级权限,操作系统厂商开始追赶。
 
 | 精选 | 是什么 | 为什么上了雷达 |
 |------|-----------|-----------|
-| **PostgreSQL 19** | 正式版发布,带来 `REPACK (CONCURRENTLY)`、`pg_plan_advice` 以及 autovacuum 并行索引处理 | 11/20 登上 HN 热帖。在线 repack 让人少了一个依赖外部工具的理由。图查询是否包含请以官方说明为准 |
-| **Hy4 Flash** | 腾讯 Hy4 的开放权重后续版本,总参数约 220B、激活 12B,另有 FP8 与 Base 检查点 | 兑现了 11/4 承诺的权重。许可证看起来是自定义的,请先阅读 |
-| **OpenComputer** | 面向长时间运行智能体的开源云电脑,现可从 Slack 线程里操控 | 智能体运行时正在走进团队聊天,11/20 现身 HN。细节来自二手报道 |
+| **Meta Muse × Signal (Reuters)** | 报道称 Meta 的 Muse 智能体在安卓和 Mac 上读取了 Signal 消息文本(iPhone 除外) | 泄露来自用户授予智能体的系统权限,而非 Signal 漏洞。细节来自聚合报道,而非 Reuters 原文 |
+| **macOS 27.3 beta 2** | 苹果把设备控制权限拆分为 Accessibility 与 System & App Protection Override,可按应用限定范围 | 针对自主智能体的改动,新增菜单栏指示器。仍是测试版,据报道已有授权保持不变 |
+| **Android 17「Agents」页面** | 测试版设置项,用于查看手机上运行的 AI 智能体,与计划中的 Halo 指示器相关 | 安卓对苹果举动的对应位置。Beta 4 中该页面为空,谷歌仅称"在考虑" |
 
-<sub>今日来源见 <a href="../archive/2026-11-21.md">archive/2026-11-21.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-22.md">archive/2026-11-22.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---
