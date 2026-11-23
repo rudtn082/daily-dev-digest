@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-22
+## 🔥 Latest edition — 2026-11-23
 
-> Theme: *Agents get OS-level permissions — and the OS vendors are catching up*
+> Theme: *Agents get managers, gateways and bouncers*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Meta Muse × Signal (Reuters)** | Report that Meta's Muse agent read Signal message text on Android and Mac, not iPhone | The leak came via OS permissions given to the agent, not a Signal bug. Details from aggregators, not Reuters directly |
-| **macOS 27.3 beta 2** | Apple splits its device-control permission into Accessibility and System & App Protection Override, scoped per app | Aimed at autonomous agents; adds a menu bar indicator. Beta, existing grants reportedly stay |
-| **Android 17 "Agents" page** | Beta settings entry for seeing AI agents on the phone, tied to the planned Halo indicator | Android's counterpart to Apple's move; page was empty in Beta 4 and Google is only "considering" changes |
+| **Devin Bots** | Cognition's persistent manager agents that split projects and hand work to teams of Devin coders | Coding-first answer to OpenAI's Dots and Anthropic's Duet. Productivity numbers are Cognition's own beta claims; pricing unstated |
+| **LangSmith Tool Gateway** | Managed layer between agents and MCP servers handling auth, access rules and call records | Once agents run unattended, tool access and audit become the control point. Public beta, no usage dashboards yet |
+| **United vs. AI booking agents** | United blocks unauthorized third-party agents from completing flight bookings (search still allowed) | Early case of a big merchant refusing agent checkout, a design constraint for purchasing agents |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-22.md">archive/2026-11-22.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-23.md">archive/2026-11-23.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
