@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-23
+## 🔥 Latest edition — 2026-11-24
 
-> Theme: *Agents get managers, gateways and bouncers*
+> Theme: *Fence the agent, shield the host*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Devin Bots** | Cognition's persistent manager agents that split projects and hand work to teams of Devin coders | Coding-first answer to OpenAI's Dots and Anthropic's Duet. Productivity numbers are Cognition's own beta claims; pricing unstated |
-| **LangSmith Tool Gateway** | Managed layer between agents and MCP servers handling auth, access rules and call records | Once agents run unattended, tool access and audit become the control point. Public beta, no usage dashboards yet |
-| **United vs. AI booking agents** | United blocks unauthorized third-party agents from completing flight bookings (search still allowed) | Early case of a big merchant refusing agent checkout, a design constraint for purchasing agents |
+| **Shirudo** | Cisco and OpenAI's open-source project where AI agents write signed eBPF "shields" to protect live Linux systems before a patch exists | Agent-written, verified mitigations for the disclosure-to-patch gap. Release cites only two demos and no stated limits |
+| **External sandboxes for coding agents** | Prime Radiant and Simon Willison's pattern and three prototypes: agent stays outside, only its executed code runs in an isolated sandbox | Separates the agent from what runs its commands. Not every tool call crosses the boundary, and the prototypes are unaudited |
+| **Infrastructure Agent Skills** | Itential's Apache 2.0 library of operational skills for agents doing network and infrastructure work | Brings Agent Skills into ops, where verification before change matters. Third-party skills keep their own licenses |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-23.md">archive/2026-11-23.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-24.md">archive/2026-11-24.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
