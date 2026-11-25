@@ -23,17 +23,18 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-24
+## 🔥 Latest edition — 2026-11-25
 
-> Theme: *Fence the agent, shield the host*
+> Theme: *Narrow jobs, tight loops*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Shirudo** | Cisco and OpenAI's open-source project where AI agents write signed eBPF "shields" to protect live Linux systems before a patch exists | Agent-written, verified mitigations for the disclosure-to-patch gap. Release cites only two demos and no stated limits |
-| **External sandboxes for coding agents** | Prime Radiant and Simon Willison's pattern and three prototypes: agent stays outside, only its executed code runs in an isolated sandbox | Separates the agent from what runs its commands. Not every tool call crosses the boundary, and the prototypes are unaudited |
-| **Infrastructure Agent Skills** | Itential's Apache 2.0 library of operational skills for agents doing network and infrastructure work | Brings Agent Skills into ops, where verification before change matters. Third-party skills keep their own licenses |
+| **GLM-5.4** | Z.ai's first "Loop Transformer": 28 layers of the GLM-5 base run for two iterations at 750B scale | Scales by reusing depth instead of adding it. No API yet, open weights only planned |
+| **fast-anything** | MIT-licensed tool that profiles a Python, Node or Ruby app and has a coding agent port the hot functions | A narrow, checkable job for an agent. The equivalence check is the repo's own claim |
+| **OpenSRE** | Tracer-Cloud's Apache-2.0 open-source agent for CI/CD reliability, with MCP setup built in | Agents aimed at one operational job: broken pipelines. Check what it can touch first |
+| **Rumble-2-Flash** | Reson8's 0.5B Apache-2.0 speech-recognition model, finetuned from Qwen3-ASR-0.6B | Small and permissive. Accuracy figures are the vendor's; test your own audio |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-24.md">archive/2026-11-24.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-25.md">archive/2026-11-25.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
