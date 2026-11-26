@@ -21,18 +21,17 @@
 ---
 
 <!-- LATEST:START -->
-## 今天 — 2026-11-25
+## 今天 — 2026-11-26
 
-任务收窄,循环收紧。
+旧代码,新漏洞利用。
 
 | 精选 | 是什么 | 为什么上了雷达 |
 |------|-----------|-----------|
-| **GLM-5.4** | Z.ai 首个"Loop Transformer":在 750B 规模上把 GLM-5 基座的 28 层循环运行两次 | 复用深度而非堆叠层数来扩展。暂无 API,开放权重仍在计划中 |
-| **fast-anything** | MIT 许可工具:对 Python、Node 或 Ruby 应用做性能分析,由编码智能体移植热点函数 | 适合交给智能体的窄而可验证的任务。行为一致性检查是仓库自己的说法 |
-| **OpenSRE** | Tracer-Cloud 的 Apache-2.0 开源 CI/CD 可靠性智能体,内置 MCP 配置 | 专注"流水线出故障"这一项运维任务。先确认它能动哪些东西 |
-| **Rumble-2-Flash** | Reson8 基于 Qwen3-ASR-0.6B 微调的 0.5B、Apache-2.0 语音识别模型 | 体积小、许可宽松。准确率数据来自厂商,请用自己的音频测试 |
+| **Hex.pm RCE** | CVSS 10.0 的认证前解析器漏洞,据报道已被用于攻陷 6 台 Hex.pm 注册表服务器 | 注册表是所有安装的信任根。目前仅 The Hacker News 一家报道,尚未交叉印证 |
+| **Idunno.AntiCsrf** | 出现 CVSS 9.3 未认证 RCE 的老旧 ASP.NET anti-CSRF 库 | 旧应用仍在依赖的安全辅助库。研究人员呼吁停止使用 |
+| **Microsoft agent-framework (PyPI)** | Python 包 1.26.1 和 1.26.2 被植入凭据窃取代码 | 目标是在构建流水线里运行的 AI 智能体 SDK。据报道最后一个干净版本是 1.26.0 |
 
-<sub>今日来源见 <a href="../archive/2026-11-25.md">archive/2026-11-25.md</a>。</sub>
+<sub>今日来源见 <a href="../archive/2026-11-26.md">archive/2026-11-26.md</a>。</sub>
 <!-- LATEST:END -->
 
 ---

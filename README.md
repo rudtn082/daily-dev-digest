@@ -23,18 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-25
+## 🔥 Latest edition — 2026-11-26
 
-> Theme: *Narrow jobs, tight loops*
+> Theme: *Old code, fresh exploits*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **GLM-5.4** | Z.ai's first "Loop Transformer": 28 layers of the GLM-5 base run for two iterations at 750B scale | Scales by reusing depth instead of adding it. No API yet, open weights only planned |
-| **fast-anything** | MIT-licensed tool that profiles a Python, Node or Ruby app and has a coding agent port the hot functions | A narrow, checkable job for an agent. The equivalence check is the repo's own claim |
-| **OpenSRE** | Tracer-Cloud's Apache-2.0 open-source agent for CI/CD reliability, with MCP setup built in | Agents aimed at one operational job: broken pipelines. Check what it can touch first |
-| **Rumble-2-Flash** | Reson8's 0.5B Apache-2.0 speech-recognition model, finetuned from Qwen3-ASR-0.6B | Small and permissive. Accuracy figures are the vendor's; test your own audio |
+| **Hex.pm RCE** | CVSS 10.0 pre-auth parser flaw, reportedly used to compromise six Hex.pm registry servers | A registry is the root of trust for every install. Single-outlet report (The Hacker News); not corroborated yet |
+| **Idunno.AntiCsrf** | Legacy ASP.NET anti-CSRF library with a CVSS 9.3 unauthenticated RCE | A security helper old apps still carry as a dependency. Researchers say stop using it |
+| **Microsoft agent-framework (PyPI)** | Versions 1.26.1 and 1.26.2 of the Python package were poisoned with a credential stealer | The target was an AI agent SDK in build pipelines. 1.26.0 is reported as the last clean release |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-25.md">archive/2026-11-25.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-26.md">archive/2026-11-26.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
