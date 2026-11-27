@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-26
+## 🔥 Latest edition — 2026-11-27
 
-> Theme: *Old code, fresh exploits*
+> Theme: *Patched, but still being hit*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Hex.pm RCE** | CVSS 10.0 pre-auth parser flaw, reportedly used to compromise six Hex.pm registry servers | A registry is the root of trust for every install. Single-outlet report (The Hacker News); not corroborated yet |
-| **Idunno.AntiCsrf** | Legacy ASP.NET anti-CSRF library with a CVSS 9.3 unauthenticated RCE | A security helper old apps still carry as a dependency. Researchers say stop using it |
-| **Microsoft agent-framework (PyPI)** | Versions 1.26.1 and 1.26.2 of the Python package were poisoned with a credential stealer | The target was an AI agent SDK in build pipelines. 1.26.0 is reported as the last clean release |
+| **Drupal installer RCE** | CVE-2026-132165: a core installer flaw that lets a remote attacker rerun the installer on a live site | Fixes shipped Nov 18 (11.3.22, 10.6.22) and Drupal warns exploits may come fast. Exploitation of this exact CVE not confirmed in the sources I could load |
+| **Apache Roller RCE** | CVE-2026-129448: unauthenticated XML-RPC deserialization, CVSS 9.8, versions 4.0.0–6.1.4 | Apache says it is being actively exploited, and a PoC has reportedly been public since Sep 28. Fixed version reported as 6.1.6 or 6.1.7; check the advisory |
+| **Check Point PHP2Shell campaign** | Chained attacks on unpatched Check Point gateways, about 25 servers reported | Entry points were already-patched bugs on perimeter gear. AI-assisted, China-nexus attribution is uncertain; counts differ between reports |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-26.md">archive/2026-11-26.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-27.md">archive/2026-11-27.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
