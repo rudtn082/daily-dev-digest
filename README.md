@@ -23,17 +23,17 @@ go look and decide for yourself.
 ---
 
 <!-- LATEST:START -->
-## 🔥 Latest edition — 2026-11-27
+## 🔥 Latest edition — 2026-11-28
 
-> Theme: *Patched, but still being hit*
+> Theme: *Agents on both sides of the wire*
 
 | Pick | What it is | Why it's on the radar |
 |------|-----------|-----------------------|
-| **Drupal installer RCE** | CVE-2026-132165: a core installer flaw that lets a remote attacker rerun the installer on a live site | Fixes shipped Nov 18 (11.3.22, 10.6.22) and Drupal warns exploits may come fast. Exploitation of this exact CVE not confirmed in the sources I could load |
-| **Apache Roller RCE** | CVE-2026-129448: unauthenticated XML-RPC deserialization, CVSS 9.8, versions 4.0.0–6.1.4 | Apache says it is being actively exploited, and a PoC has reportedly been public since Sep 28. Fixed version reported as 6.1.6 or 6.1.7; check the advisory |
-| **Check Point PHP2Shell campaign** | Chained attacks on unpatched Check Point gateways, about 25 servers reported | Entry points were already-patched bugs on perimeter gear. AI-assisted, China-nexus attribution is uncertain; counts differ between reports |
+| **Cacti 4HTTP2ROOT** | Unpatched stored SQLi in Cacti 1.2.31 that leads to OS command execution via guest access | Disclosed Nov 26 with no advisory, patch or CVE yet. One firm reports probing on its honeypots; others say in-the-wild use is unconfirmed. Guest is off by default, so check yours |
+| **Xalgorix** | Open-source AI pentester: an agent runs the test, a separate verifier re-exploits every finding | The "prove it before you report it" rule targets AI scanners' false-positive problem. Claims are the project's own; no independent benchmark found |
+| **Cloudflare AI Search public endpoints** | Per-domain search endpoint for agents exposing /mcp, /search and /chat/completions | A "Search for Agents" toggle reportedly landed Nov 25. Gotcha: with Access on a custom domain, disable the default hostname or it stays open |
 
-<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-27.md">archive/2026-11-27.md</a>.</sub>
+<sub>📎 Sources for this edition are listed in <a href="archive/2026-11-28.md">archive/2026-11-28.md</a>.</sub>
 <!-- LATEST:END -->
 
 ---
